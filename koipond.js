@@ -31,7 +31,7 @@ class lotusLeaf {
         this.y = y
         this.offset = offset
         this.scale = scale
-        this.color = color(71, 184, 151)
+        this.color = color(255, 255, 255)
     }
 
     drawShape(vertices, offset, color) {
@@ -60,14 +60,13 @@ class lotusLeaf {
                 vertices.push({x: x1, y: y1})
             }
 
-            noStroke()
-            this.drawShape(vertices, 50, shadowColor)
-            this.drawShape(vertices, 0, this.color)
+
+
 
             vertices.map((v, index) => {
                 if ((index + 1) % 40 === 0) {
-                    strokeWeight(6)
-                    stroke(23,111,88,40)
+                    strokeWeight(0)
+                    stroke(	230, 230, 230)
                     line(v.x * .1, v.y * .19, v.x * .9, v.y * .86)
                 }
             })
@@ -84,14 +83,14 @@ class Ripple {
         this.position = createVector(x, y)
         this.size = random(50, 100)
         this.lifespan = 255
-        this.color = color(255, 255, 255)
+        this.color = color(	230, 230, 230)
         this.sizeStep = random(2, 3)
         this.lifeStep = random(2, 10)
     }
 
     drawShape(x, y, offset, size, color) {
         stroke(color)
-        strokeWeight(3)
+        strokeWeight(2)
         noFill()
         circle(x + offset, y + offset, size)
     }
