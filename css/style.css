@@ -18,3 +18,14 @@ nav .pages a {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.hero-inner {
+  text-align: center;
+}
