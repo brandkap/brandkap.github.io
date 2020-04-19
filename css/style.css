@@ -1,0 +1,20 @@
+/* Box-sizing */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .pages a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
