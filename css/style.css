@@ -35,8 +35,42 @@ nav {
 
 nav .pages a {
   font-size: 1.5rem;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Fancy navbar links */
+
+nav .pages a {
+  font-size: 26px;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #23abd4, #23abd4 50%, #000000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  transition: all 0.3s ease-in-out;
+}
+
+nav .pages a:before {
+  display: block;
+  content: "";
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: -3px;
+  z-index: 0;
+  position: absolute;
+  background: #23abd4;
+  transition: all 0.3s ease-in-out;
+}
+
+nav .pages a:hover {
+  background-position: 0%;
+}
+
+nav .pages a:hover:before {
+  width: 100%;
 }
 
 /* Hero */
