@@ -31,18 +31,20 @@ body{
 nav {
   display: flex;
   justify-content: space-between;
+
 }
 
 nav .pages a {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 45px;
+
 }
 
 /* Fancy navbar links */
 
 nav .pages a {
-  font-size: 26px;
+  /* font-size: 26px; */
   position: relative;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -76,6 +78,10 @@ nav .pages a:hover:before {
 /* Hero */
 h1{
   font-size: 6em;
+}
+
+h2{
+  font-size: 3em;
 }
 
 .hero {
@@ -120,7 +126,7 @@ width:50%;
 }
 
 .project-info{
-  width: 28em;
+  width: 32em;
   margin: 0 auto;
 }
 
