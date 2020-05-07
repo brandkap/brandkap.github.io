@@ -1,15 +1,33 @@
 h1 {
-  font-size: 6em;
+  font-size: 5em;
 }
 
 h2 {
   font-size: 3em;
   margin: 0;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.4em;
+}
+
+a {
+  font-size: 1.4em;
 }
 
 .container {
-  max-width: 900px;
+  max-width: 950px;
   margin: 0 auto;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.hero-subtext {
+  font-weight: 400;
+  font-style: italic;
 }
 
 .hero-img {
@@ -32,6 +50,7 @@ h2 {
 
 .project-brief {
   width: 60%;
+  padding-left: 60px;
 }
 
 .bg-dark {
@@ -46,11 +65,13 @@ h2 {
 }
 
 .timeline-head {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .project-section {
   display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .section-image {
@@ -67,4 +88,5 @@ h2 {
 
 .project-section > *:nth-child(2) {
   width: 60%;
+  padding-left: 60px;
 }
