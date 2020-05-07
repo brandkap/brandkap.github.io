@@ -4,9 +4,67 @@ h1 {
 
 h2 {
   font-size: 3em;
+  margin: 0;
 }
 
 .container {
-  max-width: 960px;
+  max-width: 900px;
   margin: 0 auto;
+}
+
+.hero-img {
+  width: 70%;
+}
+.project-intro {
+  display: flex;
+}
+
+.project-logo {
+  width: 50%;
+}
+
+.intro-img {
+  /* background-color: grey; */
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.project-brief {
+  width: 50%;
+}
+
+.bg-dark {
+  color: white;
+  background-color: #181d34;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.timeline-head {
+  font-weight: 900;
+}
+
+.project-section {
+  display: flex;
+}
+
+.section-image {
+  /* display: flex; */
+}
+
+.project-img {
+  text-align: center;
+}
+
+.project-section > *:nth-child(1) {
+  width: 40%;
+}
+
+.project-section > *:nth-child(2) {
+  width: 60%;
 }

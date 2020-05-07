@@ -1,5 +1,6 @@
 body {
-  background-color: #f5f6f7;
+  /* background-color: #f5f6f7; */
+  background-color: #fff;
 }
 
 h1 {
@@ -26,7 +27,8 @@ h2 {
 /* Project cards */
 
 .projects {
-  background-color: #f5f6f7;
+  /* background-color: #f5f6f7; */
+  background-color: #fff;
 }
 
 .project {
