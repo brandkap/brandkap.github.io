@@ -33,6 +33,7 @@ a {
 .hero-img {
   width: 70%;
 }
+
 .project-intro {
   display: flex;
 }
@@ -54,8 +55,8 @@ a {
 }
 
 .bg-dark {
-  color: white;
-  background-color: #181d34;
+  /* color: white; */
+  /* background-color: #181d34; */
 }
 
 .timeline {
