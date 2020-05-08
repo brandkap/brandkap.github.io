@@ -81,6 +81,8 @@ a {
 
 .project-img {
   text-align: center;
+  width: 100%;
+  height: auto;
 }
 
 .project-section > *:nth-child(1) {
