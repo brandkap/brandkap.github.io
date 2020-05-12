@@ -3,7 +3,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2.4em;
   margin: 0;
   font-weight: 700;
 }
@@ -69,6 +69,16 @@ a {
   font-weight: 700;
 }
 
+.image-only {
+  width: 100%;
+}
+
+.chart {
+  width: 70%;
+  height: 50%;
+  text-align: center;
+}
+
 .project-section {
   display: flex;
   margin-top: 100px;
@@ -79,10 +89,18 @@ a {
   /* display: flex; */
 }
 
-.project-img {
+.project-gif {
   text-align: center;
-  width: 100%;
+  width: 70%;
   height: auto;
+  margin-left: 100px;
+}
+
+.two {
+  text-align: center;
+  width: 60%;
+  height: auto;
+  margin-left: 135px;
 }
 
 .project-section > *:nth-child(1) {
