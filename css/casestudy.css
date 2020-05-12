@@ -69,14 +69,8 @@ a {
   font-weight: 700;
 }
 
-.image-only {
-  width: 100%;
-}
-
 .chart {
-  width: 70%;
-  height: 50%;
-  text-align: center;
+  width: 100%;
 }
 
 .project-section {
