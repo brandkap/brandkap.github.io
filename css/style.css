@@ -34,7 +34,7 @@ nav {
 }
 
 nav .pages a {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin-left: 10px;
   margin-right: 45px;
 }
@@ -63,7 +63,7 @@ nav .pages a:before {
   width: 0;
   height: 3px;
   left: 0;
-  bottom: -3px;
+  bottom: -12px;
   z-index: 0;
   position: absolute;
   background: #23abd4;

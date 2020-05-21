@@ -97,6 +97,9 @@ a {
   margin-left: 135px;
 }
 
+li {
+  font-size: 1.4em;
+}
 .project-section > *:nth-child(1) {
   width: 40%;
 }
