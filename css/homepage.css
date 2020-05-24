@@ -69,10 +69,11 @@ padding-right: 100px; */
 
 .full-img {
   width: 100%;
+  height: auto;
 }
 
 h3 {
-  font-size: 4rem;
+  font-size: 3.6rem;
   color: #3c3c3c;
   font-weight: 900;
 }
