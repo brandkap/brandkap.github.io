@@ -35,7 +35,8 @@ a {
 }
 
 .hero-img {
-  width: 70%;
+  width: 100%;
+  height: auto;
 }
 
 .project-intro {
