@@ -4,7 +4,7 @@ body {
   background-color: white;
 }
 
-$offset: -90px;
+$offset: -30px;
 $count: 20;
 $duration: 0.3;
 
@@ -25,12 +25,12 @@ $duration: 0.3;
 
 .wavetext span {
   display: inline-block;
-  font-family: "Fredoka One", sans-serif;
-  font-size: 70px;
+  font-family: "Rubik", sans-serif;
+  font-size: 60px;
 
   animation-duration: #{$duration}s;
   animation-name: wave;
-  animation-iteration-count: 6;
+  animation-iteration-count: 4;
   animation-direction: alternate;
 }
 

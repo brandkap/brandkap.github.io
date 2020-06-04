@@ -9,17 +9,17 @@ body {
     color: white;
   }
   to {
-    transform: translateY(-90px);
+    transform: translateY(-30px);
   }
 }
 
 .wavetext span {
   display: inline-block;
-  font-family: "Fredoka One", sans-serif;
-  font-size: 70px;
+  font-family: "Rubik", sans-serif;
+  font-size: 60px;
   animation-duration: 0.3s;
   animation-name: wave;
-  animation-iteration-count: 6;
+  animation-iteration-count: 4;
   animation-direction: alternate;
 }
 
