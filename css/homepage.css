@@ -5,11 +5,15 @@ body {
 
 h1 {
   font-size: 6em;
+  margin:0;
+  margin-bottom: 10px;
 }
 
 h2 {
   font-size: 3em;
   font-weight: 400;
+  margin:0;
+  margin-bottom: 30px;
 }
 
 /* Hero */
@@ -35,10 +39,8 @@ h2 {
   justify-content: center;
   flex-direction: row;
   position: relative;
-
-
-
 }
+
   .icon {
   display: flex;
   align-items: center;
