@@ -14,7 +14,7 @@ html {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #828282;
 }
 
 * {
@@ -48,8 +48,8 @@ nav .pages a {
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(
     to right,
-    #23abd4,
-    #23abd4 50%,
+    #7faff7,
+    #7faff7 50%,
     #000000 50%
   );
   background-size: 200% 100%;
@@ -66,7 +66,7 @@ nav .pages a:before {
   bottom: -12px;
   z-index: 0;
   position: absolute;
-  background: #23abd4;
+  background: #7faff7;
   transition: all 0.3s ease-in-out;
 }
 

@@ -7,6 +7,10 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
       rel="stylesheet"
     />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    /> -->
 
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/homepage.css" />
@@ -30,20 +34,48 @@
         <h2>Product Designer</h2>
         <div class="iconrow">
           <a class="icon" href="mailto://brandonjkaplan@gmail.com">
-            <img class="iconsvg" src="/images/email2.svg" />
+            <lottie-player
+              src="/assets/mail.json"
+              mode="bounce"
+              background="transparent"
+              speed=".75"
+              style="width: 50px; height: 50px;"
+              hover
+              loop
+            ></lottie-player>
           </a>
           <a
             class="icon"
-            href="https://www.linkedin.com/in/brandon-kaplan-505889190"
+            href="https://www.linkedin.com/in/brandon-kaplan-505889190/"
           >
-            <img class="iconsvg" src="/images/linkedin.svg" />
+            <lottie-player
+              src="/assets/linkedin.json"
+              mode="bounce"
+              background="transparent"
+              speed=".5"
+              style="width: 45px; height: 45px;"
+              hover
+              loop
+            ></lottie-player>
+          </a>
+
+          <a class="icon" href="mailto://brandonjkaplan@gmail.com">
+            <lottie-player
+              src="/assets/resume.json"
+              mode="bounce"
+              background="transparent"
+              speed="1.5"
+              style="width: 90px; height: 90px;"
+              hover
+              loop
+            ></lottie-player>
           </a>
         </div>
       </div>
     </div>
 
     <div class="projects" id="projects">
-      <h2>Projects</h2>
+      <!-- <h2>Projects</h2> -->
       <div class="project">
         <div class="project-description">
           <div class="project-info">
@@ -117,5 +149,6 @@
 
     <script src="https://unpkg.com/jquery@3.5.1/dist/jquery.js"></script>
     <script src="/javascript/wavetext.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
 </html>

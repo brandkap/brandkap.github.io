@@ -39,6 +39,6 @@ $duration: 0.3;
     animation-delay: -#{($count - $i) * 2 * $duration / $count}s;
 
     // color: rgba(100+$i * 20 % 155, 10, 100+ $i * 40 % 55, 1);
-    color: black;
+    color: #3b4250;
   }
 }

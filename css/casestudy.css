@@ -3,8 +3,9 @@ h1 {
 }
 
 h2 {
-  font-size: 2.6em;
+  font-size: 2.1em;
   margin: 0;
+
   font-weight: 700;
 }
 
@@ -17,6 +18,10 @@ a {
 }
 
 .details {
+  font-weight: 300;
+}
+
+ol {
   font-weight: 300;
 }
 
@@ -90,14 +95,14 @@ a {
 
 .project-gif {
   text-align: center;
-  width: 70%;
+  width: 50%;
   height: auto;
-  margin-left: 100px;
+  margin-left: 120px;
 }
 
 .two {
   text-align: center;
-  width: 60%;
+  width: 45%;
   height: auto;
   margin-left: 135px;
 }
@@ -107,6 +112,7 @@ li {
 }
 .project-section > *:nth-child(1) {
   width: 40%;
+  top-padding: 15px;
 }
 
 .project-section > *:nth-child(2) {
