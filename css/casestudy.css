@@ -12,6 +12,13 @@ h2 {
   margin-bottom: 40px;
 }
 
+h3 {
+  margin-top: 0px;
+  font-style: italic;
+  color: #8b93a3;
+  font-weight: 400;
+}
+
 p {
   font-size: 1.4em;
   color: #8b93a3;
@@ -27,8 +34,15 @@ a {
   margin-top: 0px;
 }
 
-ol {
-  font-weight: 300;
+.details-sub {
+  color: #3c3c3c;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.image-left {
+  width: 400px;
+  height: 180px;
 }
 
 .container {
@@ -70,7 +84,7 @@ ol {
 
 .project-brief {
   width: 60%;
-  /* padding-left: 60px; */
+  padding-left: 60px;
 }
 
 .bg-dark {
@@ -117,9 +131,15 @@ ol {
   margin-left: 135px;
 }
 
-li {
+ul {
   color: #8b93a3;
   font-size: 1.4em;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+li {
+  margin: 10px 0;
 }
 .project-section > *:nth-child(1) {
   width: 40%;
@@ -129,4 +149,10 @@ li {
 .project-section > *:nth-child(2) {
   width: 60%;
   padding-left: 60px;
+}
+
+.center-text {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
 }
