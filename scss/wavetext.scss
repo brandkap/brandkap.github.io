@@ -1,4 +1,4 @@
-// @import url("https://fonts.googleapis.com/css?family=Fredoka+One");
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One");
 
 body {
   background-color: white;
@@ -39,6 +39,6 @@ $duration: 0.3;
     animation-delay: -#{($count - $i) * 2 * $duration / $count}s;
 
     // color: rgba(100+$i * 20 % 155, 10, 100+ $i * 40 % 55, 1);
-    color: #3b4250;
+    color: #3c3c3c;
   }
 }

@@ -1,16 +1,18 @@
 h1 {
   font-size: 5em;
+  color: #3c3c3c;
 }
 
 h2 {
   font-size: 2.1em;
   margin: 0;
-
+  color: #3c3c3c;
   font-weight: 700;
 }
 
 p {
   font-size: 1.4em;
+  color: #8b93a3;
 }
 
 a {
@@ -18,7 +20,8 @@ a {
 }
 
 .details {
-  font-weight: 300;
+  color: #8b93a3;
+  font-weight: 400;
 }
 
 ol {
@@ -35,8 +38,10 @@ ol {
 }
 
 .hero-subtext {
+  font-size: 2.2em;
   font-weight: 400;
   font-style: italic;
+  color: #b2b2b2;
 }
 
 .hero-img {
@@ -77,6 +82,7 @@ ol {
 
 .timeline-head {
   font-weight: 700;
+  color: #3c3c3c;
 }
 
 .chart {
@@ -108,6 +114,7 @@ ol {
 }
 
 li {
+  color: #8b93a3;
   font-size: 1.4em;
 }
 .project-section > *:nth-child(1) {
