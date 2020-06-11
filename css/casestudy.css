@@ -24,6 +24,7 @@ a {
 .details {
   color: #8b93a3;
   font-weight: 400;
+  margin-top: 0px;
 }
 
 ol {
@@ -53,6 +54,7 @@ ol {
 
 .project-intro {
   display: flex;
+  margin-top: 70px;
 }
 
 .project-logo {
@@ -62,18 +64,18 @@ ol {
 .intro-img {
   /* background-color: grey; */
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   height: auto;
 }
 
 .project-brief {
   width: 60%;
-  padding-left: 60px;
+  /* padding-left: 60px; */
 }
 
 .bg-dark {
-  /* color: white; */
-  /* background-color: #181d34; */
+  color: white;
+  background-color: #282828;
 }
 
 .timeline {
