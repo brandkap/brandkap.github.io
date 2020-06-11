@@ -9,7 +9,7 @@ h2 {
   margin: 0;
   color: #3c3c3c;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -23,9 +23,15 @@ p {
   font-size: 1.4em;
   color: #8b93a3;
 }
-
+.middlepara {
+  margin-top: 0px;
+}
 a {
   font-size: 1.4em;
+}
+
+.none {
+  text-decoration: underline;
 }
 
 .details {
@@ -129,6 +135,16 @@ a {
   width: 45%;
   height: auto;
   margin-left: 135px;
+}
+
+.project-gif-2 {
+  margin-left: 60px;
+  width: 239.5px;
+  height: 432px;
+}
+.right-centered-text {
+  margin-top: 180px;
+  margin-right: 210px;
 }
 
 ul {
