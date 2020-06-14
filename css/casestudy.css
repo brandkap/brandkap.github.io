@@ -13,15 +13,17 @@ h2 {
 }
 
 h3 {
+  font-size: 2.1em;
   margin-top: 0px;
   font-style: italic;
-  color: #8b93a3;
+  color: #3c3c3c;
   font-weight: 400;
 }
 
 p {
   font-size: 1.4em;
-  color: #8b93a3;
+  color: #3c3c3c;
+  font-weight: 300;
 }
 .middlepara {
   margin-top: 0px;
@@ -35,8 +37,8 @@ a {
 }
 
 .details {
-  color: #8b93a3;
-  font-weight: 400;
+  color: #3c3c3c;
+  font-weight: 300;
   margin-top: 0px;
 }
 
@@ -62,9 +64,9 @@ a {
 
 .hero-subtext {
   font-size: 2.2em;
-  font-weight: 400;
+  font-weight: 300;
   font-style: italic;
-  color: #b2b2b2;
+  color: #3c3c3c;
 }
 
 .hero-img {
@@ -148,7 +150,7 @@ a {
 }
 
 ul {
-  color: #8b93a3;
+  color: #3c3c3c;
   font-size: 1.4em;
   font-weight: 300;
   margin: 10px 0;
@@ -170,5 +172,40 @@ li {
 .center-text {
   margin-top: 100px;
   margin-bottom: 100px;
-  text-align: center;
+}
+
+.more-work {
+  display: flex;
+  justify-content: space-around;
+}
+
+.small-project {
+  width: 380px;
+  border: 5px solid green;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.small-img {
+  height: 60%;
+  width: 100%;
+}
+
+.small-desc {
+  height: 40%;
+  width: auto;
+}
+
+.small-title {
+  font-size: 3rem;
+  color: #1a1a1a;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.small-info {
+  font-size: 2rem;
+  color: #1a1a1a;
+  font-weight: 300;
+  margin-top: 10px;
 }

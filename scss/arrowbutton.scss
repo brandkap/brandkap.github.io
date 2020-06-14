@@ -14,7 +14,7 @@ a {
   display: inline-block;
 
   &.casebutton {
-    width: 15rem;
+    width: 20rem;
     .circle {
       @include transition(all, 0.85s, cubic-bezier(0.65, 0, 0.076, 1));
       position: relative;
@@ -22,6 +22,7 @@ a {
       margin: 0;
       width: 3rem;
       height: 3rem;
+
       background: $black;
       border-radius: 1.625rem;
       .slide {
@@ -63,6 +64,7 @@ a {
       color: $black;
       line-height: 1.6;
       text-align: center;
+      text-transform: uppercase;
     }
   }
   &:hover {

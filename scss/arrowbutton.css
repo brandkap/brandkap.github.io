@@ -4,7 +4,7 @@ a {
 }
 
 a.casebutton {
-  width: 15rem;
+  width: 20rem;
 }
 
 a.casebutton .circle {
@@ -59,6 +59,7 @@ a.casebutton .button-text {
   color: #282936;
   line-height: 1.6;
   text-align: center;
+  text-transform: uppercase;
 }
 
 a:hover .circle {
