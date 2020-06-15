@@ -1,13 +1,13 @@
 h1 {
   font-size: 5em;
-  color: #3c3c3c;
+  color: #1a1a1a;
   margin-bottom: 10px;
 }
 
 h2 {
   font-size: 2.1em;
   margin: 0;
-  color: #3c3c3c;
+  color: #1a1a1a;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -16,14 +16,14 @@ h3 {
   font-size: 2.1em;
   margin-top: 0px;
   font-style: italic;
-  color: #3c3c3c;
+  color: #1a1a1a;
   font-weight: 400;
 }
 
 p {
   font-size: 1.4em;
-  color: #3c3c3c;
-  font-weight: 300;
+  color: #83878e;
+  font-weight: 400;
 }
 .middlepara {
   margin-top: 0px;
@@ -37,8 +37,8 @@ a {
 }
 
 .details {
-  color: #3c3c3c;
-  font-weight: 300;
+  color: #83878e;
+  font-weight: 400;
   margin-top: 0px;
 }
 
@@ -66,7 +66,7 @@ a {
   font-size: 2.2em;
   font-weight: 300;
   font-style: italic;
-  color: #3c3c3c;
+  color: #83878e;
 }
 
 .hero-img {
@@ -108,7 +108,7 @@ a {
 
 .timeline-head {
   font-weight: 700;
-  color: #3c3c3c;
+  color: #1a1a1a;
 }
 
 .chart {
@@ -150,7 +150,7 @@ a {
 }
 
 ul {
-  color: #3c3c3c;
+  color: #83878e;
   font-size: 1.4em;
   font-weight: 300;
   margin: 10px 0;
@@ -177,11 +177,12 @@ li {
 .more-work {
   display: flex;
   justify-content: space-around;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .small-project {
-  width: 380px;
-
+  width: 350px;
   overflow: hidden;
   flex-direction: column;
 }
@@ -197,15 +198,16 @@ li {
 }
 
 .small-title {
-  font-size: 3rem;
+  font-size: 2.2rem;
   color: #1a1a1a;
   font-weight: 700;
+  margin-top: 5px;
   margin-bottom: 0px;
 }
 
 .small-info {
-  font-size: 2rem;
-  color: #1a1a1a;
-  font-weight: 300;
-  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #83878e;
+  font-weight: 400;
+  margin-top: 5px;
 }
