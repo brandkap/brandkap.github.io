@@ -81,9 +81,7 @@ nav .pages a:hover:before {
 /* Footer */
 
 footer {
-  color: white;
-  background-color: #2b2c37;
-  height: 325px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -91,7 +89,6 @@ footer {
 }
 
 .socialfooter {
-  color: white;
   margin-left: 30px;
   margin-right: 30px;
 }

@@ -5,11 +5,19 @@ h1 {
 }
 
 h2 {
-  font-size: 2.1em;
+  font-size: 1.8em;
   margin: 0;
   color: #1a1a1a;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 20px;
+}
+
+.center-head {
+  font-weight: 900;
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 50px;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -24,6 +32,8 @@ p {
   font-size: 1.4em;
   color: #83878e;
   font-weight: 400;
+
+  line-height: 25px;
 }
 .middlepara {
   margin-top: 0px;
@@ -54,7 +64,7 @@ a {
 }
 
 .container {
-  max-width: 950px;
+  max-width: 850px;
   margin: 0 auto;
 }
 
@@ -117,8 +127,8 @@ a {
 
 .project-section {
   display: flex;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .section-image {
@@ -170,8 +180,8 @@ li {
 }
 
 .center-text {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .more-work {
