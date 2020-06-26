@@ -14,7 +14,6 @@ html {
 
 a {
   text-decoration: none;
-  color: #828282;
 }
 
 * {
@@ -36,7 +35,8 @@ nav {
 nav .pages a {
   font-size: 1.4rem;
   margin-left: 10px;
-  margin-right: 45px;
+  margin-right: 75px;
+  font-weight: 700;
 }
 
 /* Fancy navbar links */
@@ -50,7 +50,7 @@ nav .pages a {
     to right,
     #7faff7,
     #7faff7 50%,
-    #000000 50%
+    #3c3c3c 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -63,7 +63,7 @@ nav .pages a:before {
   width: 0;
   height: 3px;
   left: 0;
-  bottom: -12px;
+  bottom: -20px;
   z-index: 0;
   position: absolute;
   background: #7faff7;

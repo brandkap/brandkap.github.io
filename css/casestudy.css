@@ -125,21 +125,47 @@ a {
   width: 100%;
 }
 
-.project-section {
-  display: flex;
-  margin-top: 50px;
-  margin-bottom: 50px;
+.chart2 {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.chart3 {
+  width: 100%;
+  margin-top: -3px;
 }
 
 .section-image {
   /* display: flex; */
 }
 
-.project-gif {
-  text-align: center;
+/* Gifs with description */
+
+.project-section {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.left-project-gif {
   width: 50%;
+}
+
+.phone-gif {
+  text-align: center;
+  width: 60%;
   height: auto;
-  margin-left: 120px;
+  margin-left: 100px;
+}
+
+.right-gif-desc {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.gif-p {
+  margin-top: -15px;
 }
 
 .two {
@@ -154,10 +180,6 @@ a {
   width: 239.5px;
   height: 432px;
 }
-.right-centered-text {
-  margin-top: 180px;
-  margin-right: 210px;
-}
 
 ul {
   color: #83878e;
@@ -168,15 +190,6 @@ ul {
 
 li {
   margin: 10px 0;
-}
-.project-section > *:nth-child(1) {
-  width: 40%;
-  top-padding: 15px;
-}
-
-.project-section > *:nth-child(2) {
-  width: 60%;
-  padding-left: 60px;
 }
 
 .center-text {
@@ -192,7 +205,7 @@ li {
 }
 
 .small-project {
-  width: 350px;
+  width: 30%;
   overflow: hidden;
   flex-direction: column;
 }
