@@ -1,15 +1,3 @@
-/* Box-sizing */
-
-html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
 /* Global styles */
 
 a {
@@ -21,6 +9,7 @@ a {
 }
 
 html {
+  /* TODO: Remove this override if Bootstrap's 16px default works */
   font-size: 12px;
 }
 
