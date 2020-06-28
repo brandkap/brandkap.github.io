@@ -15,16 +15,10 @@ html {
 
 /* Navbar */
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
-}
-
-nav .pages a {
+.heavy-nav {
   font-size: 1.4rem;
-  margin-left: 10px;
-  margin-right: 75px;
+  /* margin-left: 10px; */
+  /* margin-right: 75px; */
   font-weight: 700;
 }
 
