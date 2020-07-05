@@ -5,9 +5,9 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 2.7em;
   margin: 0;
-  color: #1a1a1a;
+  color: #1b1a21;
   font-weight: 500;
   margin-bottom: 20px;
 }
@@ -18,10 +18,13 @@ h2 {
 }
 
 .center-head {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1.8em;
-  text-align: center;
-  margin-top: 50px;
+  /* text-align: center; */
+  color: #bababa;
+  margin-top: 120px;
+  letter-spacing: 2px;
+  margin-bottom: -20px;
   text-transform: uppercase;
 }
 
@@ -34,12 +37,12 @@ h3 {
 }
 
 p {
-  font-size: 1.4em;
-  color: #83878e;
+  font-size: 1.8em;
+  color: #4c4a57;
   font-weight: 400;
-
-  line-height: 25px;
+  line-height: 35px;
 }
+
 .middlepara {
   margin-top: 0px;
 }
