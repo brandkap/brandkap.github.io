@@ -216,8 +216,8 @@ padding-right: 100px; */
 }
 
 h3 {
-  font-size: 3.4rem;
-  color: #3c3c3c;
+  font-size: 3.0rem;
+  color: #1a1a1a;
   font-weight: 700;
   margin-top: 115px;
   margin-block-end: 0em;
@@ -225,7 +225,7 @@ h3 {
 
 p {
   font-size: 1.5rem;
-  color: #828282;
+  color: #4c4a57;
   font-weight: 400;
   margin-top: 10px;
   flex-grow: .15;
