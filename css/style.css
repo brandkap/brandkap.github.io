@@ -1,3 +1,15 @@
+/* Box-sizing */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 /* Global styles */
 
 a {
@@ -9,16 +21,21 @@ a {
 }
 
 html {
-  /* TODO: Remove this override if Bootstrap's 16px default works */
   font-size: 12px;
 }
 
 /* Navbar */
 
-.heavy-nav {
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+nav .pages a {
   font-size: 1.4rem;
-  /* margin-left: 10px; */
-  /* margin-right: 75px; */
+  margin-left: 10px;
+  margin-right: 75px;
   font-weight: 700;
 }
 
@@ -81,10 +98,4 @@ footer {
   border: 1px solid white;
   border-radius: 10px;
   padding: 15px;
-}
-
-/* Images */
-
-.img-rounded {
-  border-radius: 10px;
 }

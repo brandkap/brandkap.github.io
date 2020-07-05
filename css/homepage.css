@@ -5,14 +5,15 @@ body {
 
 h1 {
   font-size: 60px;
-  margin: 0;
+  margin:0;
   margin-bottom: 10px;
+
 }
 
 h2 {
   font-size: 2.4em;
   font-weight: 400;
-  margin: 0;
+  margin:0;
   margin-bottom: 30px;
   color: #828282;
   font-style: italic;
@@ -31,11 +32,11 @@ h2 {
   text-align: center;
 }
 
-.iconsvg {
-  width: 22px;
-  height: 22px;
+.iconsvg{
+  width:22px;
+  height:22px;
 }
-.iconrow {
+.iconrow{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,13 +44,13 @@ h2 {
   position: relative;
 }
 
-.icon {
+  .icon {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  margin-left: 20px;
-  margin-right: 20px;
+margin-left: 20px;
+margin-right: 20px;
   width: 60px;
   height: 60px;
   background: white;
@@ -61,24 +62,23 @@ h2 {
 }
 
 .icon:hover {
-  box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
 }
 
-.icon:hover:before,
-.icon:hover:after {
+.icon:hover:before, .icon:hover:after {
   display: block;
-  content: "";
+  content: '';
   position: absolute;
   width: 60px;
   height: 60px;
-  background: #7faff7;
+  background: #7FAFF7;
   border-radius: 15px;
   z-index: -1;
   animation: 1s clockwise infinite;
 }
 
 .icon:hover:after {
-  background: #21d679;
+  background: #21D679;
   animation: 2s counterclockwise infinite;
 }
 
@@ -160,6 +160,8 @@ h2 {
   }
 }
 
+
+}
 /* Project cards */
 
 .projects {
@@ -167,7 +169,52 @@ h2 {
   background-color: #fff;
 }
 
-/* TODO: Remove the font styles that conflict with Bootstrap */
+.project {
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* padding-left: 100px;
+padding-right: 100px; */
+  background-color: white;
+  /* border: 1px solid #d2d2d2; */
+  /* border-radius: 30px; */
+  /* transition: box-shadow 0.5s; */
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .project:hover {
+  box-shadow: 0 0 20px #d6d6d6;
+} */
+
+.project-description {
+  width: 30%;
+}
+
+.project-info {
+
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-img {
+  width: 70%;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.full-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+
+}
+
 h3 {
   font-size: 3.4rem;
   color: #3c3c3c;
@@ -181,7 +228,7 @@ p {
   color: #828282;
   font-weight: 400;
   margin-top: 10px;
-  flex-grow: 0.15;
+  flex-grow: .15;
 }
 
 footer {
@@ -205,3 +252,5 @@ footer {
   border-radius: 10px;
   padding: 15px;
 }
+
+/

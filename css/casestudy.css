@@ -12,7 +12,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* TODO: Delete this since it conflicts with Bootstrap */
 .container {
   max-width: 960px;
   margin: 0 auto;
