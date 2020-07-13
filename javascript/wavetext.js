@@ -1,5 +1,3 @@
-console.log("d");
-
 // add class wavetext to html to use this animation on it
 var text = $(".wavetext").text();
 $(".wavetext").html("");
