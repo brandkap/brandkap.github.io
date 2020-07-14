@@ -45,7 +45,7 @@ p {
 
   margin-left: 50px;
 margin-right: 10px;
-height: 70vh;
+height: 75vh;
 }
 
 .hero-inner {
@@ -60,6 +60,7 @@ height: 70vh;
   justify-content: center;
     flex-direction: column;
 }
+
 
 .title{
       font-size: 1.5rem;
