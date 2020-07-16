@@ -1,11 +1,11 @@
-.c-button {
+.c-button-foot {
   color: #07c269;
   font-weight: 700;
   font-size: 1em;
   text-decoration: none;
   padding: 0.7em 1.8em;
   cursor: pointer;
-  width: 40%;
+  width: 20%;
 }
 
 .c-button--gooey {

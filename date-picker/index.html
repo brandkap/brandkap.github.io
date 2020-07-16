@@ -8,7 +8,7 @@
       rel="stylesheet"
     /> -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/style.css" />
@@ -61,107 +61,205 @@
         </div>
       </div>
 
-      <div class="project-section bg-dark">
-        <h2>Background</h2>
-        <p class="details"></p>
-      </div>
+      <h2 class="center-head">
+        Problem
+      </h2>
 
-      <div class="project-section">
-        <h2>Providing value to social workers</h2>
-        <p class="details">
-          Before designing any screens it was important to define the key
-          features and understand how social workers would get value out of the
-          app. Through discussions with the stakeholder and understanding of the
-          work flow of social workers we were able to layout the most important
-          features.
+      <div class="center-text">
+        <h2>Scheduling aperiodic events on Google calendars takes forever</h2>
+        <p>
+          There is one specific area on google calendars that causes a lot of
+          trouble for those scheduling events. When a user wants to schedule an
+          event that falls under an inconsistent pattern of days, or
+          aperiodicly, google calendars does not support a fast way to do this.
+          DatePicker is not meant to replace Google calendars, but to serve as
+          an tool to solve a very specific pain point that people have with
+          scheduling aperiodic events in google calendars. You cannot click and
+          choose each day on the main calendar view i ngoogle calendars. You
+          have to schedule an event that falls under a consistent frquency. Even
+          in the custom recurrence menu, your event must fall under consistent
+          days across multiple weeks.
+          <br />
+          <br />
+          In the image below, we can see that when creating a reoccuring event
+          in GC it must land on consistent repeating days with a week. I cannot
+          schedule an event on MWF on one week and the TWF on the next week.
+          This causes major delays in scheduling an event
+        </p>
+      </div>
+      <h2 class="center-head">
+        Discovery
+      </h2>
+      <div class="center-text">
+        <h2>How do social workers use ConnectOurKids?</h2>
+        <p>
+          By exploring features on the website and using information given to
+          our team by the CTO we were able to identify the 3 main ways a social
+          workers utilizes the ConnectOurKids tools:
         </p>
       </div>
 
-      <div class="project-section">
-        <div class="left-text">
-          <h2>Understanding social workers needs</h2>
-          <p class="details">
-            The ways in which a social workers need to be able to use this app
-            were separated into 3 main categories:
-          </p>
+      <img class="chart" src="/images/datepickerneeds.png" />
 
-          <ol>
-            <li>Search for people in the ConnectOurKids database</li>
-            <li>
-              Add and edit contact information for potential family candidates
-            </li>
-            <li>
-              Log past and ongoing activity/engagements with family candidates.
-            </li>
-          </ol>
-        </div>
-        <div>
-          <img class="chart" src="/images/CoreFeatdiagram.png" />
-        </div>
+      <h2 class="center-head">
+        Define
+      </h2>
+      <div class="center-text">
+        <h2>Reviewing the existing designs</h2>
+        <p class="middlepara">
+          For each feature of the ConnectOurKids website we made notes of the
+          layout, UI, flows, and We made notes for ways to convert the layout to
+          mobile and improve on the designs:
+        </p>
       </div>
 
-      <div class="project-section">
-        <div class="left-text">
-          <h2>Consistent design system</h2>
-          <p class="details">
-            Our interface choices were based on the design elements already
-            present on the website. We did not want to reinvent the wheel and
-            have the app vary drastically in terms of colors,typeface, and copy.
-            Using consistent: Copy, Color scheme, Typeface
-          </p>
-        </div>
-        <div>
-          <img class="chart" src="/images/designsystemconkids.svg" />
-        </div>
+      <div class="center-text">
+        <h2>1. People search</h2>
+        <p>
+          People search is the way social workers find extended family of foster
+          children. Potential candidates for a permanent home can be located
+          through here.
+        </p>
       </div>
+      <img class="chart2" src="/images/DesktopbreakdownTEST3.png" />
+      <div class="center-text">
+        <h2>2. Family connections</h2>
+        <p>
+          Family Connections contains the files of foster children. Social
+          workers can log past engagements, upload files, and edit contact
+          details for family connections.
+        </p>
+      </div>
+      <img class="chart3" src="/images/FamConBreakdown.png" />
 
+      <h2 class="center-head">
+        Key features
+      </h2>
+      <div class="center-text">
+        <h2>Creating a mobile experience</h2>
+        <p class="middlepara">
+          Our reference for designing the mobile screens was the ConnectOurKids
+          website. We reviewed the existing website designs, brainstormed ideas,
+          and took notes of things we wanted to incorporate in the future mobile
+          designs. We had to create a mobile experience that maintained the same
+          functionality and organization as the website, while keeping an eye
+          our for problems on the website that could be improved on a mobile
+          experience. The two main features we worked on were People search and
+          Family connections.
+        </p>
+      </div>
       <div class="project-section">
-        <div class="left-text">
+        <div class="left-project-gif">
+          <img class="phone-gif" src="/images/PeopleSearchNEW.gif" />
+        </div>
+        <div class="right-gif-desc">
           <h2>People search</h2>
-          <p class="details">
-            Multiple searching criteria are needed to expand searching
-            capabilities. 5 options of searching are available: • Name • Email •
-            Address • Phone number •Social profile link or URL Frequent
-            searching Social workers need to be able to start a new search
-            quickly. The presence of a clear button is due to the frequent need
-            for users to begin a search with a new information. It is necessary
-            for the social workers entirely clear their previous search with one
-            click. People unfamiliar with the searching features need a quick
-            tutorial. The button for the introduction video will disappear after
-            the tutorial has been watched.
+          <p class="gif-p">
+            Potential candidates for a foster child can be located through here
+            using 5 different searching criteria. A clear button is present so
+            that a social worker can begin a new search quickly without having
+            to delete each Search results are displayed in a pop up that allows
+            for a quick return back to the search home.
           </p>
-        </div>
-        <div>
-          <img class="project-gif" src="/images/ConKidsPeopleSearch.gif" />
         </div>
       </div>
 
       <div class="project-section">
-        <div class="left-text">
-          <h2>Organizing family connections</h2>
-          <p class="details">
-            A family connection is a potential candidate to provide permanent
-            housing. Family candidates can be sorted into 6 different types.
-            There needed to be a way to distinguish each family candidate, so a
-            color system was created so that a social worker can filter and
-            quickly identify what type of family connection they are viewing.
+        <div class="right-gif-desc">
+          <h2>Family connections</h2>
+          <p class="gif-p">
+            Potential candidates for a foster child can be located through here
+            using 5 different searching criteria. A clear button is present so
+            that a social worker can begin a new search quickly without having
+            to delete each Search results are displayed in a pop up that allows
+            for a quick return back to the search home.
           </p>
         </div>
-        <div>
-          <img class="project-gif two" src="/images/FilterConKids.gif" />
+        <div class="left-project-gif">
+          <img class="phone-gif" src="/images/editfamcon.gif" />
         </div>
       </div>
+
+      <div class="project-section">
+        <div class="left-project-gif">
+          <img class="phone-gif" src="/images/Filterfamcon.gif" />
+        </div>
+        <div class="right-gif-desc">
+          <h2>Organizing family connections</h2>
+          <p class="gif-p">
+            Potential candidates for a foster child can be located through here
+            using 5 different searching criteria. A clear button is present so
+            that a social worker can begin a new search quickly without having
+            to delete each Search results are displayed in a pop up that allows
+            for a quick return back to the search home.
+          </p>
+        </div>
+      </div>
+
+      <div class="center-head">Style guide</div>
+      <div class="center-text">
+        <h2>Consistent design system</h2>
+        <p class="middlepara">
+          Our interface choices were based on the design elements already
+          present on the website. We did not want to reinvent the wheel and have
+          the apps UI vary drastically. So in order to keep the experience as
+          similar as possible between the website and mobile app we use the same
+          using consistent: copy, color schemes, typeface, and navigation
+          layout.
+        </p>
+      </div>
+
+      <img class="chart" src="/images/CKdesignsystemv2.png" />
+
+      <div class="center-head">User tesing</div>
+      <div class="center-text">
+        <h2>Validating our designs</h2>
+        <p class="middlepara">
+          We conducted user testing with a high fidelity prototype once we had a
+          prototype ready we got in contact with 3 social workers to have them
+          do certain tasks. Our participants worked in the fields of
+          maintainging relationships with the foster children, a focus on
+          building family connecttions, Our main goals of user tesing were to
+          identify pain points that could be improved in future iterations, see
+          if participants familiarity with the ConnectOurKids website
+          transferred into easy use of the app, and get feedback on how the app
+          would fit into the participants work flows.
+          <br />
+          <br />
+          Participants were given the tasks of:
+        </p>
+
+        <ol>
+          <li>
+            Search for a “john doe” in the people search
+          </li>
+          <li>
+            Filter a family connection according to 2 filter criteria
+          </li>
+          <li>
+            Edit the contact details of a family connection
+          </li>
+        </ol>
+      </div>
+
+      <div class="center-head">Future directions</div>
+      <div class="center-text">
+        <h2>How can we measure success?</h2>
+        <p class="middlepara">
+          Due to us being on this project for 2 months and not being able to see
+          the app release, here are some criteria that we could look at after
+          the app has been released to determine how much value is coming out of
+          the app.
+        </p>
+      </div>
+      <img class="chart" src="/images/success.png" />
 
       <div class="project-section">
         <div class="left-text">
           <h2>Future directions</h2>
           <p class="details">
-            Revisiting these designs after about two months I noticed some
-            improvements that should be addressed befo.
+            Future directions and conclusion content is on the way!
           </p>
-        </div>
-        <div>
-          <img class="project-gif" src="/images/ConKidsPeopleSearch.gif" />
         </div>
       </div>
     </div>
