@@ -1,7 +1,7 @@
 body {
   /* background-color: #f5f6f7; */
   background-color: #fff;
-  overflow-x: hidden;
+  overflow-x: hidden
 }
 
 h1 {
@@ -44,7 +44,7 @@ p {
   justify-content: space-between;
   align-items: center;
 
-  margin-left: 50px;
+
 margin-right: 10px;
 height: 75vh;
 }
@@ -60,6 +60,7 @@ height: 75vh;
   display: flex;
   justify-content: center;
     flex-direction: column;
+    padding-left: 50px;
 }
 
 
