@@ -47,7 +47,7 @@
           <div class="timeline">
             <span>
               <p class="timeline-head">Role</p>
-              <p>UX Design</p>
+              <p>UI/UX, Wireframing, Prototyping</p>
             </span>
             <span>
               <p class="timeline-head">Duration</p>
@@ -68,63 +68,66 @@
       <div class="center-text">
         <h2>Scheduling aperiodic events on Google calendars takes forever</h2>
         <p>
-          There is one specific area on google calendars that causes a lot of
-          trouble for those scheduling events. When a user wants to schedule an
-          event that falls under an inconsistent pattern of days, or
+          Coordinating schedules across the district level, school level,
+          department level is difficult for school staff. In this case, our
+          stakeholder, who is a teacher and basketball coach, has to frequently
+          coordinate sporting events at various levels with distinct dates and
+          frequencies. Google calendars is the main calendar used by teacher
+          staff, but there is one specific area on Google calendars that causes
+          a lot of trouble for those scheduling events. When a user wants to
+          schedule an event that falls under an inconsistent pattern of days, or
           aperiodicly, google calendars does not support a fast way to do this.
-          DatePicker is not meant to replace Google calendars, but to serve as
-          an tool to solve a very specific pain point that people have with
-          scheduling aperiodic events in google calendars. You cannot click and
-          choose each day on the main calendar view i ngoogle calendars. You
-          have to schedule an event that falls under a consistent frquency. Even
-          in the custom recurrence menu, your event must fall under consistent
-          days across multiple weeks.
+          Even in the custom recurrence menu, your event must fall under
+          consistent days across one or multiple weeks.
+
           <br />
           <br />
           In the image below, we can see that when creating a reoccuring event
-          in GC it must land on consistent repeating days with a week. I cannot
-          schedule an event on MWF on one week and the TWF on the next week.
-          This causes major delays in scheduling an event
+          in GC it must land on consistent repeating days. I cannot schedule an
+          event on MWF on one week and the TWF on the next week. This causes
+          major delays in event planning.
         </p>
       </div>
       <h2 class="center-head">
         Discovery
       </h2>
       <div class="center-text">
-        <h2>How do social workers use ConnectOurKids?</h2>
+        <h2>User interviews & feedback</h2>
         <p>
-          By exploring features on the website and using information given to
-          our team by the CTO we were able to identify the 3 main ways a social
-          workers utilizes the ConnectOurKids tools:
+          User interviews and surveys were conducted to gain understanding for
+          how teachers and coaches use their calendars. This guided the planning
+          phase and brainstorming features. Based on what I learned I identified
+          a few key tasks: ‍ Choose dates for an event Edit any past made events
+          Share an event with a group of contacts Assign a group/groups to an
+          event ‍ With these task outlined there were two high level design
+          goals: 1. Design all the basic functionalities of a calendar for
+          mobile format 2. Enchance on the basics to support aperiodic events
+          and rapid collaboration
         </p>
       </div>
-
       <img class="chart" src="/images/datepickerneeds.png" />
 
       <h2 class="center-head">
-        Define
+        Ideation
       </h2>
       <div class="center-text">
-        <h2>Reviewing the existing designs</h2>
-        <p class="middlepara">
-          For each feature of the ConnectOurKids website we made notes of the
-          layout, UI, flows, and We made notes for ways to convert the layout to
-          mobile and improve on the designs:
-        </p>
+        <h2>Wireframes</h2>
+        <p class="middlepara"></p>
       </div>
 
       <div class="center-text">
         <p>
-          I explored iterations with navigation options, calendar layouts, and
-          With there being many options for calendar layouts I wanted to explore
-          a few options to compare agains teach other.
+          We decided to move foward with a calendar layout that allow for a
+          preview of events, does not vary radically from the google calendar
+          design, and has a clearly defined area of clickability for date
+          selection.
         </p>
       </div>
       <img class="chart2" src="/images/calendarwireframe.png" />
 
       <div class="center-text">
         <p>
-          Explored navigation and CTA layouts and placements.
+          Explored navigation layouts and "Add event" button placement.
         </p>
       </div>
       <img class="chart2" src="/images/navbarwireframe.png" />
