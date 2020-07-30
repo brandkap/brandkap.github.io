@@ -5,3 +5,19 @@
   width: 40%;
   margin-top: 50px;
 }
+
+.about{
+  display:flex;
+justify-content: center;
+
+
+}
+
+img{
+  padding-right: 60px;
+}
+
+p{
+  font-size: 1.5rem;
+  color: #4c4a57;
+}
