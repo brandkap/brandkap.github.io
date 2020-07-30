@@ -25,7 +25,10 @@ html {
 }
 
 /* Navbar */
-
+.home-logo {
+  height: 100%;
+  width: 10%;
+}
 nav {
   display: flex;
   justify-content: space-between;

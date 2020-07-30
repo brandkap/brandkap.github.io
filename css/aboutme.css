@@ -1,23 +1,19 @@
-.smiley {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  margin-top: 50px;
+.about {
+  display: flex;
+  justify-content: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 60px;
 }
 
-.about{
-  display:flex;
-justify-content: center;
-
-
+img {
+}
+.me {
+  width: 30%;
 }
 
-img{
-  padding-right: 60px;
-}
-
-p{
+p {
   font-size: 1.5rem;
   color: #4c4a57;
+  width: 60%;
 }
