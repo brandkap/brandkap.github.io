@@ -7,6 +7,13 @@
 .anime {
   height: auto;
   width: 100%;
+  /* border-radius: 10px; */
+}
+
+.anime2 {
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
 }
 
 .rows {
@@ -32,4 +39,20 @@
   margin-left: 60px;
   margin-right: 60px;
   height: 65vh;
+}
+
+.row2 {
+  /* display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 30px;
+  margin-bottom: 30px; */
+
+  display: flex;
+  justify-content: space-around;
+
+  margin-left: 60px;
+  margin-right: 150px;
+  height: 45vh;
 }

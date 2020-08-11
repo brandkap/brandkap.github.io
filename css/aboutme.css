@@ -9,11 +9,22 @@
 img {
 }
 .me {
-  width: 30%;
+  width: 650px;
 }
 
+h2 {
+  font-size: 2.2rem;
+}
 p {
   font-size: 1.5rem;
   color: #4c4a57;
-  width: 60%;
+  line-height: 30px;
+
+  margin-top: 0px;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
 }
