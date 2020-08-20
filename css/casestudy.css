@@ -105,8 +105,7 @@ a {
 }
 
 .project-brief {
-  width: 60%;
-  padding-left: 60px;
+  width: 100%;
 }
 
 .bg-dark {
@@ -120,7 +119,18 @@ a {
   justify-content: space-between;
 }
 
+.timeline-bckrnd {
+  line-height: 50px;
+  font-size: 2.3em;
+  font-weight: 500;
+}
+
+.logo-link {
+  font-size: 0.7em;
+  font-weight: 500;
+}
 .timeline-head {
+  font-size: 1.4em;
   font-weight: 700;
   color: #1a1a1a;
 }
