@@ -84,6 +84,7 @@ a {
 }
 
 .hero-img {
+  background-color: #0398d9;
   width: 100%;
   height: auto;
 }
@@ -206,26 +207,29 @@ li {
   margin-bottom: 50px;
 }
 
+.extra-work {
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
 .more-work {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .small-project {
   width: 30%;
-  overflow: hidden;
+
   flex-direction: column;
 }
 
 .small-img {
-  height: 60%;
+  height: auto;
   width: 100%;
   border-radius: 8px;
 }
 
 .small-desc {
-  height: 40%;
-  width: auto;
 }
 
 .small-title {
@@ -245,7 +249,7 @@ li {
 
 .explore {
   font-size: 1.5em;
-
+  margin-bottom: 30px;
   color: #1b1a21;
   font-weight: 500;
 }
