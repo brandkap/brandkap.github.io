@@ -9,7 +9,7 @@
     />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/extras.css" />
-
+    <link rel="stylesheet" href="/scss/hovertext.css" />
     <title>About</title>
   </head>
   <body>
@@ -22,7 +22,12 @@
       </span>
     </nav>
     <div class="rows">
-      <h2>The Lab</h2>
+      <div class="the-lab">
+        <div class="text">The Lab</div>
+        <p>
+          Experimenting with vectors, pixels, and animations.
+        </p>
+      </div>
       <div class="row">
         <div class="frame">
           <img class="anime" src="/animations/waterfall.gif" />
@@ -69,13 +74,29 @@
           <img class="anime2" src="/animations/beersquare.gif" />
         </div>
       </div>
+      <div class="row2">
+        <div class="frame">
+          <img class="anime2" src="/animations/beersquare.gif" />
+        </div>
+        <div class="frame">
+          <img class="anime2" src="/animations/beersquare.gif" />
+        </div>
+      </div>
 
       <h2>Illustrations</h2>
       <div class="row">
-        <div class="frame"></div>
-        <div class="frame"></div>
-        <div class="frame"></div>
+        <div class="frame">
+          <img class="anime" src="/animations/vtgsmile.jpg" />
+        </div>
+        <div class="frame">
+          <img class="anime" src="/animations/vtgdaffy.jpg" />
+        </div>
+        <div class="frame">
+          <img class="anime" src="/animations/vtgspongebob.png" />
+        </div>
       </div>
     </div>
+    <script src="https://unpkg.com/jquery@3.5.1/dist/jquery.js"></script>
+    <script src="/javascript/hovertext.js"></script>
   </body>
 </html>

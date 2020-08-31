@@ -4,20 +4,38 @@
   border-style: solid;
 } */
 
+.the-lab {
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 60px;
+}
+
+.text {
+  font-size: 5.2rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+p {
+  font-weight: 300;
+  margin-top: 0px;
+  font-size: 2.5rem;
+}
+
 .anime {
   height: auto;
   width: 100%;
-  /* border-radius: 10px; */
+  border-radius: 8px;
 }
 
 .anime2 {
-  width: 450px;
   height: 450px;
-  border-radius: 10px;
+  width: 450px;
+  border-radius: 8px;
 }
 
 .rows {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .frame {
@@ -32,13 +50,11 @@
   margin-right: 120px;
   margin-top: 30px;
   margin-bottom: 30px; */
-
   display: flex;
   justify-content: space-around;
-
   margin-left: 60px;
   margin-right: 60px;
-  height: 65vh;
+  margin-bottom: 60px;
 }
 
 .row2 {
@@ -48,11 +64,9 @@
   margin-right: 120px;
   margin-top: 30px;
   margin-bottom: 30px; */
-
   display: flex;
   justify-content: space-around;
-
   margin-left: 60px;
+  margin-bottom: 60px;
   margin-right: 150px;
-  height: 45vh;
 }

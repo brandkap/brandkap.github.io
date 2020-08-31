@@ -220,6 +220,7 @@ li {
 .small-img {
   height: 60%;
   width: 100%;
+  border-radius: 8px;
 }
 
 .small-desc {
