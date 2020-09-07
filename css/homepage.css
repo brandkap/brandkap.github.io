@@ -1,3 +1,7 @@
+html{
+  	scroll-behavior: smooth;
+}
+
 body {
   /* background-color: #f5f6f7; */
   background-color: #fff;
@@ -101,11 +105,14 @@ margin-left: 10px;
 margin-right: 10px;
   width: 60px;
     height: 60px;
+}
 
-
-
+.icon:hover{
+  border-radius:50px;
+  background-color:#0DC269;
 
 }
+
 
 /* .icon:hover {
   box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
