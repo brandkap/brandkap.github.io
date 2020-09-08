@@ -21,7 +21,7 @@ h2 {
   font-weight: 400;
   margin:0;
   margin-bottom: 30px;
-    color: #4c4a57;
+    color: #3B3B3B;
   font-style: italic;
 }
 
@@ -35,8 +35,8 @@ h3 {
 
 p {
   font-size: 1.5rem;
-  color: #4c4a57;
-  font-weight: 400;
+  color: #3B3B3B;
+  font-weight: 300;
   margin-top: 10px;
   flex-grow: .15;
 }
