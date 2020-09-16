@@ -5,18 +5,20 @@
 } */
 
 .the-lab {
-  margin-top: 40px;
-  margin-left: 80px;
-  margin-bottom: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 90px;
 }
 
 .text {
+  text-align: center;
   font-size: 5.2rem;
   font-weight: bold;
   margin-bottom: 0px;
 }
 
 p {
+  text-align: center;
   font-weight: 300;
   margin-top: 0px;
   font-size: 2.5rem;
