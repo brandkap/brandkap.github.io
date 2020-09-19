@@ -1,7 +1,8 @@
 h1 {
-  font-size: 5em;
+  font-size: 4em;
   color: #1a1a1a;
   margin-bottom: 10px;
+  font-weight: 500;
 }
 
 h2 {
@@ -9,7 +10,6 @@ h2 {
   margin: 0;
   color: #1a1a1a;
   font-weight: 500;
-  margin-bottom: 20px;
 }
 
 .container {
@@ -41,10 +41,7 @@ p {
   color: #3b3b3b;
   font-weight: 400;
   line-height: 30px;
-}
-
-.middlepara {
-  margin-top: 0px;
+  margin-top: 7px;
 }
 
 a {
@@ -74,6 +71,8 @@ a {
 
 .hero-text {
   text-align: center;
+  margin-top: 140px;
+  margin-bottom: 30px;
 }
 
 .hero-subtext {
@@ -173,10 +172,6 @@ a {
   justify-content: center;
   flex-direction: column;
   width: 50%;
-}
-
-.gif-p {
-  margin-top: -15px;
 }
 
 .two {
