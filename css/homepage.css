@@ -108,12 +108,30 @@ margin-right: 10px;
 }
 
 .icon:hover{
-  border-radius:50px;
-  background-color:#0DC269;
 
+  transition: .2s;
+    transform: translate(-15px, 0px);
+    transition-timing-function: ease-out;
 }
 
 
+.icon-row {
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+margin-left: 10px;
+margin-right: 10px;
+width: 60px;
+  height: 60px;
+}
+
+.icon-row:hover{
+
+transition: .2s;
+  transform: translate(0px, -15px);
+  transition-timing-function: ease-out;
+}
 /* .icon:hover {
   box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
 }
