@@ -188,11 +188,16 @@ a {
 }
 
 ol {
+  font-size: 1.4em;
+  color: #3b3b3b;
+  font-weight: 400;
+  line-height: 30px;
+}
+ul {
   font-size: 1.5em;
   color: #3b3b3b;
   font-weight: 400;
 }
-
 li {
   margin: 10px 0;
 }

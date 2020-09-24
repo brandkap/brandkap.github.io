@@ -11,7 +11,9 @@ html {
 }
 
 /* Global styles */
-
+::selection {
+  background: yellow;
+}
 a {
   text-decoration: none;
 }
