@@ -24,6 +24,13 @@ p {
   font-size: 2.5rem;
 }
 
+.footerp {
+  font-size: 1.4em;
+  color: #3b3b3b;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 7px;
+}
 .anime {
   height: auto;
   width: 100%;

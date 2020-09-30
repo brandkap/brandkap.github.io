@@ -194,7 +194,7 @@ ol {
   line-height: 30px;
 }
 ul {
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: #3b3b3b;
   font-weight: 400;
 }
@@ -253,30 +253,4 @@ li {
   margin-bottom: 30px;
   color: #1b1a21;
   font-weight: 500;
-}
-
-.icon-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: relative;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 60px;
-  height: 60px;
-  transition: 0.2s;
-  transition-timing-function: ease-out;
-}
-
-.icon-row:hover {
-  transition: 0.2s;
-  transform: translate(0px, -15px);
-  transition-timing-function: ease-out;
-}
-.iconrow {
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
-  flex-direction: row;
 }
