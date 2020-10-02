@@ -14,8 +14,10 @@ html {
 ::selection {
   background: yellow;
 }
-a {
+a,
+a:visited {
   text-decoration: none;
+  color: inherit;
 }
 
 * {
@@ -54,8 +56,8 @@ nav .pages a {
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(
     to right,
-    #7faff7,
-    #7faff7 50%,
+    #1a1a1a,
+    #1a1a1a 50%,
     #1a1a1a 50%
   );
   background-size: 200% 100%;
@@ -72,8 +74,8 @@ nav .pages a:before {
   bottom: -8px;
   z-index: 0;
   position: absolute;
-  background: #7faff7;
-  transition: all 0.3s ease-in-out;
+  background: #1a1a1a;
+  transition: all 0.1s ease-in-out;
 }
 
 nav .pages a:hover {

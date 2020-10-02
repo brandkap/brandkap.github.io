@@ -13,6 +13,8 @@
     />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/casestudy.css" />
+    <link rel="stylesheet" href="/scss/contactbutton.css" />
+    <link rel="stylesheet" href="/scss/contactbutton-footer.css" />
 
     <title>DatePicker | Brandon Kaplan</title>
   </head>
@@ -92,14 +94,14 @@
         <h2>User interviews & feedback</h2>
         <p>
           User interviews and surveys were conducted to gain understanding for
-          how teachers and coaches use their calendars. This guided the planning
-          phase and brainstorming features. Based on what I learned I identified
-          a few key tasks: ‍ Choose dates for an event Edit any past made events
-          Share an event with a group of contacts Assign a group/groups to an
-          event ‍ With these task outlined there were two high level design
-          goals: 1. Design all the basic functionalities of a calendar for
-          mobile format 2. Enchance on the basics to support aperiodic events
-          and rapid collaboration
+          how teachers and coaches use their current calendars. This guided the
+          planning phase and brainstorming of features. Based on what I learned
+          I identified a few key tasks: ‍ Choose dates for an event Edit any
+          past made events Share an event with a group of contacts Assign a
+          group/groups to an event ‍ With these task outlined there were two
+          high level design goals: 1. Design all the basic functionalities of a
+          calendar for mobile format 2. Enchance on the basics to support
+          aperiodic events and rapid collaboration.
         </p>
       </div>
       <img class="chart" src="/images/datepickerneeds.png" />
@@ -108,143 +110,247 @@
         Ideation
       </h2> -->
       <div class="center-text">
-        <h2>Wireframes</h2>
+        <h2>Exploring calendar layouts</h2>
         <p class="middlepara">
           We decided to move foward with a calendar layout that allow for a
           preview of events, does not vary radically from the google calendar
           design, and has a clearly defined area of clickability for date
           selection.
         </p>
+      </div>
+      <img class="chart2" src="/images/calendarwireframe.png" />
 
-        <img class="chart2" src="/images/calendarwireframe.png" />
+      <div class="center-text">
+        <h2>Navigation options</h2>
+        <p class="middlepara">
+          Explored navigation options and placement of the primary call to
+          action "Add event" button.
+        </p>
+      </div>
 
-        <div class="center-text">
-          <p>
-            Explored navigation layouts and "Add event" button placement.
-          </p>
-        </div>
-        <img class="chart2" src="/images/navbarwireframe.png" />
+      <img class="chart2" src="/images/navbarwireframe.png" />
 
-        <!-- <h2 class="center-head">
+      <!-- <h2 class="center-head">
         Key features
       </h2> -->
-        <div class="center-text">
-          <h2>Streamlining event planning</h2>
-          <p class="middlepara">
-            Our reference for designing the mobile screens was the
-            ConnectOurKids website. We reviewed the existing website designs,
-            brainstormed ideas, and took notes of things we wanted to
-            incorporate in the future mobile designs. We had to create a mobile
-            experience that maintained the same functionality and organization
-            as the website, while keeping an eye our for problems on the website
-            that could be improved on a mobile experience. The two main features
-            we worked on were People search and Family connections.
+      <div class="center-text">
+        <h2>Streamlining event planning</h2>
+        <p class="middlepara">
+          Our
+        </p>
+      </div>
+      <div class="project-section">
+        <div class="left-project-gif">
+          <img class="phone-gif" src="/images/dateselector.gif" />
+        </div>
+        <div class="right-gif-desc">
+          <h2>
+            How we can give full control over the date selection process?
+          </h2>
+          <p class="gif-p">
+            The goal was to allow total control over the date selection process
+            in a way that does not have have to adhere to a specific pattern of
+            days. This was done through a “click and pick” type selector. Simply
+            click the dates in any frequency or pattern to schedule an event on
+            that day.
           </p>
         </div>
-        <div class="project-section">
-          <div class="left-project-gif">
-            <img class="phone-gif" src="/images/dateselector.gif" />
-          </div>
-          <div class="right-gif-desc">
-            <h2>
-              How we can give full control over the date selection process?
-            </h2>
-            <p class="gif-p">
-              The goal was to allow total control over the date selection
-              process in a way that does not have have to adhere to a specific
-              pattern of days. This was done through a “click and pick” type
-              selector. Simply click the dates in any frequency or pattern to
-              schedule an event on that day.
-            </p>
-          </div>
-        </div>
+      </div>
 
-        <div class="project-section">
-          <div class="right-gif-desc">
-            <h2>Family connections</h2>
-            <p class="gif-p">
-              Potential candidates for a foster child can be located through
-              here using 5 different searching criteria. A clear button is
-              present so that a social worker can begin a new search quickly
-              without having to delete each Search results are displayed in a
-              pop up that allows for a quick return back to the search home.
-            </p>
-          </div>
-          <div class="left-project-gif">
-            <img class="phone-gif" src="/images/datemicroanimation.gif" />
-          </div>
-        </div>
-
-        <div class="project-section">
-          <div class="left-project-gif">
-            <img class="phone-gif" src="/images/datetutorial.gif" />
-          </div>
-          <div class="right-gif-desc">
-            <h2>Organizing family connections</h2>
-            <p class="gif-p">
-              Potential candidates for a foster child can be located through
-              here using 5 different searching criteria. A clear button is
-              present so that a social worker can begin a new search quickly
-              without having to delete each Search results are displayed in a
-              pop up that allows for a quick return back to the search home.
-            </p>
-          </div>
-        </div>
-
-        <div class="center-text">
-          <h2>head</h2>
-          <p class="middlepara">
-            Pros and cons of other button layouts I moved forward with the pill
-            button because ____. and with a pixel size of #x# it is plently
-            large touch size to avoid difficulity pressing.
+      <div class="project-section">
+        <div class="right-gif-desc">
+          <h2>Family connections</h2>
+          <p class="gif-p">
+            Potential candidates for a foster child can be located through here
+            using 5 different searching criteria. A clear button is present so
+            that a social worker can begin a new search quickly without having
+            to delete each Search results are displayed in a pop up that allows
+            for a quick return back to the search home.
           </p>
         </div>
+        <div class="left-project-gif">
+          <img class="phone-gif" src="/images/datemicroanimation.gif" />
+        </div>
+      </div>
 
-        <!-- <div class="center-head">Future directions</div> -->
-        <div class="center-text">
-          <h2>Improving interaction</h2>
-          <p class="middlepara">
-            paragraph
+      <div class="project-section">
+        <div class="left-project-gif">
+          <img class="phone-gif" src="/images/datetutorial.gif" />
+        </div>
+        <div class="right-gif-desc">
+          <h2>Organizing family connections</h2>
+          <p class="gif-p">
+            Potential candidates for a foster child can be located through here
+            using 5 different searching criteria. A clear button is present so
+            that a social worker can begin a new search quickly without having
+            to delete each Search results are displayed in a pop up that allows
+            for a quick return back to the search home.
           </p>
         </div>
+      </div>
 
-        <div class="project-section">
-          <div class="left-project-gif">
-            <img class="phone-gif" src="/images/datemicroanimation.gif" />
-          </div>
-          <div class="right-gif-desc">
-            <h2>Providing action feedback</h2>
-            <p class="gif-p">
-              Explain how this microinteraction gives a better experience.
-            </p>
-          </div>
+      <div class="center-text">
+        <h2>head</h2>
+        <p class="middlepara">
+          Pros and cons of other button layouts I moved forward with the pill
+          button because ____. and with a pixel size of #x# it is plently large
+          touch size to avoid difficulity pressing.
+        </p>
+      </div>
+
+      <!-- <div class="center-head">Future directions</div> -->
+      <div class="center-text">
+        <h2>Improving interaction</h2>
+        <p class="middlepara">
+          paragraph
+        </p>
+      </div>
+
+      <div class="project-section">
+        <div class="left-project-gif">
+          <img class="phone-gif" src="/images/datemicroanimation.gif" />
         </div>
-
-        <div class="project-section">
-          <div class="right-gif-desc">
-            <h2>Tutorial</h2>
-            <p class="gif-p">
-              How some users might be unsure when first on the date selection
-              screen
-            </p>
-          </div>
-          <div class="left-project-gif">
-            <img class="phone-gif" src="/images/datetutorial.gif" />
-          </div>
+        <div class="right-gif-desc">
+          <h2>Providing action feedback</h2>
+          <p class="gif-p">
+            Explain how this microinteraction gives a better experience.
+          </p>
         </div>
+      </div>
 
-        <div class="project-section">
-          <div class="left-project-gif">
-            <img class="phone-gif" src="/images/dragselect2.gif" />
-          </div>
-          <div class="right-gif-desc">
-            <h2>Drag selector</h2>
-            <p class="gif-p">
-              Making date selection even easier and faster.
-            </p>
-          </div>
+      <div class="project-section">
+        <div class="right-gif-desc">
+          <h2>Tutorial</h2>
+          <p class="gif-p">
+            How some users might be unsure when first on the date selection
+            screen
+          </p>
+        </div>
+        <div class="left-project-gif">
+          <img class="phone-gif" src="/images/datetutorial.gif" />
+        </div>
+      </div>
+
+      <div class="project-section">
+        <div class="left-project-gif">
+          <img class="phone-gif" src="/images/dragselect2.gif" />
+        </div>
+        <div class="right-gif-desc">
+          <h2>Drag selector</h2>
+          <p class="gif-p">
+            Making date selection even easier and faster.
+          </p>
         </div>
       </div>
     </div>
+
+    <div class="extra-work">
+      <h2 class="explore">Explore Other Work</h2>
+      <div class="more-work">
+        <div class="small-project">
+          <a href="/connect-our-kids">
+            <img class="small-img" src="/images/squareconkids2.png" />
+
+            <div class="small-desc">
+              <p class="small-title">ConnectOurKids</p>
+              <p class="small-info">
+                Building mobile tools for social workers.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="small-project">
+          <a href="/firehose">
+            <img class="small-img" src="/images//firehoseimgsquare.png" />
+            <div class="small-desc">
+              <p class="small-title">Firehose</p>
+              <p class="small-info">
+                Creating a home for all of your favorite content.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="small-project">
+          <a href="/extras">
+            <img class="small-img" src="/animations/sunset.gif" />
+
+            <div class="small-desc">
+              <p class="small-title">The Lab</p>
+              <p class="small-info">
+                Experimenting with pixels.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Thanks for scrolling!</p>
+      <a
+        class="c-button-foot c-button--gooey"
+        href="mailto:brandkaplan@gmail.com"
+      >
+        Get in touch
+        <div class="c-button__blobs">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </a>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        version="1.1"
+        style="display: block; height: 0; width: 0;"
+      >
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur
+              in="SourceGraphic"
+              stdDeviation="10"
+              result="blur"
+            ></feGaussianBlur>
+            <feColorMatrix
+              in="blur"
+              mode="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+              result="goo"
+            ></feColorMatrix>
+            <feBlend in="SourceGraphic" in2="goo"></feBlend>
+          </filter>
+        </defs>
+      </svg>
+
+      <div class="iconrow">
+        <a
+          class="icon-row"
+          target="_blank"
+          href="https://www.linkedin.com/in/brandon-kaplan-505889190/"
+        >
+          <img src="/icons/linkedin-black.svg" />
+        </a>
+
+        <a
+          class="icon-row"
+          target="_blank"
+          href="https://dribbble.com/brandonkap"
+        >
+          <img src="/icons/dribbble-black.svg" />
+        </a>
+
+        <a
+          class="icon-row"
+          target="_blank"
+          href="https://twitter.com/brandonjkap"
+        >
+          <img src="/icons/twitter-black.svg" />
+        </a>
+
+        <a class="icon-row" target="_blank" href="resume">
+          <img src="/icons/cv-black.svg" />
+        </a>
+      </div>
+    </footer>
   </body>
 </html>

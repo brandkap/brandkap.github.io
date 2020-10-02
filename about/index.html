@@ -7,8 +7,12 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/css/style.css" />
+
     <link rel="stylesheet" href="/css/aboutme.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/casestudy.css" />
+    <link rel="stylesheet" href="/scss/contactbutton.css" />
+    <link rel="stylesheet" href="/scss/contactbutton-footer.css" />
 
     <title>About</title>
   </head>
@@ -29,29 +33,97 @@
         <div class="about-me">
           <h2>Hey! I'm Brandon</h2>
           <p>
-            <!-- I graduated from UC riverside with a degree in psychology. While
-            there I held research assistant positions in a visual cognition lab
-            and action & cognition lab. My daily tasks were recruiting
-            participants, running participants through experiments under the
-            guidelines of the graduate students, and analyzing and interpreting
-            data from experiments. After graduating from UCR I enrolled into
-            Lambda school for their Ux Design program. I got into ux design
-            because i wanted to combine problem solving, visual design into
-
-            creating real products that people use in real life. What I'm
-            reading right now: incognito, you look like a thing and i love you
-            What I'm listening to: kaytranda ft kali uchis: 10%, her's- harvey,
-             -->
-            <br />
-            <br />
             My design journey started in college when working in psychology
             research labs I learned how seemingly unimportant details in any
             given situation can have a big impact on someone's experience or
             choices.
+            <br />
+            <br />
+            I am currently working on Firehose, a bookmarking tool, on a two
+            person team. This is a project I am very excited about.
           </p>
+          <!-- I graduated from UC riverside with a degree in psychology. While
+          there I held research assistant positions in a visual cognition lab
+          and action & cognition lab. My daily tasks were recruiting
+          participants, running participants through experiments under the
+          guidelines of the graduate students, and analyzing and interpreting
+          data from experiments. After graduating from UCR I enrolled into
+          Lambda school for their Ux Design program. I got into ux design
+          because i wanted to combine problem solving, visual design into
+
+          creating real products that people use in real life. What I'm
+          reading right now: incognito, you look like a thing and i love you
+          What I'm listening to: kaytranda ft kali uchis: 10%, her's- harvey,
+           -->
         </div>
-        <a> Resume </a>
       </div>
     </div>
+    <footer>
+      <p>Thanks for scrolling!</p>
+      <a
+        class="c-button-foot c-button--gooey"
+        href="mailto:brandkaplan@gmail.com"
+      >
+        Get in touch
+        <div class="c-button__blobs">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </a>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        version="1.1"
+        style="display: block; height: 0; width: 0;"
+      >
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur
+              in="SourceGraphic"
+              stdDeviation="10"
+              result="blur"
+            ></feGaussianBlur>
+            <feColorMatrix
+              in="blur"
+              mode="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+              result="goo"
+            ></feColorMatrix>
+            <feBlend in="SourceGraphic" in2="goo"></feBlend>
+          </filter>
+        </defs>
+      </svg>
+
+      <div class="iconrow">
+        <a
+          class="icon-row"
+          target="_blank"
+          href="https://www.linkedin.com/in/brandon-kaplan-505889190/"
+        >
+          <img src="/icons/linkedin-black.svg" />
+        </a>
+
+        <a
+          class="icon-row"
+          target="_blank"
+          href="https://dribbble.com/brandonkap"
+        >
+          <img src="/icons/dribbble-black.svg" />
+        </a>
+
+        <a
+          class="icon-row"
+          target="_blank"
+          href="https://twitter.com/brandonjkap"
+        >
+          <img src="/icons/twitter-black.svg" />
+        </a>
+
+        <a class="icon-row" target="_blank" href="resume">
+          <img src="/icons/cv-black.svg" />
+        </a>
+      </div>
+    </footer>
   </body>
 </html>

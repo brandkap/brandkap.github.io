@@ -243,14 +243,16 @@ li {
 
 .small-info {
   font-size: 1.5rem;
-  color: #83878e;
+  color: #3b3b3b;
   font-weight: 400;
   margin-top: 5px;
 }
-
+.small-project:hover {
+  text-decoration: underline;
+}
 .explore {
   font-size: 1.5em;
   margin-bottom: 30px;
-  color: #1b1a21;
+  color: #1a1a1a;
   font-weight: 500;
 }
