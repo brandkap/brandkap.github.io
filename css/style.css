@@ -152,3 +152,7 @@ footer {
   transform: translate(0px, -15px);
   transition-timing-function: ease-out;
 }
+
+.copyright {
+  font-size: 10px;
+}
