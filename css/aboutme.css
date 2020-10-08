@@ -1,32 +1,45 @@
-.about {
-  display: flex;
-  justify-content: center;
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-top: 60px;
-}
-
-img {
-}
-
 .me {
-  width: 650px;
+  text-align: center;
+  margin-top: 120px;
+}
+.pic {
+  width: 250px;
+}
+.about-me {
+  margin: 0px 300px;
 }
 
-.name {
+.header {
   font-size: 2.2rem;
   font-weight: 600;
+  margin-top: 35px;
 }
 
+.header2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-top: 70px;
+}
 p {
   font-size: 1.5rem;
   color: #3b3b3b;
   line-height: 30px;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
-
-.right-side {
+.things {
   display: flex;
-  flex-direction: column;
-  padding-left: 10%;
+  justify-content: space-between;
+  margin: 0px 300px;
+}
+.subhead {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.json {
+  text-align: center;
+}
+.subpara {
+  font-size: 1.3rem;
+  margin-bottom: 0px;
 }
