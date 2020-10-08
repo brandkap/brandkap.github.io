@@ -6,7 +6,7 @@
   width: 250px;
 }
 .about-me {
-  margin: 0px 300px;
+  margin: 0px 325px;
 }
 
 .header {
@@ -30,14 +30,18 @@ p {
 .things {
   display: flex;
   justify-content: space-between;
-  margin: 0px 300px;
+  margin: 0px 100px 0px 325px;
 }
 .subhead {
   font-size: 1.8rem;
   font-weight: 600;
 }
+.ani {
+  text-align: center;
+}
 .json {
   text-align: center;
+  width: 250px;
 }
 .subpara {
   font-size: 1.3rem;
