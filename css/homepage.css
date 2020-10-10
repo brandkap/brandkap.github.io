@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  /* background-color: #f5f6f7; */
   background-color: #fff;
   overflow-x: hidden;
 }
@@ -223,4 +222,9 @@ padding-right: 100px; */
   -ms-transform: scale(1.02); /* IE 9 */
   -webkit-transform: scale(1.02); /* Safari 3-8 */
   transform: scale(1.02);
+}
+
+.arrows {
+  width: fit-content;
+  margin: 0 auto;
 }
