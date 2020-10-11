@@ -1,27 +1,29 @@
 .me {
   text-align: center;
-  margin-top: 120px;
 }
 .pic {
-  width: 200px;
-}
-.about-me {
-  margin: 0px 325px;
+  width: 300px;
 }
 
 .header {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   font-weight: 600;
   margin-top: 35px;
 }
 
+.header1 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
 .header2 {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   font-weight: 600;
   margin-top: 70px;
 }
 p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #3b3b3b;
   line-height: 30px;
   margin-top: 0px;
@@ -30,7 +32,6 @@ p {
 .things {
   display: flex;
   justify-content: space-between;
-  margin: 0px 100px 0px 325px;
 }
 .subhead {
   font-size: 1.8rem;
@@ -44,4 +45,15 @@ p {
 .subpara {
   font-size: 1.3rem;
   margin-bottom: 0px;
+}
+.right {
+  margin-left: 200px;
+}
+.about-me {
+  margin-right: 120px;
+}
+.section {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 120px;
 }
