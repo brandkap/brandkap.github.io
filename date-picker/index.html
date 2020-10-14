@@ -66,68 +66,137 @@
       </div>
 
       <div class="center-text">
-        <h2>Why do we need another calendar tool?</h2>
+        <h2>The problem</h2>
         <p>
           Scheduling aperiodic events on Google Calendar is very difficult to
-          do. When a user wants to schedule an event that falls under an
-          inconsistent pattern of days, or aperiodicly, Google Calendar does not
-          support a fast way to do this. Even in the custom recurrence menu,
-          your event must fall under consistent days across one or multiple
-          weeks. Coordinating schedules across the district level, school level,
-          department level is a hassle for school staff. In this case, our
-          stakeholder, who is a teacher and basketball coach, has to frequently
-          coordinate sporting events at various levels with distinct dates and
-          frequencies.
-
-          <br />
-          <br />
-          In the image below, we can see that when creating a reoccuring event
-          in Google Calendar it must land on consistent repeating days.
-          Scheduling an event on MWF on one week and then TWF on the next week
-          has to be done completely separately. This inability to schedule
-          events in an aperiodic format causes major delays in event planning.
+          do. An aperiodic event is an event that has an inconsistent pattern of
+          days. When a user wants to schedule an event aperiodicly, Google
+          Calendar does not support a fast way to do this. In this case, our
+          stakeholder, Craig, who is a teacher and basketball coach, has to
+          frequently coordinate sporting events at various levels with distinct
+          dates and frequencies.
         </p>
       </div>
+      <div class="center-text">
+        <h2>
+          Where does Google Calendar go wrong?
+        </h2>
+        <p>
+          In the image below, we can see that when creating a custom reoccuring
+          event in Google Calendar it must fall under a consistent pattern
+          across multiple weeks. Scheduling an event on Mon,Wed,Fri on one week
+          and then Tues,Thurs,Fri on the next week has to be done by creating
+          two completely separate events. This inability to schedule events in
+          an aperiodic format causes major delays in event planning.
+        </p>
+      </div>
+
       <img class="chart" src="/images/gcdate.png" />
       <div class="center-text">
-        <h2>The solution</h2>
+        <h2>Interviews & market research</h2>
         <p>
-          Provide a way to schedule custom events while collaborating with
-          groups. In addition to this, editing past made events with changes
-          notifications being pushed to th egroups associcated with that events.
-          The goal for DatePicker serves to be a stripped down version of Google
-          Calendar with increased customization options for date selection.
-          DatePicker pushes all added events to the users connected Google
-          account.
+          I began this project with a few types of research to clearly define
+          the purpose of DatePicker. Surveys provided data as to what products
+          teachers currently use for as their main calendar. I conducted a
+          competitive analysis with calendars products such as iCal, BAND,
+          Checker Plus, and more to get an idea of current solutions on the
+          market regarding event planning.<br />
+          <br />From the research I concluded that:
         </p>
+
+        <ol>
+          <li>
+            Majority of teachers<b> exclusively use Google Calendars</b> and do
+            not want to replace Google Calendar
+          </li>
+          <li>
+            DatePicker will<b> not be built to replace Google Calendar,</b>
+            but to complement it
+          </li>
+          <li>
+            There is <b>no available solution on the market </b>for this
+            specific problem space
+          </li>
+        </ol>
       </div>
+
       <div class="center-text">
-        <h2>User interviews & feedback</h2>
+        <h2>Crafting a solution</h2>
+        Provide a way to schedule custom events while collaborating with groups.
+        In addition to this, editing past made events with changes notifications
+        being pushed to the groups associcated with that events. In terms of
+        functionality, DatePicker serves to be a stripped down version of Google
+        Calendar except for increased customization options for date selection.
+        DatePicker pushes all added events to the users connected Google
+        Calendar account.
         <p>
           User interviews and surveys were conducted to gain understanding for
-          how teachers and coaches use their current calendars. This guided the
-          planning phase and brainstorming of features. Based on what I learned
-          I identified a few key tasks: ‍ Choose dates for an event Edit any
-          past made events Share an event with a group of contacts Assign a
-          group/groups to an event ‍ With these task outlined there were two
-          high level design goals: 1. Design all the basic functionalities of a
-          calendar for mobile format 2. Enchance on the basics to support
-          aperiodic events and rapid collaboration.
+          how teachers and coaches use their current calendars. Based on what I
+          learned I identified what the solution needs to do: ‍ Choose dates for
+          an event Edit any past made events Share an event with a group of
+          contacts Assign a group/groups to an event ‍ With these task outlined
+          there were two high level design goals: 1. Design all the basic
+          functionalities of a calendar for mobile format 2. Enchance on the
+          basics to support aperiodic events and rapid collaboration.
+
           <br />
           <br />
           These surveys and interviews helped determine what aspects of event
           planning are essential for DatePicker and which are secondary.
         </p>
+        <ol>
+          <li>Freely choose dates for event</li>
+          <li>Allow collaboration by assigning groups to an event</li>
+
+          <li>Provide push notifications for event changes</li>
+          <li>
+            Transfer events made on DatePicker to user connect Google account
+          </li>
+        </ol>
       </div>
+
+      <div class="center-text">
+        <h2>Design Requirements</h2>
+        <p>
+          Using the research as guideline, I identified a few problem statements
+          and proposed solutions to address user needs:
+        </p>
+      </div>
+
       <img class="chart" src="/images/datepickerneeds.png" />
 
       <!-- <h2 class="center-head">
         Ideation
       </h2> -->
+      <!-- <div class="center-text">
+        <h2>How does it work?</h2>
+        <p>
+          Push notifications are sent to group members. All events created in
+          DatePicker are pushed to the users connected Google account.
+        </p>
+      </div> -->
+      <div class="center-text">
+        <h2>Key flow</h2>
+        <p class="middlepara">
+          Since DatePicker is solving a very niche pain point in Google
+          Calendar, the functionality is much simpler than a comprehensive
+          calendar app. Even though in terms of functionality it is simple,
+          mapping out the flows was important to determine the necessary
+          screens.
+        </p>
+      </div>
+      <img class="chart" src="/images/mainflowDP.svg" />
+      <div class="center-text">
+        <h2>Ideating</h2>
+        <p class="middlepara">
+          Keeping in mind the research findings and design requirements I began
+          to ideate on layouts and navigation options.
+        </p>
+      </div>
       <div class="center-text">
         <h2>Exploring calendar layouts</h2>
         <p class="middlepara">
-          We decided to move foward with a calendar layout that allow for a
+          We decided to move forward with a calendar layout that allow for a
           preview of events, does not vary radically from the google calendar
           design, and has a clearly defined area of clickability for date
           selection. Layout C also happens to be the same calendar style as
@@ -153,12 +222,14 @@
       <div class="center-text">
         <h2>Confirming dates</h2>
         <p class="middlepara">
-          The final step in the flow for scheduling an event is to confirm the
-          dates. Rather than make the user remember the event name and times
-          chosen in the previous screen while selecting dates, that information
-          next to the button for confirming selected dates. User testing was
-          done with 5 particicpants for several iterations of a confirmation
-          button.
+          There is one step in the flow of creating a event that I was
+          particularly interested in testing because it is not present in Google
+          Calendar. The final step in the flow for scheduling an event is to
+          confirm the dates. Rather than make the user remember the event name
+          and times chosen in the previous screen while selecting dates, that
+          information next to the button for confirming selected dates. User
+          testing was done with 5 participants for several iterations of a
+          confirmation button.
 
           <br /><br />
           The three main areas in question were:
@@ -185,22 +256,20 @@
             through the calendar and accidental clicks
           </li>
           <li>
-            The buttons for Option B and D did not immediately strike people as
+            The buttons for options B and D did not immediately strike people as
             something that was clickable
           </li>
           <li>
-            Options C and E provided the best balance between location, touch
-            area size for easy clickability,allowing space for natural scrolling
-            finger movement, and button size and clarity,
+            Options C and E provided a nice balance between location, touch area
+            size for easy clickability, and button clarity
           </li>
         </ul>
-        <div class="center-text">
-          <p class="middlepara">
-            With Option C and E being very similar, I ended up moving foward
-            with Option E because the circular pill shape provided more visual
-            contrast amongst the grid calendar shape.
-          </p>
-        </div>
+
+        <p>
+          With options C and E being very similar, I ended up moving foward with
+          Option E because the circular pill shape provided more visual contrast
+          amongst the square grid calendar shape.
+        </p>
       </div>
 
       <!-- <div class="center-text">
@@ -215,20 +284,14 @@
         </div>
         <div class="right-gif-desc">
           <h2>
-            How we can give full control over the date selection process?
+            Allowing full control when selecting dates
           </h2>
           <p class="gif-p">
-            This is the most important feature of DatePicker. Allowing fully
-            customizable patterns of date selection solves the biggest pain
-            point when using Google Calendar.
-            <!--This could not be done from a
-            selection of pre-made patterns, for example, every MWF or every
-            other day, so a click and pick selector was implemented.-->
-            The goal was to allow total control over the date selection process
-            in a way that does not have have to adhere to a specific pattern of
-            days. This was done by implementing h a “click and pick” type
-            selector. Simply click the dates in any frequency or pattern to
-            schedule an event on that day.
+            This simple interaction is the most important feature of DatePicker
+            and solves the biggest user pain point. A "click and pick" selector
+            allows for fully customizable patterns of date selection.<br /><br />
+            Simply click the dates in any frequency or pattern to schedule an
+            event on that day.
           </p>
         </div>
       </div>
@@ -237,7 +300,7 @@
       <div class="center-text">
         <h2>Testing</h2>
         <p class="middlepara">
-          testing with hi fi prototpe explanation
+          Usability testing with 7 participants
         </p>
       </div>
 
@@ -245,7 +308,7 @@
         <h2>Improving interaction</h2>
         <p class="middlepara">
           Based on feedback and observations made from user testing I created a
-          few interactions that make DatePicker easier and faster to use.
+          few interactions that can make DatePicker easier and faster to use.
         </p>
       </div>
 
@@ -257,10 +320,9 @@
           <h2>Providing system feedback</h2>
           <p class="gif-p">
             After participants confirmed their event dates I realized that next
-            screen appears instantly without confirmation feedback. there was no
-            confirmation feedback.<br />
+            screen appears instantly without any confirmation feedback.<br />
             <br />
-            This subtle animation of the event sliding in indicates that the
+            This animation of the event sliding in from below indicates that the
             event has successfuly been added without the need for a confirmation
             modal.
           </p>
@@ -288,8 +350,8 @@
         <div class="right-gif-desc">
           <h2>Drag selector</h2>
           <p class="gif-p">
-            The single click and pick date selector works just fine, but adding
-            a drag selector in addition can allow for even faster date
+            The click and pick date selector works just fine, but adding a drag
+            selector alongside it can allow for even faster and smoother date
             selection.
           </p>
         </div>
@@ -299,9 +361,9 @@
         <h2>Icon redesign</h2>
         <p class="middlepara">
           The old logo one of the only artifacts that was on this project file
-          when our team started on DatePicker. Our whole team agreed that the
-          logo needed some fresh paint. I incorporated the two primary colors of
-          the app, along with a scattered selection of date to represent the
+          when our team started on DatePicke and our whole team agreed that the
+          logo could use some fresh paint. I incorporated the two primary colors
+          of the app, along with scattered colored square to represent the
           purpose and function of DatePicker. Incorporating both primary colors
           from the app into the logo creates a cohesive look and feel between
           the logo and app.
@@ -312,12 +374,17 @@
       <div class="center-text">
         <h2>Wrapping Up</h2>
         <p class="middlepara">
+          DatePicker was an nice project to work on because it was a great
+          example on how sometimes a solution to a problem does not have to be
+          fancy or complex. It was great to receive positive feedback from the
+          stakeholder and see how such a frustrating problem in widely used
+          product could be resolved with a straightfoward solution.
+          <br /><br />
           Our team was able to get DatePicker into a deployable stage, but there
           has yet to be a planned release date for it onto the app store.
           Hopefully the next team that works on DatePicker can plan for a
-          release because due to disscussion with teachers and coaches
-          DatePicker could provide a lot of value to their event planning
-          experience.
+          release because due to discussion with teachers and coaches DatePicker
+          could provide a lot of value to their event planning experience.
         </p>
       </div>
     </div>

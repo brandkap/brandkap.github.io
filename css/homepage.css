@@ -213,7 +213,7 @@ padding-right: 100px; */
 }
 
 .full-img {
-  transition: transform 0.2s;
+  transition: transform 0.5s;
   width: 95%;
   height: auto;
   border-radius: 10px;

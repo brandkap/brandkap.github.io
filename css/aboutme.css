@@ -22,6 +22,11 @@
   font-weight: 600;
   margin-top: 70px;
 }
+.about-me-bottom {
+  margin-right: 120px;
+  margin-bottom: 200px;
+}
+
 p {
   font-size: 1.4rem;
   color: #3b3b3b;
@@ -40,17 +45,17 @@ p {
 
 .json {
   text-align: center;
-  width: 250px;
+  width: 200px;
 }
 .subpara {
   font-size: 1.3rem;
   margin-bottom: 0px;
 }
 .right {
-  margin-left: 200px;
+  margin-left: 120px;
 }
 .about-me {
-  margin-right: 120px;
+  margin-right: 80px;
 }
 .section {
   display: flex;

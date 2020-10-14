@@ -43,7 +43,9 @@ p {
   line-height: 30px;
   margin-top: 7px;
 }
-
+b {
+  font-weight: 500;
+}
 a {
   font-size: 1.3em;
 }
