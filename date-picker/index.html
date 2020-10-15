@@ -58,7 +58,7 @@
               <p class="timeline-head">Team</p>
               <p>
                 3 Developers<br />
-                1 UX designer
+                1 UX Designer
               </p>
             </span>
           </div>
@@ -95,9 +95,9 @@
       <div class="center-text">
         <h2>Interviews & market research</h2>
         <p>
-          I began this project with a few types of research to clearly define
-          the purpose of DatePicker. Surveys provided data as to what products
-          teachers currently use for as their main calendar. I conducted a
+          I began this project research to clearly pain points and what role
+          DatePicker will play. Surveys provided data as to what products
+          teachers currently use as their main calendar. I conducted a
           competitive analysis with calendars products such as iCal, BAND,
           Checker Plus, and more to get an idea of current solutions on the
           market regarding event planning.<br />
@@ -106,8 +106,8 @@
 
         <ol>
           <li>
-            Majority of teachers<b> exclusively use Google Calendars</b> and do
-            not want to replace Google Calendar
+            Majority of teachers from our sample exclusively use Google
+            Calendars
           </li>
           <li>
             DatePicker will<b> not be built to replace Google Calendar,</b>
@@ -122,37 +122,28 @@
 
       <div class="center-text">
         <h2>Crafting a solution</h2>
-        Provide a way to schedule custom events while collaborating with groups.
-        In addition to this, editing past made events with changes notifications
-        being pushed to the groups associcated with that events. In terms of
-        functionality, DatePicker serves to be a stripped down version of Google
-        Calendar except for increased customization options for date selection.
-        DatePicker pushes all added events to the users connected Google
-        Calendar account.
-        <p>
-          User interviews and surveys were conducted to gain understanding for
-          how teachers and coaches use their current calendars. Based on what I
-          learned I identified what the solution needs to do: ‍ Choose dates for
-          an event Edit any past made events Share an event with a group of
-          contacts Assign a group/groups to an event ‍ With these task outlined
-          there were two high level design goals: 1. Design all the basic
-          functionalities of a calendar for mobile format 2. Enchance on the
-          basics to support aperiodic events and rapid collaboration.
-
-          <br />
-          <br />
-          These surveys and interviews helped determine what aspects of event
-          planning are essential for DatePicker and which are secondary.
-        </p>
+        By this point it was clear that an alternative tool for event plannign
+        was needed, but I still needed to specifiy specific features. Drawing
+        from the previous research and an additional in depth interview with
+        Craig I settled on the main features:
         <ol>
-          <li>Freely choose dates for event</li>
+          <li>Choose dates for event in any pattern of frequency</li>
           <li>Allow collaboration by assigning groups to an event</li>
 
-          <li>Provide push notifications for event changes</li>
+          <li>Provide push notifications for event changes to group members</li>
           <li>
-            Transfer events made on DatePicker to user connect Google account
+            Transfer events made on DatePicker to users connected Google account
           </li>
         </ol>
+        In terms of functionality, DatePicker serves to be a stripped down
+        version of Google Calendar except for increased customization options
+        for date selection.
+
+        <p>
+          1. Design all the basic functionalities of a calendar for mobile
+          format 2. Enchance on the basics to support aperiodic events and rapid
+          collaboration.
+        </p>
       </div>
 
       <div class="center-text">
@@ -175,21 +166,11 @@
           DatePicker are pushed to the users connected Google account.
         </p>
       </div> -->
-      <div class="center-text">
-        <h2>Key flow</h2>
-        <p class="middlepara">
-          Since DatePicker is solving a very niche pain point in Google
-          Calendar, the functionality is much simpler than a comprehensive
-          calendar app. Even though in terms of functionality it is simple,
-          mapping out the flows was important to determine the necessary
-          screens.
-        </p>
-      </div>
-      <img class="chart" src="/images/mainflowDP.svg" />
+
       <div class="center-text">
         <h2>Ideating</h2>
         <p class="middlepara">
-          Keeping in mind the research findings and design requirements I began
+          Keeping in mind the research findings and problem statements I began
           to ideate on layouts and navigation options.
         </p>
       </div>
@@ -214,22 +195,20 @@
         </p>
       </div>
 
-      <img class="chart2" src="/images/navbarwireframe.png" />
-
       <!-- <h2 class="center-head">
         Key features
       </h2> -->
       <div class="center-text">
         <h2>Confirming dates</h2>
         <p class="middlepara">
-          There is one step in the flow of creating a event that I was
+          There was one step in the flow of creating a event that I was
           particularly interested in testing because it is not present in Google
           Calendar. The final step in the flow for scheduling an event is to
           confirm the dates. Rather than make the user remember the event name
-          and times chosen in the previous screen while selecting dates, that
-          information next to the button for confirming selected dates. User
-          testing was done with 5 participants for several iterations of a
-          confirmation button.
+          and times chosen in the previous screen, that information is place to
+          the confirmation button. I waited until the high fildeity phase to do
+          user testing 5 participants for several iterations of a confirmation
+          button.
 
           <br /><br />
           The three main areas in question were:
@@ -245,6 +224,7 @@
         </ul>
       </div>
       <img class="chart2" src="/images/confirmbutton3.png" />
+
       <div class="center-text">
         <p class="middlepara">
           Receiving feedback and observing people interact with all the
@@ -272,12 +252,17 @@
         </p>
       </div>
 
-      <!-- <div class="center-text">
-        <h2>Streamlining event planning</h2>
+      <div class="center-text">
+        <h2>Key flow</h2>
         <p class="middlepara">
-          Our
+          Since DatePicker is solving a very niche pain point in Google
+          Calendar, the functionality is much simpler than a comprehensive
+          calendar app. Even though in terms of functionality it is simple,
+          mapping out the flows was important to determine the necessary
+          screens.
         </p>
-      </div> -->
+      </div>
+      <img class="chart" src="/images/mainflowDP.svg" />
       <div class="project-section">
         <div class="left-project-gif">
           <img class="phone-gif" src="/images/dateselector.gif" />
@@ -287,28 +272,24 @@
             Allowing full control when selecting dates
           </h2>
           <p class="gif-p">
-            This simple interaction is the most important feature of DatePicker
-            and solves the biggest user pain point. A "click and pick" selector
-            allows for fully customizable patterns of date selection.<br /><br />
+            This simple interaction shows is the most important part of
+            DatePicker and solves the biggest user pain point. A "click and
+            pick" selector allows for fully customizable patterns of date
+            selection.<br /><br />
             Simply click the dates in any frequency or pattern to schedule an
             event on that day.
           </p>
         </div>
       </div>
 
-      <!-- <div class="center-head">Future directions</div> -->
-      <div class="center-text">
-        <h2>Testing</h2>
-        <p class="middlepara">
-          Usability testing with 7 participants
-        </p>
-      </div>
-
       <div class="center-text">
         <h2>Improving interaction</h2>
         <p class="middlepara">
-          Based on feedback and observations made from user testing I created a
-          few interactions that can make DatePicker easier and faster to use.
+          I ran final usability testing with a high fidelity prototype amongst 7
+          particpants that inlcuded teachers and coaches. Based on feedback and
+          observations made from this testing I created a few interactions to
+          incorporate into the final designs that have the potential to make
+          DatePicker easier and faster to use.
         </p>
       </div>
 
@@ -360,13 +341,12 @@
       <div class="center-text">
         <h2>Icon redesign</h2>
         <p class="middlepara">
-          The old logo one of the only artifacts that was on this project file
-          when our team started on DatePicke and our whole team agreed that the
-          logo could use some fresh paint. I incorporated the two primary colors
-          of the app, along with scattered colored square to represent the
-          purpose and function of DatePicker. Incorporating both primary colors
-          from the app into the logo creates a cohesive look and feel between
-          the logo and app.
+          Towards the end of the and our whole team agreed that the logo could
+          use some fresh paint. I incorporated the two primary colors of the
+          app, along with scattered colored square to represent the purpose and
+          function of DatePicker. Incorporating both primary colors from the app
+          into the logo creates a cohesive look and feel between the logo and
+          app.
         </p>
       </div>
 
@@ -387,7 +367,11 @@
           could provide a lot of value to their event planning experience.
         </p>
       </div>
+
+      <h2>Final Screens</h2>
     </div>
+    <img class="chart" src="/images/finalmockDP.svg" />
+
     <div class="extra-work">
       <h2 class="explore">Explore Other Work</h2>
       <div class="more-work">
