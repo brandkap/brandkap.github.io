@@ -46,21 +46,15 @@ p {
 .none {
   font-size: 1.4em;
   color: #3b3b3b;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 30px;
   margin-top: 7px;
+}
+.none:hover {
   text-decoration: underline;
 }
-
 b {
   font-weight: 500;
-}
-
-.name {
-  text-decoration: underline;
-  line-height: 50px;
-  font-size: 1em;
-  font-weight: 700;
 }
 
 .details {
@@ -136,14 +130,8 @@ b {
   font-weight: 500;
 }
 
-.none2 {
-  line-height: 50px;
-  font-size: 1.3em;
-  font-weight: 500;
-}
-
 .logo-link {
-  font-size: 0.77em;
+  font-size: 1em;
   font-weight: 500;
 }
 
