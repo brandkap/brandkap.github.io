@@ -43,6 +43,17 @@ p {
   line-height: 30px;
   margin-top: 7px;
 }
+
+.none2 {
+  font-size: 1em;
+  color: #3b3b3b;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 7px;
+}
+.none2:hover {
+  text-decoration: underline;
+}
 .none {
   font-size: 1.4em;
   color: #3b3b3b;
