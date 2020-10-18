@@ -24,7 +24,7 @@
 }
 .about-me-bottom {
   margin-right: 120px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 p {
@@ -61,4 +61,35 @@ p {
   display: flex;
   margin-left: 50px;
   margin-top: 120px;
+}
+.link {
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.plink {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  padding: 8px 0;
+}
+
+.plink::after {
+  content: "";
+  border-bottom: solid 3px #07c269;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.35s;
+}
+.plink:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
 }

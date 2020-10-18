@@ -1,0 +1,38 @@
+a {
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-size: 21px;
+  font-weight: 500;
+  padding: 8px 0;
+}
+
+.underline {
+  &::after {
+    content: "";
+    border-bottom: solid 3px #07c269;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.35s;
+  }
+
+  &:hover {
+    &::after {
+      transform-origin: left;
+      transform: scaleX(1);
+    }
+  }
+
+  @keyframes underline {
+    from {
+      transform: scaleX(0);
+    }
+    to {
+      transform: scaleX(1);
+    }
+  }
+}
