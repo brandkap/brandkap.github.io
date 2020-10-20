@@ -93,3 +93,13 @@ p {
   transform-origin: left;
   transform: scaleX(1);
 }
+
+.plink2 {
+  border-bottom: #3b3b3b 0.1em solid;
+  text-decoration: none;
+}
+
+.plink2:hover {
+  border-bottom: #767676 0.1em solid;
+  color: #767676;
+}
