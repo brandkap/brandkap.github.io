@@ -281,3 +281,12 @@ li {
   color: #1a1a1a;
   font-weight: 500;
 }
+.name {
+  border-bottom: #3b3b3b 0.1em solid;
+  text-decoration: none;
+}
+
+.name:hover {
+  border-bottom: #767676 0.1em solid;
+  color: #767676;
+}
