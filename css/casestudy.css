@@ -290,3 +290,11 @@ li {
   border-bottom: #767676 0.1em solid;
   color: #767676;
 }
+
+.nameconkids {
+  text-decoration: underline;
+  color: #0279ac;
+}
+.nameconkids:hover {
+  color: #49aed9;
+}
