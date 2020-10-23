@@ -1,9 +1,6 @@
-a {
+a.casebutton {
   position: relative;
   display: inline-block;
-}
-
-a.casebutton {
   width: 20rem;
 }
 

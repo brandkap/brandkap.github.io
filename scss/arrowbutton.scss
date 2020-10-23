@@ -10,10 +10,9 @@ $black: #282936;
 }
 
 a {
-  position: relative;
-  display: inline-block;
-
   &.casebutton {
+    position: relative;
+    display: inline-block;
     width: 20rem;
     .circle {
       @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
