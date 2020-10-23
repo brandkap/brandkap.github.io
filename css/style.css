@@ -35,6 +35,9 @@ html {
 
   margin-left: 50px;
 }
+
+.home::after {
+}
 nav {
   display: flex;
   justify-content: space-between;

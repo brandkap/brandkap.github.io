@@ -67,6 +67,7 @@ p {
 .link {
   margin-bottom: 50px;
   font-weight: 600;
+  font-size: 1.8em;
 }
 .links {
   display: flex;
