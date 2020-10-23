@@ -226,6 +226,6 @@ padding-right: 100px; */
 
 .arrows {
   width: fit-content;
-  -moz-width: fit-content;
+  width: -moz-fit-content;
   margin: 0 auto;
 }
