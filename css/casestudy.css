@@ -329,9 +329,33 @@ li {
   margin-left: -33px;
 }
 .quote {
-  font-family: "Lora", serif;
   font-size: 60px;
   color: #737373;
   line-height: 20px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 480px) {
+  .project-section {
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .left-project-gif {
+    width: 100%;
+  }
+
+  .phone-gif {
+    text-align: center;
+    width: 60%;
+    height: auto;
+    margin-left: 100px;
+  }
+
+  .right-gif-desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
 }
