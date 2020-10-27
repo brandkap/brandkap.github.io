@@ -298,3 +298,40 @@ li {
 .nameconkids:hover {
   color: #49aed9;
 }
+
+.speech-bubble {
+  text-indent: 40px;
+
+  width: 85%;
+  position: relative;
+  background: #e1efee;
+  border-radius: 2.8em;
+  padding: 15px;
+  margin-left: 10%;
+}
+.quote-words {
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.speech-bubble:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 33px solid transparent;
+  border-right-color: #e1efee;
+  border-left: 0;
+  border-bottom: 0;
+  margin-top: -16.5px;
+  margin-left: -33px;
+}
+.quote {
+  font-family: "Lora", serif;
+  font-size: 60px;
+  color: #737373;
+  line-height: 20px;
+  font-weight: 700;
+}
