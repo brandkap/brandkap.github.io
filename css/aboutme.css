@@ -2,7 +2,8 @@
   text-align: center;
 }
 .pic {
-  width: 300px;
+  width: 220px;
+  border-radius: 100px;
 }
 
 .header {
@@ -23,7 +24,6 @@
   margin-top: 60px;
 }
 .about-me-bottom {
-  margin-right: 120px;
   margin-bottom: 100px;
 }
 
@@ -53,16 +53,16 @@ p {
   margin-bottom: 0px;
 }
 .right {
-  margin-left: 120px;
+  margin-top: 50px;
 }
 .about-me {
-  margin-right: 80px;
 }
 .section {
   display: flex;
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-top: 120px;
+  flex-direction: column;
+  margin-left: 300px;
+  margin-right: 290px;
+  margin-top: 50px;
 }
 .link {
   margin-bottom: 50px;
