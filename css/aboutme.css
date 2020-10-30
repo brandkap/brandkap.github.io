@@ -37,7 +37,6 @@ p {
 .things {
   display: flex;
   justify-content: space-between;
-  margin-right: 100px;
 }
 .subhead {
   font-size: 1.8rem;
