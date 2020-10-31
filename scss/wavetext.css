@@ -16,7 +16,7 @@ body {
 .wavetext span {
   display: inline-block;
   font-family: "Rubik", sans-serif;
-  font-size: 60px;
+  font-size: 70px;
   animation-duration: 0.3s;
   animation-name: wave;
   animation-iteration-count: 6;
