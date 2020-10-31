@@ -1,5 +1,6 @@
 .me {
   text-align: center;
+  margin-top: 80px;
 }
 .pic {
   width: 220px;
@@ -48,7 +49,7 @@ p {
   width: 200px;
 }
 .subpara {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin-bottom: 0px;
 }
 .right {
@@ -60,8 +61,9 @@ p {
   display: flex;
   flex-direction: column;
   margin-left: 300px;
-  margin-right: 290px;
-  margin-top: 50px;
+  margin-right: 300px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 .link {
   margin-bottom: 50px;
