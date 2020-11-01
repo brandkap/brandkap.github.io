@@ -24,7 +24,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2.6rem;
+  font-size: 2.6em;
   color: #1a1a1a;
   font-weight: 700;
   margin-top: 115px;
@@ -228,4 +228,10 @@ padding-right: 100px; */
   width: fit-content;
   width: -moz-fit-content;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+  .h3 {
+    font-size: 2.8rem;
+  }
 }

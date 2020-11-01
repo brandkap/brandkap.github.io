@@ -1,7 +1,6 @@
 <svg width="2433" height="952" viewBox="0 0 2433 952" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
 <rect width="2433" height="952" fill="#21B196"/>
-<g clip-path="url(#clip1)">
 <path d="M1810 -142.063H602.188V1070H1810V-142.063Z" fill="#21B196"/>
 <g filter="url(#filter0_d)">
 <path d="M996.017 -140.869L767.082 -141.544C751.756 -141.589 739.295 -129.158 739.25 -113.778L737.67 422.284C737.625 437.664 750.012 450.168 765.338 450.213L994.273 450.888C1009.6 450.934 1022.06 438.503 1022.11 423.123L1023.68 -112.939C1023.73 -128.319 1011.34 -140.823 996.017 -140.869Z" fill="#EFEFEF"/>
@@ -385,7 +384,6 @@
 <path d="M1253.22 243.227C1255.33 243.233 1257.05 241.524 1257.05 239.409C1257.06 237.294 1255.35 235.575 1253.25 235.569C1251.14 235.563 1249.43 237.272 1249.42 239.387C1249.41 241.501 1251.12 243.221 1253.22 243.227Z" fill="white"/>
 </g>
 </g>
-</g>
 <defs>
 <filter id="filter0_d" x="655.67" y="-186.544" width="420.015" height="726.432" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
@@ -447,9 +445,6 @@
 </linearGradient>
 <clipPath id="clip0">
 <rect width="2433" height="952" fill="white"/>
-</clipPath>
-<clipPath id="clip1">
-<rect width="1187" height="1187" fill="white" transform="translate(623 -117)"/>
 </clipPath>
 </defs>
 </svg>
