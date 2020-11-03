@@ -107,3 +107,15 @@ p {
   border-bottom: #767676 0.1em solid;
   color: #767676;
 }
+@media screen and (max-width: 480px) {
+  .things {
+    flex-direction: column;
+  }
+  .json {
+    width: auto;
+  }
+  .right {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}

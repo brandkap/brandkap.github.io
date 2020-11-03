@@ -79,3 +79,14 @@ p {
   margin-bottom: 60px;
   margin-right: 150px;
 }
+@media screen and (max-width: 480px) {
+  .row {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+
+  .the-lab {
+    margin-bottom: 0px;
+  }
+}

@@ -272,4 +272,9 @@ padding-right: 100px; */
   h3 {
     margin-top: 12px;
   }
+
+  .projects {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }
