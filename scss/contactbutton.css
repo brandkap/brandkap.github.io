@@ -1,3 +1,4 @@
+.c-button-foot,
 .c-button {
   color: #07c269;
   font-weight: 700;
@@ -61,4 +62,10 @@
 
 .c-button--gooey:hover .c-button__blobs div {
   transform: scale(1.4) translateY(0) translateZ(0);
+}
+
+@media screen and (max-width: 1000px) {
+  .c-button-footer {
+    width: 20%;
+  }
 }

@@ -1,5 +1,6 @@
 $color-bluish: #000;
 
+.c-button-foot,
 .c-button {
   color: #07c269;
   // background-color: #07C269;
@@ -60,5 +61,11 @@ $color-bluish: #000;
         transform: scale(1.4) translateY(0) translateZ(0);
       }
     }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .c-button-footer {
+    width: 20%;
   }
 }
