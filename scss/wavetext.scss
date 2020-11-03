@@ -26,8 +26,6 @@ $duration: 0.3;
 .wavetext span {
   display: inline-block;
   font-family: "Rubik", sans-serif;
-  font-size: 70px;
-
   animation-duration: #{$duration}s;
   animation-name: wave;
   animation-iteration-count: 6;
