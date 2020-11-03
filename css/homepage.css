@@ -237,6 +237,10 @@ padding-right: 100px; */
   .title {
     font-size: 1rem;
   }
+
+  .hero {
+    margin-right: 0px;
+  }
   .hero-info {
     padding-left: 30px;
   }
@@ -249,6 +253,6 @@ padding-right: 100px; */
     height: 20px;
   }
   .c-button-foot {
-    width: auto;
+    font-size: 1em;
   }
 }

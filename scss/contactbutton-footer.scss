@@ -8,7 +8,6 @@ $color-bluish: #000;
   text-decoration: none;
   padding: 0.7em 1.8em;
   cursor: pointer;
-  width: 20%;
 }
 
 .c-button--gooey {
@@ -63,4 +62,8 @@ $color-bluish: #000;
       }
     }
   }
+}
+
+@media screen and (max-width: 1000px) {
+  width: 20%;
 }
