@@ -237,11 +237,18 @@ padding-right: 100px; */
   .title {
     font-size: 1rem;
   }
-  .c-button--gooey {
-    font-size: 12px;
+  .hero-info {
+    padding-left: 30px;
   }
+  .c-button--gooey {
+    font-size: 1em;
+  }
+
   .iconimg {
     width: 20px;
     height: 20px;
+  }
+  .c-button-foot {
+    width: auto;
   }
 }
