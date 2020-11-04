@@ -232,10 +232,10 @@ padding-right: 100px; */
 
 @media screen and (max-width: 480px) {
   .wavetext {
-    font-size: 2rem;
+    font-size: 3.5rem;
   }
   .title {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .hero {
@@ -243,7 +243,15 @@ padding-right: 100px; */
     height: 65vh;
   }
   .hero-info {
-    padding-left: 30px;
+    padding-left: 0px;
+  }
+  .iconcolumn {
+    display: none;
+  }
+  .hero-info {
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
   }
   .c-button--gooey {
     font-size: 1em;

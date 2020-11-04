@@ -359,4 +359,24 @@ li {
     flex-direction: column;
     width: 100%;
   }
+
+  .extra-work {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .small-title {
+    font-size: 1.5rem;
+    color: #1a1a1a;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+
+  .small-info {
+    font-size: 1.4rem;
+    color: #3b3b3b;
+    font-weight: 400;
+    margin-top: 5px;
+  }
 }
