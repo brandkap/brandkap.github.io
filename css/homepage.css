@@ -172,6 +172,9 @@ p {
 .projects {
   /* background-color: #f5f6f7; */
   background-color: #fff;
+  max-width: 1500px;
+  margin: auto;
+  position: relative;
 }
 
 .project {
