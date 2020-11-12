@@ -197,11 +197,17 @@ footer {
   .pages {
     display: none;
   }
+
+  .home {
+    margin-left: 25px;
+  }
+
   .mobile-only {
     display: inherit;
   }
   #menu__toggle {
     opacity: 0;
+    margin-right: 25px;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
@@ -224,9 +230,8 @@ footer {
     display: flex;
     align-items: center;
     position: fixed;
-    top: 20px;
-    left: 20px;
-
+    top: 45px;
+    /* margin-right: 50px; */
     width: 26px;
     height: 26px;
 
