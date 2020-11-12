@@ -199,7 +199,7 @@ footer {
   }
 
   .home {
-    margin-left: 50px;
+    margin-left: 25px;
   }
 
   .mobile-only {
@@ -207,7 +207,7 @@ footer {
   }
   #menu__toggle {
     opacity: 0;
-    margin-right: 25px;
+    margin-right: 50px;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
