@@ -336,7 +336,7 @@ li {
   font-weight: 700;
 } */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 485px) {
   .project-section {
     flex-direction: column;
     margin-top: 100px;

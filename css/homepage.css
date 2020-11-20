@@ -233,7 +233,7 @@ padding-right: 100px; */
   margin: 0 auto;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 485px) {
   .wavetext {
     font-size: 3.5rem;
   }
