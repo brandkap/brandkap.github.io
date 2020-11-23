@@ -4,6 +4,7 @@
 }
 .pic {
   width: 220px;
+  filter: grayscale(100%);
 }
 
 .header {
