@@ -366,13 +366,14 @@ li {
   }
   .left-project-gif {
     width: 100%;
+    text-align: center;
   }
 
   .phone-gif {
     text-align: center;
     width: 60%;
     height: auto;
-    margin-left: 100px;
+    margin-left: 0px;
   }
 
   .right-gif-desc {
