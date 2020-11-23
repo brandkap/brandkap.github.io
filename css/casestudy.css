@@ -337,6 +337,10 @@ li {
 } */
 
 @media screen and (max-width: 485px) {
+  .timeline-bckrnd {
+    font-size: 1.8em;
+  }
+
   ol {
     font-size: 1.05em;
   }
