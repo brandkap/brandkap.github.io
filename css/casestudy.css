@@ -337,6 +337,21 @@ li {
 } */
 
 @media screen and (max-width: 485px) {
+  ol {
+    font-size: 1.05em;
+  }
+
+  ul {
+    font-size: 1.05em;
+  }
+  p {
+    font-size: 1.05em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
   .project-section {
     flex-direction: column;
     margin-top: 100px;
