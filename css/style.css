@@ -47,7 +47,7 @@ nav {
 .logo {
   width: 40px;
   height: auto;
-  margin-left: 75px;
+  margin-left: 50px;
 }
 
 nav .pages a {
@@ -194,7 +194,7 @@ footer {
 }
 
 .copyright {
-  font-size: 10px;
+  font-size: 12px;
 }
 .mobile-only {
   display: none;
