@@ -253,6 +253,13 @@ li {
   height: auto;
   width: 100%;
   border-radius: 8px;
+  transition: transform 0.5s;
+}
+
+.small-img:hover {
+  -ms-transform: scale(1.02); /* IE 9 */
+  -webkit-transform: scale(1.02); /* Safari 3-8 */
+  transform: scale(1.02);
 }
 
 .small-desc {
