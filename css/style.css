@@ -39,15 +39,15 @@ html {
 .home::after {
 }
 nav {
-  margin-right: 48px;
-  margin-left: 48px;
+  margin-right: 60px;
+  margin-left: 60px;
   display: flex;
   justify-content: space-between;
   margin-top: 48px;
 }
 
 .logo {
-  width: 40px;
+  width: 30px;
   height: auto;
 }
 
@@ -152,26 +152,27 @@ footer {
 .iconcolumn {
   display: flex;
   /* align-items: center; */
-  /* justify-content: center; */
+  justify-content: space-between;
   flex-direction: row;
+  margin-top: 3%;
+  width: 30%;
+  margin-left: 1px;
 }
 
 .icon {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  /* margin-left: 10px;
-  margin-right: 10px; */
-  width: 60px;
-  height: 60px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* position: relative; */
+  /* width: 60px; */
+  /* height: 60px; */
   transition: 0.2s;
   transition-timing-function: ease-out;
 }
 
 .icon:hover {
   transition: 0.2s;
-  transform: translate(-15px, 0px);
+  transform: translate(0px, 13px);
   transition-timing-function: ease-out;
 }
 
@@ -204,15 +205,21 @@ footer {
   .home {
     display: none;
   }
-  .logo {
+
+  nav {
+    margin-right: 15px;
     margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
   }
+
   .pages {
     display: none;
   }
 
   .home {
-    margin-left: 25px;
+    margin-left: 15px;
   }
 
   .mobile-only {
@@ -220,7 +227,6 @@ footer {
   }
   #menu__toggle {
     opacity: 0;
-    margin-right: 15px;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
@@ -244,10 +250,10 @@ footer {
     display: flex;
     align-items: center;
     position: fixed;
-    top: 45px;
+    top: 24px;
     /* margin-right: 50px; */
-    width: 26px;
-    height: 26px;
+    width: 23px;
+    height: 23px;
 
     cursor: pointer;
     z-index: 111;
@@ -264,7 +270,7 @@ footer {
 
     background-color: #616161;
 
-    transition-duration: 0.25s;
+    transition-duration: 0.2s;
   }
   .menu__btn > span::before {
     content: "";
@@ -289,7 +295,7 @@ footer {
     list-style: none;
     background-color: #fff;
     box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.2);
-    transition-duration: 0.25s;
+    transition-duration: 0.2s;
   }
 
   .menu__item {

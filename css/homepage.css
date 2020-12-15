@@ -50,7 +50,7 @@ p {
 }
 
 .hero-inner {
-  margin-left: 48px;
+  margin-left: 60px;
   flex-direction: column;
 }
 
@@ -232,21 +232,25 @@ padding-right: 100px; */
 
 @media screen and (max-width: 485px) {
   .wavetext {
-    font-size: 3.5rem;
+    font-size: 1.7rem;
   }
   .title {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 
   .hero {
     margin-right: 0px;
     height: 65vh;
   }
+
+  .hero-inner {
+    margin-left: 15px;
+  }
   .hero-info {
     padding-left: 0px;
   }
   .iconcolumn {
-    display: none;
+    width: 40%;
   }
   .hero-info {
     width: 100%;
@@ -258,8 +262,8 @@ padding-right: 100px; */
   }
 
   .iconimg {
-    width: 20px;
-    height: 20px;
+    width: 14px;
+    height: 14px;
   }
 
   .project {
