@@ -27,3 +27,12 @@ $arrow-size: 12px;
     opacity: 1;
   }
 }
+@media screen and (max-width: 485px) {
+  .scroll-arrow {
+    width: 7px;
+    height: 7px;
+
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}
