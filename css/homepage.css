@@ -232,10 +232,10 @@ padding-right: 100px; */
 
 @media screen and (max-width: 485px) {
   .wavetext {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .title {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 
   .hero {
@@ -288,12 +288,5 @@ padding-right: 100px; */
   .projects {
     margin-left: 25px;
     margin-right: 25px;
-  }
-  .scroll-arrow {
-    width: 7px;
-    height: 7px;
-
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
   }
 }
