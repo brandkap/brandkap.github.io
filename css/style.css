@@ -39,21 +39,22 @@ html {
 .home::after {
 }
 nav {
+  margin-right: 48px;
+  margin-left: 48px;
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 48px;
 }
 
 .logo {
   width: 40px;
   height: auto;
-  margin-left: 50px;
 }
 
 nav .pages a {
   font-size: 1.4rem;
-  margin-left: 10px;
-  margin-right: 75px;
+  margin-left: 75px;
+  color: #3b3b3b;
 }
 .underline {
   text-decoration: none;
@@ -151,8 +152,8 @@ footer {
 .iconcolumn {
   display: flex;
   /* align-items: center; */
-  justify-content: center;
-  flex-direction: column;
+  /* justify-content: center; */
+  flex-direction: row;
 }
 
 .icon {
@@ -160,8 +161,8 @@ footer {
   align-items: center;
   justify-content: center;
   position: relative;
-  margin-left: 10px;
-  margin-right: 10px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
   width: 60px;
   height: 60px;
   transition: 0.2s;
