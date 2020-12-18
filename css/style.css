@@ -137,11 +137,10 @@ footer {
   align-items: center;
 }
 
-.iconsvg {
-  width: 25px;
-  height: 25px;
+.iconimg {
+  /* width: 25px;
+  height: 25px; */
 }
-
 .iconrow {
   display: flex;
   /* align-items: center; */
@@ -203,7 +202,7 @@ footer {
 
   padding: 1rem;
 }
-.iconimg {
+.iconimg-footer {
   width: 14px;
   height: 14px;
 }
