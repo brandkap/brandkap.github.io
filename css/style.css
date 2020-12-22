@@ -174,7 +174,7 @@ footer {
 
 .icon:hover {
   transition: 0.1s;
-  transform: translate(0px, 10px);
+  transform: translate(0px, 7px);
   transition-timing-function: ease-out;
 }
 
@@ -219,14 +219,15 @@ footer {
   text-decoration: none;
   color: inherit;
   z-index: 1;
+  line-height: 4rem;
 }
 
 .email-footer::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 0.07em;
-  height: 0.1em;
+  bottom: -0.2em;
+  height: 0.2em;
   width: 100%;
   background: #22ff7e;
   z-index: -1;
@@ -235,7 +236,7 @@ footer {
 }
 
 .email-footer:hover::after {
-  height: 1em;
+  height: 1.5em;
 }
 
 .footer-head {
