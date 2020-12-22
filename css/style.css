@@ -136,8 +136,10 @@ footer {
   justify-content: space-evenly;
   align-items: center;
 }
-
 .iconimg {
+  margin-right: 1rem;
+}
+.iconimg-footer {
   margin-right: 1rem;
   width: 16px;
   height: 16px;
