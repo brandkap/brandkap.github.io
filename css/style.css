@@ -200,7 +200,7 @@ footer {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(14, 1fr);
-  grid-template-rows: repeat(14, 1fr);
+
   grid-gap: 1rem;
 
   padding: 1rem;
