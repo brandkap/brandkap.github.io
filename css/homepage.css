@@ -8,19 +8,18 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 36px;
   margin: 0;
+  font-weight: 100;
   margin-bottom: 10px;
   color: #1a1a1a;
 }
 
 h2 {
-  font-size: 2.4em;
-  font-weight: 400;
+  font-weight: 100;
   margin: 0;
-  margin-bottom: 45px;
+  margin-left: 8px;
   color: #3b3b3b;
-  font-style: italic;
 }
 
 h3 {
@@ -51,21 +50,19 @@ p {
 }
 
 .hero-inner {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  margin-left: 60px;
+  flex-direction: column;
 }
 
 .hero-info {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  padding-left: 50px;
+  flex-direction: row;
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 36px;
+  color: #a9a9a9;
 }
 
 /* .icon:hover {
@@ -235,7 +232,7 @@ padding-right: 100px; */
 
 @media screen and (max-width: 485px) {
   .wavetext {
-    font-size: 3.5rem;
+    font-size: 1.5rem;
   }
   .title {
     font-size: 1.5rem;
@@ -243,13 +240,17 @@ padding-right: 100px; */
 
   .hero {
     margin-right: 0px;
-    height: 65vh;
+    height: 75vh;
+  }
+
+  .hero-inner {
+    margin-left: 15px;
   }
   .hero-info {
     padding-left: 0px;
   }
   .iconcolumn {
-    display: none;
+    width: 40%;
   }
   .hero-info {
     width: 100%;
@@ -258,11 +259,6 @@ padding-right: 100px; */
   }
   .c-button--gooey {
     font-size: 1em;
-  }
-
-  .iconimg {
-    width: 20px;
-    height: 20px;
   }
 
   .project {
