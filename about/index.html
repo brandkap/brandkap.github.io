@@ -185,72 +185,93 @@
       </div>
     </div>
     <footer>
-      <p>Thanks for scrolling!</p>
-      <a
-        class="c-button-foot c-button--gooey"
-        href="mailto:brandkaplan@gmail.com"
-      >
-        Get in touch
-        <div class="c-button__blobs">
-          <div></div>
-          <div></div>
-          <div></div>
+      <div class="grid">
+        <div class="footer-column-0">
+          <p class="footer-head">
+            Get in touch
+          </p>
+          <p>
+            <a class="email-footer" href="mailto:brandkaplan@gmail.com">
+              brandkaplan@gmail.com</a
+            >
+          </p>
         </div>
-      </a>
+        <!-- <div>
+          <p class="copyright">© 2020 Brandon Kaplan</p>
+        </div> -->
 
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        version="1.1"
-        style="display: block; height: 0; width: 0;"
-      >
-        <defs>
-          <filter id="goo">
-            <feGaussianBlur
-              in="SourceGraphic"
-              stdDeviation="10"
-              result="blur"
-            ></feGaussianBlur>
-            <feColorMatrix
-              in="blur"
-              mode="matrix"
-              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
-              result="goo"
-            ></feColorMatrix>
-            <feBlend in="SourceGraphic" in2="goo"></feBlend>
-          </filter>
-        </defs>
-      </svg>
-
-      <div class="iconrow">
-        <a
-          class="icon-row"
-          target="_blank"
-          href="https://www.linkedin.com/in/brandonjkaplan/"
-        >
-          <img src="/icons/linkedin-black.svg" />
-        </a>
-
-        <a
-          class="icon-row"
-          target="_blank"
-          href="https://dribbble.com/brandonkap"
-        >
-          <img src="/icons/dribbble-black.svg" />
-        </a>
-
-        <a
-          class="icon-row"
-          target="_blank"
-          href="https://twitter.com/krandonbaplan"
-        >
-          <img src="/icons/twitter-black.svg" />
-        </a>
-
-        <a class="icon-row" target="_blank" href="/assets/resume.pdf">
-          <img src="/icons/cv-black.svg" />
-        </a>
+        <div class="footer-column">
+          <p class="footer-head">
+            Social
+          </p>
+          <ul class="footer-list">
+            <li>
+              <a
+                class="icon-text"
+                target="_blank"
+                href="https://www.linkedin.com/in/brandonjkaplan/"
+              >
+                <img
+                  class="iconimg-footer"
+                  src="/icons/md-linkedin-black.svg"
+                />
+                Linkedin
+              </a>
+            </li>
+            <li>
+              <a
+                class="icon-text"
+                target="_blank"
+                href="https://dribbble.com/brandonkap"
+              >
+                <img class="iconimg-footer" src="/icons/md-dribble-black.svg" />
+                Dribbble
+              </a>
+            </li>
+            <li>
+              <a
+                class="icon-text"
+                target="_blank"
+                href="https://twitter.com/krandonbaplan"
+              >
+                <img class="iconimg-footer" src="/icons/md-twitter-black.svg" />
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a class="icon-text" target="_blank" href="/assets/resume.pdf">
+                <img class="iconimg-footer" src="/icons/md-file-black.svg" />
+                Resume
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column-2">
+          <p class="footer-head">
+            Navigate
+          </p>
+          <ul class="footer-list">
+            <!-- <li class="icon-text">
+              Home
+            </li> -->
+            <a href="/#projects">
+              <li class="icon-text">
+                Projects
+              </li>
+            </a>
+            <a href="/about">
+              <li class="icon-text">
+                About
+              </li>
+            </a>
+            <a href="/the-lab">
+              <li class="icon-text">
+                The Lab
+              </li>
+            </a>
+          </ul>
+        </div>
       </div>
-      <p class="copyright">© 2020 Brandon Kaplan</p>
     </footer>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
