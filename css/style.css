@@ -280,7 +280,25 @@ footer {
 .mobile-only {
   display: none;
 }
+
+/* .mobile-only-footer {
+  display: none;
+} */
 @media screen and (max-width: 485px) {
+  /* .footer {
+    height: 550px;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-only-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  } */
+
   .home {
     display: none;
   }
