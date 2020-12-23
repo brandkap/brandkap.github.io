@@ -130,7 +130,7 @@ nav .pages a:hover:before {
 /* Footer */
 
 footer {
-  height: 300px;
+  height: 550px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -260,7 +260,6 @@ footer {
 
 .icon-text {
   font-size: 16px;
-  line-height: ;
 }
 .footer-column-2 {
   grid-column-start: 12;
@@ -303,7 +302,7 @@ footer {
   }
 
   footer {
-    height: 600px;
+    height: 500px;
   }
 
   .footer-head {
