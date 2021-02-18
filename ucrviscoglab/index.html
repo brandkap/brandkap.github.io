@@ -1,110 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,400i,700,700i,800,900&display=swap"
+      rel="stylesheet"
+    /> -->
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap"
       rel="stylesheet"
     />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="/ucrviscoglab/ucrviscoglab.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/casestudy.css" />
+    <link rel="stylesheet" href="/scss/contactbutton.css" />
 
-    <title>UC Riverside Visual Cognition Lab</title>
+    <title>Firehose | Brandon Kaplan</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img class="eye img-fluid" src="/images/ucreye.png" alt="" />
+    <nav>
+      <span>
+        <a href="/">
+          <img class="logo" src="/images/B&Wfavicon.png" />
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home
-                <span class="sr-only">(current)</span>
+      </span>
+      <span class="pages">
+        <a class="underline" href="/#projects">Projects</a>
+        <a class="underline" href="/about">About</a>
+        <a class="underline" href="/the-lab">The Lab</a>
+      </span>
+      <div class="hamburger-menu mobile-only">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+
+        <ul class="menu__box">
+          <li><a class="menu__item" href="/">Home</a></li>
+          <li><a class="menu__item" href="/#projects">Projects</a></li>
+          <li><a class="menu__item" href="/about">About</a></li>
+          <li><a class="menu__item" href="/the-lab">The Lab</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Firehose</h1>
+        <h2 class="hero-subtext">Creating a home for your favorite content.</h2>
+      </div>
+      <img class="hero-img" src="/images/firehosefullwidth.png" />
+    </div>
+
+    <div class="container">
+      <div class="project-intro">
+        <div class="project-brief">
+          <p class="timeline-bckrnd">
+            Firehose is a tool for saving things you discover on the internet to
+            view at a later time. This project is currently ongoing.
+          </p>
+          <div class="timeline">
+            <span>
+              <p class="timeline-head">Role</p>
+              <p>
+                UX Design<br />
+                Web Development
+              </p>
+            </span>
+
+            <span>
+              <p class="timeline-head">Tools</p>
+              <p>
+                Tailwind CSS <br />
+                HTML<br />
+                Figma
+              </p>
+            </span>
+            <span>
+              <p class="timeline-head">Team</p>
+              <p>
+                <a
+                  class="name"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/jeremy-kaplan-38a067148/"
+                >
+                  Jeremy Kaplan </a
+                ><br />
+                Myself
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="center-text">
+        <h2>
+          How Firehose works
+        </h2>
+        <p>
+          Blah
+        </p>
+      </div>
+      <img class="chart" src="/images/firehosefunnel.png" /> -->
+      <!-- /.container -->
+      <!-- <img class="chart" src="/images/imagetest1.png" /> -->
+
+      </div>
+    </div>
+
+    <div class="extra-work">
+      <h2 class="explore">Explore Other Work</h2>
+      <div class="more-work">
+        <div class="small-project">
+          <a href="/date-picker">
+            <img class="small-img" src="/images/squaredatepickerimg.png" />
+
+            <div class="small-desc">
+              <p class="small-title">DatePicker</p>
+              <p class="small-info">
+                Taking the time out of calendar management.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="small-project">
+          <a href="/connect-our-kids">
+            <img class="small-img" src="/images/squareconkids2.png" />
+
+            <div class="small-desc">
+              <p class="small-title">ConnectOurKids</p>
+              <p class="small-info">
+                Building mobile tools for social workers.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="small-project">
+          <a href="/the-lab">
+            <img class="small-img" src="/animations/sunset.gif" />
+
+            <div class="small-desc">
+              <p class="small-title">The Lab</p>
+              <p class="small-info">
+                Experimenting with pixels.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="grid">
+        <div class="footer-column-0">
+          <p class="footer-head">
+            Get in touch
+          </p>
+          <p>
+            <a class="email-footer" href="mailto:brandkaplan@gmail.com">
+              brandkaplan@gmail.com</a
+            >
+          </p>
+        </div>
+        <!-- <div>
+          <p class="copyright">© 2020 Brandon Kaplan</p>
+        </div> -->
+
+        <div class="footer-column">
+          <p class="footer-head">
+            Social
+          </p>
+          <ul class="footer-list">
+            <li>
+              <a
+                class="icon-text"
+                target="_blank"
+                href="https://www.linkedin.com/in/brandonjkaplan/"
+              >
+                <img
+                  class="iconimg-footer"
+                  src="/icons/md-linkedin-black.svg"
+                />
+                Linkedin
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+            <li>
+              <a
+                class="icon-text"
+                target="_blank"
+                href="https://dribbble.com/brandonkap"
+              >
+                <img class="iconimg-footer" src="/icons/md-dribble-black.svg" />
+                Dribbble
+              </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+            <li>
+              <a
+                class="icon-text"
+                target="_blank"
+                href="https://twitter.com/krandonbaplan"
+              >
+                <img class="iconimg-footer" src="/icons/md-twitter-black.svg" />
+                Twitter
+              </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+            <li>
+              <a class="icon-text" target="_blank" href="/assets/resume.pdf">
+                <img class="iconimg-footer" src="/icons/md-file-black.svg" />
+                Resume
+              </a>
             </li>
           </ul>
         </div>
+        <div class="footer-column-2">
+          <p class="footer-head">
+            Navigate
+          </p>
+          <ul class="footer-list">
+            <!-- <li class="icon-text">
+              Home
+            </li> -->
+            <a href="/#projects">
+              <li class="icon-text">
+                Projects
+              </li>
+            </a>
+            <a href="/about">
+              <li class="icon-text">
+                About
+              </li>
+            </a>
+            <a href="/the-lab">
+              <li class="icon-text">
+                The Lab
+              </li>
+            </a>
+          </ul>
+        </div>
       </div>
-    </nav>
-    <div class="container-md">
-      <h2 class="font-weight-bold">Research</h2>
-      <h3>
-        The visual cognition lab at the University of California, Riverside is
-        concerned with understanding the perceptual, attentional, and cognitive
-        limitations in the performance of complex perceptual tasks. This work
-        has three primary directions. One direction is concerned with examining
-        perceptual tasks associated with real-world applications, specifically
-        driving performance, with a particular focus on predicting and
-        preventing accident risk among older drivers. To address this issue we
-        have conducted experiments examining a wide range of perceptual tasks
-        (e.g., steering control, collision avoidance, visual search) using a
-        custom driving simulator coded from scratch in our lab.
-        <h3>
-          Our current research is examining the effectiveness of cognitive,
-          perceptual, and attentional measures as predictors for decreased
-          driving skill for the elderly. The second direction is concerned with
-          examining tasks associated with the perception of scenes. Our research
-          on this issue has included examining limitations in attention in
-          three-dimensional displays and the role of texture in the perception
-          of objects in scenes. The third direction examines possible
-          interventions to age-related perceptual declines. This work has
-          examined perceptual learning for low-level, as well as high-level
-          visual features. Our more recent work has examined age-related changes
-          in multimodal integration and will soon examine perceptual learning in
-          the context of multisensory integration.
-        </h3>
-      </h3>
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
+    </footer>
   </body>
 </html>
