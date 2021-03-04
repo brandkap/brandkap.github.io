@@ -335,6 +335,18 @@ li {
   margin-top: -16.5px;
   margin-left: -33px;
 }
+
+.full-width {
+  height: auto;
+  max-width: 100%;
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  position: relative;
+  right: 50%;
+  width: 100vw;
+}
 /* .quote {
   font-family: "Lora", serif;
   font-size: 60px;
