@@ -49,8 +49,9 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   # Repo files that don't need to be published
-  - README.md
+  - bin/
   - package.json
   - package-lock.json
+  - README.md
   - styles.scss
   - tailwind.config.js

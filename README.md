@@ -8,3 +8,5 @@
 4. Install Node modules with `npm install`
 5. Build the Tailwind CSS assets with `npm run build`
 6. Run the Jekyll server with `bundle exec jekyll serve`
+
+For convenience, run `bin/run` to watch for both Tailwind changes and Jekyll changes.
