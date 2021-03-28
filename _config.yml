@@ -21,12 +21,19 @@
 title: Brandon Kaplan
 email: brandkaplan@gmail.com
 description: Product Designer
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://designbk.com" # the base hostname & protocol for your site, e.g. http://example.com
+
 nav_pages:
   - work.md
   - about.md
   - contact.md
+
+project_pages:
+  - work/connect-our-kids.md
+  - work/visual-cognition-lab.md
+  - work/firehose.md
+  - work/date-picker.md
 
 # Build settings
 plugins:

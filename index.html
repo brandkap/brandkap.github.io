@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="flex justify-between mx-16">
+  <ul class="flex flex-col space-y-16">
+    {%- for path in site.project_pages -%}
+    {%- assign project_page = site.pages | where: "path", path | first -%}
+    <li class="flex space-x-12">
+      <span class="mt-2">{{ forloop.index | prepend: "00" | slice: -2, 2 }}</span>
+      <div>
+        <h2 class="text-5xl">{{ project_page.title | escape }}</h2>
+        <p class="text-2xl">{{ project_page.description | escape }}</p>
+      </div>
+    </li>
+    {%- endfor -%}
+  </ul>
+  <div class="bg-blue-400">
+    TODO: images
+  </div>
+</div>
