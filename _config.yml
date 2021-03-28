@@ -23,6 +23,10 @@ email: brandkaplan@gmail.com
 description: Product Designer
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://designbk.com" # the base hostname & protocol for your site, e.g. http://example.com
+nav_pages:
+  - work.md
+  - about.md
+  - contact.md
 
 # Build settings
 plugins:

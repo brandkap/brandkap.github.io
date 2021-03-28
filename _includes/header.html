@@ -1,3 +1,19 @@
-<header role="banner">
-  <button class="btn">Click plz</button>
+<header class="flex justify-between px-16 py-6" role="banner">
+  <div class="flex">
+    <a class="text-5xl" href="{{ "/" | relative_url }}">BK</a>
+    <div class="flex flex-col ml-4">
+      <span class="font-bold">{{ site.title }}</span>
+      <span>{{ site.description }}</span>
+    </div>
+  </div>
+
+  <nav class="space-x-16 flex items-center">
+    {%- for path in site.nav_pages -%}
+      {%- assign nav_page = site.pages | where: "path", path | first -%}
+      <a href="{{ nav_page.url | relative_url }}">{{ nav_page.title | downcase | escape }}</a>
+    {%- endfor -%}
+    {%- if site.nav_pages -%}
+      .
+    {%- endif -%}
+  </nav>
 </header>
