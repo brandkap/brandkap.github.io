@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -exuo pipefail
-
 REPO="$(dirname "$(dirname "$(realpath "${BASH_SOURCE[0]}")")")"
 
 find "${REPO}/styles.scss" \
