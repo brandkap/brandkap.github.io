@@ -2,5 +2,11 @@
 
 REPO="$(dirname "$(dirname "$(realpath "${BASH_SOURCE[0]}")")")"
 
-find "${REPO}/styles.scss" \
-    | entr npm run build
+# Build once before starting the watch loop
+npm run build
+
+until
+    fd '\.(html|md|scss)$' "${REPO}" --type f | entr -dp npm run build
+do
+    :
+done
