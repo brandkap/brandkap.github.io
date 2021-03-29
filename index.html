@@ -8,9 +8,13 @@ scripts:
   <ul class="flex flex-col space-y-16 flex-shrink-0 mr-8">
     {%- for path in site.project_pages -%}
     {%- assign project_page = site.pages | where: "path", path | first -%}
-      <li class="flex space-x-12">
-        <a href="{{ project_page.url | relative_url }}" class="font-normal tracklist-item" data-preview-id="preview-{{ project_page.title | slugify }}">
-          <span class="mt-2">{{ forloop.index | prepend: "00" | slice: -2, 2 }}</span>
+      <li>
+        <a
+          href="{{ project_page.url | relative_url }}"
+          class="font-normal tracklist-item flex space-x-12"
+          data-preview-id="preview-{{ project_page.title | slugify }}"
+          >
+          <span class="mt-8">{{ forloop.index | prepend: "00" | slice: -2, 2 }}</span>
           <div>
             <h2 class="text-5xl">{{ project_page.title | escape }}</h2>
             <p class="text-2xl">{{ project_page.description | escape }}</p>
