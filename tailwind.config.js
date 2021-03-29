@@ -1,9 +1,9 @@
+/* global module */
+
 module.exports = {
   purge: {
     enabled: true,
-    content: [
-      './**/*.html',
-    ],
+    content: ["./**/*.html", "./assets/**/*.js"],
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -13,4 +13,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};
