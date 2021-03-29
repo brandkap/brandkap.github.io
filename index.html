@@ -5,7 +5,7 @@ scripts:
 ---
 
 <div class="flex justify-between mx-16">
-  <ul class="flex flex-col space-y-16">
+  <ul class="flex flex-col space-y-16 flex-shrink-0 mr-8">
     {%- for path in site.project_pages -%}
     {%- assign project_page = site.pages | where: "path", path | first -%}
       <li class="flex space-x-12">
@@ -19,10 +19,15 @@ scripts:
       </li>
     {%- endfor -%}
   </ul>
-  <div>
+  <div class="flex-shrink">
     {%- for path in site.project_pages -%}
       {%- assign project_page = site.pages | where: "path", path | first -%}
-      <img src="{{ project_page.preview | escape }}" class="tracklist-preview hidden sticky top-0" id="preview-{{ project_page.title | slugify }}" />
+      <img
+        src="{{ project_page.preview | escape }}"
+        alt="{{ project_page.title }}"
+        id="preview-{{ project_page.title | slugify }}"
+        class="tracklist-preview hidden sticky top-4 max-w-full"
+        />
     {%- endfor -%}
   </div>
 </div>
