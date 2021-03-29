@@ -7,7 +7,11 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        "5/7": "5fr 7fr",
+      },
+    },
   },
   variants: {
     extend: {},
