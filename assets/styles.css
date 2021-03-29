@@ -569,17 +569,20 @@ video {
   margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.bg-blue-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(96, 165, 250, var(--tw-bg-opacity));
-}
-
 .flex {
   display: flex;
 }
 
 .table {
   display: table;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.hidden {
+  display: none;
 }
 
 .flex-col {
@@ -592,6 +595,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .font-bold {

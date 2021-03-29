@@ -8,16 +8,21 @@ scripts:
   <ul class="flex flex-col space-y-16">
     {%- for path in site.project_pages -%}
     {%- assign project_page = site.pages | where: "path", path | first -%}
-    <li class="flex space-x-12">
-      <span class="mt-2">{{ forloop.index | prepend: "00" | slice: -2, 2 }}</span>
-      <div>
-        <h2 class="text-5xl">{{ project_page.title | escape }}</h2>
-        <p class="text-2xl">{{ project_page.description | escape }}</p>
-      </div>
-    </li>
+      <li class="flex space-x-12">
+        <a href="{{ project_page.url | relative_url }}" class="font-normal tracklist-item" data-preview-id="preview-{{ project_page.title | slugify }}">
+          <span class="mt-2">{{ forloop.index | prepend: "00" | slice: -2, 2 }}</span>
+          <div>
+            <h2 class="text-5xl">{{ project_page.title | escape }}</h2>
+            <p class="text-2xl">{{ project_page.description | escape }}</p>
+          </div>
+        </a>
+      </li>
     {%- endfor -%}
   </ul>
-  <div class="bg-blue-400">
-    TODO: images
+  <div>
+    {%- for path in site.project_pages -%}
+      {%- assign project_page = site.pages | where: "path", path | first -%}
+      <img src="{{ project_page.preview | escape }}" class="tracklist-preview hidden sticky top-0" id="preview-{{ project_page.title | slugify }}" />
+    {%- endfor -%}
   </div>
 </div>
