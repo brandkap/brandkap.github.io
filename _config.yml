@@ -35,6 +35,16 @@ project_pages:
   - work/firehose.md
   - work/date-picker.md
 
+socials:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/brandonjkaplan
+  - name: Dribble
+    url: https://dribbble.com/brandonkap
+  - name: Twitter
+    url: https://twitter.com/krandonbaplan
+  - name: GitHub
+    url: https://github.com/brandkap
+
 # Build settings
 plugins:
   - jekyll-seo-tag
