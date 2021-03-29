@@ -16,4 +16,4 @@ I love to build things. Seeing something come alive from a sketch or simple idea
 
 ## Say hello!
 
-I am a team player and always looking to take on new challenges. I am currently open to opportunities, so if you’re interested in working together, please feel free to [email me]({% link contact.md %}).
+I am a team player and always looking to take on new challenges. I am currently open to opportunities, so if you’re interested in working together, please feel free to [email me]({% link contact.html %}).

@@ -27,7 +27,7 @@ url: "https://designbk.com" # the base hostname & protocol for your site, e.g. h
 nav_pages:
   - work.md
   - about.md
-  - contact.md
+  - contact.html
 
 project_pages:
   - work/connect-our-kids.md
