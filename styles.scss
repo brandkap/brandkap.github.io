@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
 main a {
   @apply font-bold;
+}
+
+h2 {
+  @apply text-2xl my-6;
+}
+
+p {
+  @apply my-4;
 }

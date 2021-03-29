@@ -39,6 +39,9 @@ project_pages:
 plugins:
   - jekyll-seo-tag
 
+kramdown:
+  auto_ids: false
+
 # Live-reload the site on changes when using `jekyll serve`
 livereload: true
 

@@ -1,5 +1,7 @@
 ---
 title: About
+layout: photo-right
+# TODO: specify photo
 ---
 
 ## I'm Brandon. Nice to meet you!
