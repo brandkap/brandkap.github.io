@@ -4,4 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+  {%- for src in page.scripts -%}
+  <script defer src="{{ src | escape }}"></script>
+  {%- endfor -%}
 </head>
