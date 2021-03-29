@@ -676,6 +676,10 @@ video {
   }
 }
 
+main a {
+  font-weight: 700;
+}
+
 @media (min-width: 640px) {
 }
 
