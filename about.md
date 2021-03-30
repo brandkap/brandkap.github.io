@@ -1,7 +1,9 @@
 ---
 title: About
 layout: photo-right
-# TODO: specify photo
+photo:
+  src: /assets/photo.png
+  alt: "A photo of me"
 ---
 
 ## I'm Brandon. Nice to meet you!
