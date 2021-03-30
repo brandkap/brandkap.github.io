@@ -622,6 +622,10 @@ video {
   margin-top: 2rem;
 }
 
+.max-h-full {
+  max-height: 100%;
+}
+
 .max-w-4xl {
   max-width: 56rem;
 }
@@ -659,6 +663,10 @@ video {
   --tw-ring-color: rgba(59, 130, 246, 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .gap-x-4 {

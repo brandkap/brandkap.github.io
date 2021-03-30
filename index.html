@@ -30,7 +30,7 @@ scripts:
         src="{{ project_page.preview | escape }}"
         alt="{{ project_page.title }}"
         id="preview-{{ project_page.title | slugify }}"
-        class="tracklist-preview hidden sticky top-4 max-w-full h-full"
+        class="tracklist-preview hidden sticky top-4 max-h-full w-full"
       >
     {%- endfor -%}
   </div>
