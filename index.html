@@ -16,8 +16,8 @@ scripts:
         >
           <span class="mt-8">{{ forloop.index | prepend: "00" | slice: -2, 2 }}</span>
           <div>
-            <p class="text-5xl my-6">{{ project_page.title | escape }}</p>
-            <p class="text-2xl">{{ project_page.description | escape }}</p>
+            <p class="text-5xl mt-6 mb-2">{{ project_page.title | escape }}</p>
+            <p class="text-2xl mt-0">{{ project_page.description | escape }}</p>
           </div>
         </a>
       </li>
