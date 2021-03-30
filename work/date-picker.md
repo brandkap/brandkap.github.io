@@ -1,7 +1,7 @@
 ---
 title: DatePicker
 description: Speeding up event planning for teachers.
-preview: /assets/date-picker.png
+preview: /assets/images/date-picker.png
 ---
 
 TODO: DatePicker

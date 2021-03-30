@@ -2,7 +2,7 @@
 title: About
 layout: photo-right
 photo:
-  src: /assets/photo.png
+  src: /assets/images/photo.png
   alt: "A photo of me"
 ---
 

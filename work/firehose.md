@@ -1,7 +1,7 @@
 ---
 title: Firehose
 description: Building mobile tools for social workers.
-preview: /assets/firehose.png
+preview: /assets/images/firehose.png
 ---
 
 TODO: Firehose
