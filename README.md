@@ -10,3 +10,10 @@
 6. Run the Jekyll server with `bundle exec jekyll serve`
 
 For convenience, run `bin/watch-tailwind` and `bin/watch-jekyll` to automatically rebuild everything when files change.
+
+## Notes
+
+To convert a PNG to an ICO:
+```
+$ magick assets/images/logo-dark.png -background none -resize 128x128 -density 128x128 favicon.ico
+```
