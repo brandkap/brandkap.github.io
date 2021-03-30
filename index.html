@@ -13,10 +13,10 @@ scripts:
           href="{{ project_page.url | relative_url }}"
           class="font-normal tracklist-item flex space-x-12"
           data-preview-id="preview-{{ project_page.title | slugify }}"
-          >
+        >
           <span class="mt-8">{{ forloop.index | prepend: "00" | slice: -2, 2 }}</span>
           <div>
-            <h2 class="text-5xl">{{ project_page.title | escape }}</h2>
+            <p class="text-5xl my-6">{{ project_page.title | escape }}</p>
             <p class="text-2xl">{{ project_page.description | escape }}</p>
           </div>
         </a>
@@ -31,7 +31,7 @@ scripts:
         alt="{{ project_page.title }}"
         id="preview-{{ project_page.title | slugify }}"
         class="tracklist-preview hidden sticky top-4 max-w-full h-full"
-        />
+      >
     {%- endfor -%}
   </div>
 </div>
