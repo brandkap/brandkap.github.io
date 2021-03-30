@@ -12,6 +12,9 @@ module.exports = {
         "5/7": "5fr 7fr",
         "1/5/1/5": "1fr 5fr 1fr 5fr",
       },
+      spacing: {
+        18: "4.5rem",
+      },
     },
   },
   variants: {

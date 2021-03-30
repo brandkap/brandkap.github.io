@@ -4,8 +4,8 @@ scripts:
   - /assets/tracklist.js
 ---
 
-<div class="grid grid-cols-5/7 grid-rows-1 gap-x-4 mx-16">
-  <ul class="flex flex-col space-y-16">
+<div class="grid grid-cols-5/7 grid-rows-1 gap-x-4 mx-18">
+  <ul class="flex flex-col space-y-18">
     {%- for path in site.project_pages -%}
     {%- assign project_page = site.pages | where: "path", path | first -%}
       <li>

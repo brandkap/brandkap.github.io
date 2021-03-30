@@ -523,16 +523,16 @@ video {
   margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-16 > :not([hidden]) ~ :not([hidden]) {
+.space-y-18 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(4rem * var(--tw-space-y-reverse));
+  margin-top: calc(4.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(4.5rem * var(--tw-space-y-reverse));
 }
 
-.space-x-16 > :not([hidden]) ~ :not([hidden]) {
+.space-x-18 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
-  margin-right: calc(4rem * var(--tw-space-x-reverse));
-  margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
+  margin-right: calc(4.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(4.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .flex {
@@ -604,9 +604,9 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mx-16 {
-  margin-left: 4rem;
-  margin-right: 4rem;
+.mx-18 {
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
 }
 
 .mx-auto {
@@ -635,9 +635,9 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
+.px-18 {
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
 }
 
 .sticky {
