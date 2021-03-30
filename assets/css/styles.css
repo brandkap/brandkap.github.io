@@ -563,6 +563,10 @@ video {
   align-items: center;
 }
 
+.self-center {
+  align-self: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -577,6 +581,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .h-full {
@@ -667,6 +675,10 @@ video {
   --tw-ring-color: rgba(59, 130, 246, 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .w-full {
