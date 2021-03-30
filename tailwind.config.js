@@ -9,6 +9,11 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
+    colors: {
+      black: "#0a0a0b",
+      white: "#fafafa",
+      gray: "#8a929e",
+    },
     extend: {
       fontFamily: {
         rubik: ["Rubik"].concat(defaultTheme.fontFamily.sans),
