@@ -22,4 +22,3 @@ document.addEventListener("DOMContentLoaded", function () {
     $elt.addEventListener("focus", showPreview);
   }
 });
-console.log("hello!");
