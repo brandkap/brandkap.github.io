@@ -2,7 +2,7 @@
   "name": "designbk",
   "version": "0.1.0",
   "scripts": {
-    "build": "tailwindcss build styles.scss -o assets/styles.css"
+    "build": "tailwindcss build styles.scss -o assets/css/styles.css"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
