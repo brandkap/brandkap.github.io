@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply font-rubik text-white bg-black;
+  @apply font-rubik text-gray bg-black;
 }
 
 h1,
@@ -12,17 +12,37 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-inter;
+  @apply text-white;
 }
 
-main a {
-  @apply font-bold;
+a {
+  @apply text-white hover:underline;
+}
+
+.no-link-hover a {
+  @apply hover:no-underline;
 }
 
 h2 {
-  @apply text-2xl my-6;
+  @apply font-bold text-2xl mb-2 mt-12;
 }
 
 p {
-  @apply my-4;
+  @apply mb-2;
+}
+
+.modal {
+  @apply hidden;
+}
+
+.modal.is-open {
+  @apply block;
+}
+
+.big-text h2 {
+  @apply text-3xl;
+}
+
+.big-text p {
+  @apply text-xl;
 }

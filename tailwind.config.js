@@ -21,7 +21,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         "5/7": "5fr 7fr",
-        "1/5/1/5": "1fr 5fr 1fr 5fr",
+        "1/5/1/4/1": "1fr 5fr 1fr 4fr 1fr",
       },
       spacing: {
         18: "4.5rem",

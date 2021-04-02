@@ -1,4 +1,4 @@
-<header class="flex justify-between px-18 py-6 font-inter" role="banner">
+<header class="flex justify-between px-18 py-6 font-inter text-white" role="banner">
   <div class="flex">
     <a href="{{ "/" | relative_url }}" class="text-5xl self-center">
       <img src="{{ '/assets/images/logo-light.png' | relative_url }}" class="h-8 w-8">
@@ -12,10 +12,7 @@
   <nav class="space-x-18 flex items-center">
     {%- for path in site.nav_pages -%}
       {%- assign nav_page = site.pages | where: "path", path | first -%}
-      <a href="{{ nav_page.url | relative_url }}">{{ nav_page.title | downcase | escape }}</a>
+      <a href="{{ nav_page.url | relative_url }}">{{ nav_page.title | escape }}</a>
     {%- endfor -%}
-    {%- if site.nav_pages -%}
-      .
-    {%- endif -%}
   </nav>
 </header>
