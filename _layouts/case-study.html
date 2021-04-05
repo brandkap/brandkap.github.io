@@ -1,0 +1,20 @@
+---
+layout: base
+---
+
+<main aria-label="Content">
+  <div class="grid grid-cols-12 auto-rows-auto gap-x-4 mx-18">
+    <h1 class="col-start-2 col-span-10 text-2xl">{{ page.title }}</h1>
+    <p class="col-start-2 col-span-10 text-6xl">{{ page.description }}</p>
+  </div>
+  <img
+    src="{{ page.preview | escape }}"
+    alt="{{ page.title }}"
+    class="w-full"
+  >
+  <div class="grid grid-cols-12 auto-rows-auto gap-x-4 mx-18">
+    <div class="col-start-4 col-span-6">
+      {{ content }}
+    </div>
+  </div>
+</main>
