@@ -46,3 +46,11 @@ p {
 .big-text p {
   @apply text-xl;
 }
+
+.fullpage {
+  @apply grid min-h-screen;
+
+  /* Header, Main, Footer */
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+}
