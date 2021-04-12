@@ -15,6 +15,9 @@ module.exports = {
       gray: "#8a929e",
     },
     extend: {
+      fontSize: {
+        "5.5xl": ["3.5rem", { line_height: "1" }],
+      },
       fontFamily: {
         rubik: ["Rubik"].concat(defaultTheme.fontFamily.sans),
         inter: ["Inter"].concat(defaultTheme.fontFamily.sans),
