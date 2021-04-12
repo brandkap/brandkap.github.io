@@ -647,8 +647,24 @@ video {
   margin-left: 1rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-30 {
+  margin-top: 7.5rem;
+}
+
+.mb-30 {
+  margin-bottom: 7.5rem;
 }
 
 .max-h-full {
@@ -875,13 +891,13 @@ p {
 }
 
 .case-study-content h2 {
-  grid-column: span 6 / span 6;
-  grid-column-start: 4;
+  grid-column: span 8 / span 8;
+  grid-column-start: 3;
 }
 
 .case-study-content p {
-  grid-column: span 6 / span 6;
-  grid-column-start: 4;
+  grid-column: span 8 / span 8;
+  grid-column-start: 3;
 }
 
 @media (min-width: 640px) {
