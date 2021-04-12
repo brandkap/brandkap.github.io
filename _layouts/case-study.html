@@ -8,13 +8,11 @@ layout: base
     <p class="col-start-2 col-span-10 text-6xl">{{ page.description }}</p>
   </div>
   <img
-    src="{{ page.preview | escape }}"
+    src="{{ page.hero | escape }}"
     alt="{{ page.title }}"
     class="w-full"
   >
-  <div class="grid grid-cols-12 auto-rows-auto gap-x-4 mx-18">
-    <div class="col-start-4 col-span-6">
-      {{ content }}
-    </div>
+  <div class="grid grid-cols-12 auto-rows-auto gap-x-4 mx-18 case-study-content">
+    {{ content }}
   </div>
 </main>

@@ -2,6 +2,7 @@
 title: ConnectOurKids
 description: Building mobile tools for social workers.
 preview: /assets/images/connect-our-kids.svg
+hero: /assets/images/connect-our-kids.svg
 layout: case-study
 ---
 
