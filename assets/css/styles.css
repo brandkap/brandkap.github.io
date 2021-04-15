@@ -748,8 +748,8 @@ video {
   grid-template-columns: 1fr 5fr 2fr 3fr 1fr;
 }
 
-.col-span-6 {
-  grid-column: span 6 / span 6;
+.col-span-8 {
+  grid-column: span 8 / span 8;
 }
 
 .col-span-10 {
@@ -760,8 +760,8 @@ video {
   grid-column-start: 2;
 }
 
-.col-start-4 {
-  grid-column-start: 4;
+.col-start-3 {
+  grid-column-start: 3;
 }
 
 .grid-rows-1 {
@@ -906,14 +906,9 @@ p {
   caption-side: bottom;
 }
 
-.case-study-content h2 {
-  grid-column: span 6 / span 6;
-  grid-column-start: 4;
-}
-
-.case-study-content p {
-  grid-column: span 6 / span 6;
-  grid-column-start: 4;
+.case-study-content h2, .case-study-content p {
+  grid-column: span 8 / span 8;
+  grid-column-start: 3;
 }
 
 @media (min-width: 640px) {

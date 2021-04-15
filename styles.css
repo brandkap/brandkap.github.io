@@ -59,10 +59,7 @@ p {
   caption-side: bottom;
 }
 
-.case-study-content h2 {
-  @apply col-start-4 col-span-6;
-}
-
+.case-study-content h2,
 .case-study-content p {
-  @apply col-start-4 col-span-6;
+  @apply col-start-3 col-span-8;
 }
