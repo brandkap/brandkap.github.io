@@ -1,16 +1,13 @@
 ---
+layout: case-study
 title: ConnectOurKids
 description: Building mobile tools for social workers.
 preview: /assets/images/connect-our-kids.svg
 hero: /assets/images/connect-our-kids.svg
-layout: case-study
+brief: |
+    ConnectOurKids is an organization that aims to connect foster children with a permanent home. Their organization provides free tools to social workers to help expedite their work. Our goal was to take the main tools and features of the ConnectOurKids website and convert them into a mobile app. We had weekly meetings with the CTO of ConnectOurKids.
+timeline: TODO
 ---
-
-TODO: ConnectOurKids
-
-**The brief**
-
-ConnectOurKids is an organization that aims to connect foster children with a permanent home. Their organization provides free tools to social workers to help expedite their work. Our goal was to take the main tools and features of the ConnectOurKids website and convert them into a mobile app. We had weekly meetings with the CTO of ConnectOurKids.
 
 [View launched app](https://apps.apple.com/us/app/connect-our-kids/id1471038972?mt=8)
 

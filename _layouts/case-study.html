@@ -10,9 +10,16 @@ layout: base
   <img
     src="{{ page.hero | escape }}"
     alt="{{ page.title }}"
-    class="w-full"
+    class="w-full mb-30"
   >
   <div class="grid grid-cols-12 auto-rows-auto gap-x-4 mx-18 case-study-content">
+    <div class="contents text-3xl font-medium leading-relaxed">
+      {{ page.brief | markdownify }}
+    </div>
+
+    <p class="text-white font-medium mt-8">Timeline</p>
+    <p class="font-medium">{{ page.timeline | markdownify }}</p>
+
     {{ content }}
   </div>
 </main>

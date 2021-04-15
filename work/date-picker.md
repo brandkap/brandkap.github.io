@@ -1,22 +1,13 @@
 ---
+layout: case-study
 title: DatePicker
 description: Speeding up event planning for teachers.
 preview: /assets/images/date-picker.svg
 hero: /assets/images/date-picker-case-study-hero.png
-layout: case-study
+brief: |
+    DatePicker is an event planner that serves as an extension to Google Calendar. Tools for customizable date selection and group collaboration aim to simplify the event planning process.
+timeline: Dec 2019 &ndash; Feb 2020
 ---
-
-<p class="text-3xl font-medium mt-30 mb-8">
-DatePicker is an event planner that serves as an extension to Google Calendar. Tools for customizable date selection and group collaboration aim to simplify the event planning process.
-</p>
-
-<p class="text-white font-medium">
-Timeline
-</p>
-
-<p class="font-medium">
-Dec 2019 &ndash; Feb 2020
-</p>
 
 ## Key flow for custom events
 
