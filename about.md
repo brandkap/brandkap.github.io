@@ -4,6 +4,11 @@ layout: photo-right
 photo:
   src: /assets/images/profile.jpg
   alt: "A photo of me"
+links: |
+  - [Resume](/assets/docs/resume.pdf)
+  - [LinkedIn](https://www.linkedin.com/in/brandonjkaplan/)
+  - [Twitter](https://twitter.com/krandonbaplan)
+  - [Dribbble](https://dribbble.com/brandonkap)
 ---
 
 ## I'm Brandon. Nice to meet you!

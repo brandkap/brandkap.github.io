@@ -14,6 +14,9 @@ layout: base
       alt="{{ page.photo.alt | escape }}"
       class="sticky top-4 max-h-full w-full"
     >
+    <div class="text-right">
+      {{ page.links | markdownify }}
+    </div>
   </div>
   <div></div>
 </main>
