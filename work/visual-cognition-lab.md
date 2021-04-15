@@ -16,16 +16,14 @@ timeline: "Sep 2020 &ndash; Nov 2020"
 Lorem todo.
 
 {% capture caption %}
-<p class="text-white font-bold mb-0">Scannable content</p>
-<p>
 To make the research section easier to read and more visually aligned the overall width was shrunk, text color was changed to fall within contrast guidelines, and paragraph headers were used to make the information more scannable.
-</p>
 {% endcapture %}
 {%
   include
   img-lg.html
   src="/assets/images/viscog-research-comparison.png"
   alt="Comparison of old and updated designs"
+  title="Scannable content"
   caption=caption
 %}
 
