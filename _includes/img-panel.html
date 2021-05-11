@@ -1,0 +1,14 @@
+<figure class="contents">
+  <a href="{{ include.src | escape | relative_url }}" class="col-start-2 col-span-10 mt-8 bg-white grid grid-cols-10">
+    <div class="col-start-4 col-span-4 mt-16">
+      <img src="{{ include.src | escape }}" alt="{{ include.alt | escape }}" class="w-full h-auto" />
+    </div>
+  </a>
+  {% if include.caption %}
+    <figcaption class="col-start-3 col-span-8 mt-4">
+      <p class="text-white font-bold mb-0">{{ include.title }}</p>
+      {{ include.caption | markdownify }}
+    </figcaption>
+  {% endif %}
+</figure>
+<div class="col-span-12 mb-18"></div>

@@ -59,7 +59,12 @@ p {
   caption-side: bottom;
 }
 
-.case-study-content h2,
-.case-study-content p {
+.case-study-content > h2,
+.case-study-content > p,
+.case-study-content > ul {
   @apply col-start-3 col-span-8;
+}
+
+.case-study-content ul {
+  @apply list-disc list-inside ml-2;
 }

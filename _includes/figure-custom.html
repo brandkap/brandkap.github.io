@@ -1,0 +1,15 @@
+<figure>
+  <a href="{{ include.src | escape | relative_url }}">
+    <img
+     src="{{ include.src | escape }}"
+     alt="{{ include.alt | escape }}"
+     class="{{ include.classes | escape }}"
+    />
+  </a>
+  <figcaption>
+    {% if include.title %}
+      <p class="text-white font-bold mb-0">{{ include.title }}</p>
+    {% endif %}
+    {{ include.caption | markdownify }}
+  </figcaption>
+</figure>

@@ -559,6 +559,10 @@ video {
   border-width: 1px;
 }
 
+.border-l-2 {
+  border-left-width: 2px;
+}
+
 .flex {
   display: flex;
 }
@@ -670,9 +674,19 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mx-18 {
   margin-left: 4.5rem;
   margin-right: 4.5rem;
+}
+
+.my-32 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 .mx-auto {
@@ -712,6 +726,10 @@ video {
   margin-top: 3rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .mb-18 {
   margin-bottom: 4.5rem;
 }
@@ -746,9 +764,27 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .px-18 {
   padding-left: 4.5rem;
   padding-right: 4.5rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .sticky {
@@ -794,12 +830,25 @@ video {
        column-gap: 1rem;
 }
 
+.gap-x-18 {
+  -moz-column-gap: 4.5rem;
+       column-gap: 4.5rem;
+}
+
 .gap-y-8 {
   row-gap: 2rem;
 }
 
+.gap-y-20 {
+  row-gap: 5rem;
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-10 {
+  grid-template-columns: repeat(10, minmax(0, 1fr));
 }
 
 .grid-cols-12 {
@@ -812,6 +861,14 @@ video {
 
 .grid-cols-about {
   grid-template-columns: 1fr 5fr 2fr 3fr 1fr;
+}
+
+.col-span-4 {
+  grid-column: span 4 / span 4;
+}
+
+.col-span-6 {
+  grid-column: span 6 / span 6;
 }
 
 .col-span-8 {
@@ -834,12 +891,40 @@ video {
   grid-column-start: 3;
 }
 
+.col-start-4 {
+  grid-column-start: 4;
+}
+
 .grid-rows-1 {
   grid-template-rows: repeat(1, minmax(0, 1fr));
 }
 
+.grid-rows-6 {
+  grid-template-rows: repeat(6, minmax(0, 1fr));
+}
+
 .auto-rows-auto {
   grid-auto-rows: auto;
+}
+
+.row-span-3 {
+  grid-row: span 3 / span 3;
+}
+
+.row-span-4 {
+  grid-row: span 4 / span 4;
+}
+
+.row-start-1 {
+  grid-row-start: 1;
+}
+
+.row-start-2 {
+  grid-row-start: 2;
+}
+
+.row-start-4 {
+  grid-row-start: 4;
 }
 
 @-webkit-keyframes spin {
@@ -976,9 +1061,15 @@ p {
   caption-side: bottom;
 }
 
-.case-study-content h2, .case-study-content p {
+.case-study-content > h2, .case-study-content > p, .case-study-content > ul {
   grid-column: span 8 / span 8;
   grid-column-start: 3;
+}
+
+.case-study-content ul {
+  list-style-position: inside;
+  list-style-type: disc;
+  margin-left: 0.5rem;
 }
 
 @media (min-width: 640px) {
