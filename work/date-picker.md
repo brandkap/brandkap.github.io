@@ -105,7 +105,7 @@ For the next team that worked on this project I wanted to leave a logo in the pr
 {%
   include
   img-lg.html
-  src="/assets/images/date-picker-icon-remix.svg"
+  src="/assets/images/date-picker-icon-remix.png"
   alt="The new DatePicker logo"
 %}
 
@@ -113,7 +113,12 @@ For the next team that worked on this project I wanted to leave a logo in the pr
 
 Previously the site was only optimizaed for desktop. Making the site easy to use on mobile was crucial especially for the directions section. Accessing directions to the lab while in the car is a key situation that the previous designs did not cater too.
 
-<!-- TODO: different mockup -->
+{%
+  include
+  img-lg.html
+  src="/assets/images/date-picker-final-mockup.png"
+  alt="TODO"
+%}
 
 ## Learnings & Insights
 
