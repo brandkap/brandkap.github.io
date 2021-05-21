@@ -17,9 +17,19 @@ layout: base
       {{ page.brief | markdownify }}
     </div>
 
-    <p class="text-white font-medium mt-8">Timeline</p>
-    <p class="font-medium">{{ page.timeline | markdownify }}</p>
+    <div class="col-start-3 col-span-8 flex flex-col md:flex-row gap-x-18">
+      <div>
+        <p class="text-white font-medium mt-8">Timeline</p>
+        <p class="font-medium">{{ page.timeline | markdownify }}</p>
+      </div>
 
+      {% if page.website %}
+      <div>
+        <p class="text-white font-medium mt-8">Website</p>
+        <p class="font-medium"><a href="{{ page.website.href }}">{{ page.website.text | escape }}</a></p>
+      </div>
+    {% endif %}
+    </div>
     {{ content }}
   </div>
 </main>

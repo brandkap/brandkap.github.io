@@ -60,8 +60,6 @@ I began this project with surveys, interviews, and market research to clearly de
 
 I ran final usability testing with a high fidelity prototype amongst 7 participants that included teachers and coaches. Based on feedback and observations made from this testing I created a few interactions to incorporate into the final designs that have the potential to make DatePicker easier and faster to use.
 
-{% capture caption1 %}
-{% endcapture %}
 <div class="col-start-2 col-span-10 grid grid-cols-2 grid-rows-6 gap-x-18 gap-y-20 my-32">
   <div class="row-start-2 row-span-4">
     {%

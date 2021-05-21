@@ -1,0 +1,7 @@
+<figure class="flex flex-col items-start">
+  <img src="{{ include.src | escape }}" alt="{{ include.alt | escape }}" />
+  <figcaption class="mt-8">
+    <p class="text-white font-bold mb-0">{{ include.title }}</p>
+    {{ include.caption | markdownify }}
+  </figcaption>
+</figure>
