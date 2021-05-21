@@ -2,8 +2,8 @@
 layout: case-study
 title: DatePicker
 description: Speeding up event planning.
-preview: /assets/images/date-picker.png
-hero: /assets/images/date-picker-case-study-hero.png
+preview: /assets/images/date-picker/preview.png
+hero: /assets/images/date-picker/hero.png
 brief: |
     DatePicker is an event planner that serves as an extension to Google Calendar. Tools for customizable date selection and group collaboration aim to simplify the event planning process.
 timeline: Dec 2019 &ndash; Feb 2020
@@ -16,7 +16,7 @@ In the image below, we can see that when creating a custom reccuring event in Go
 {%
   include
   img-lg.html
-  src="/assets/images/gcal-recurring.png"
+  src="/assets/images/date-picker/gcal-recurring.png"
   alt="Google Calendar's recurring event workflow"
 %}
 
@@ -43,14 +43,14 @@ I began this project with surveys, interviews, and market research to clearly de
 {%
   include
   img-lg.html
-  src="/assets/images/date-picker-flow.png"
+  src="/assets/images/date-picker/flow.png"
   alt="The DatePicker workflow for creating a new event"
 %}
 
 {%
   include
   img-panel.html
-  src="/assets/images/date-picker-selector.gif"
+  src="/assets/images/date-picker/selector.gif"
   alt="An animation showing individual date selections in the DatePicker calendar view"
   title="Aperiodic date selection"
   caption="A click and pick date selector solves the main paint point of not being able to schedule aperiodic events."
@@ -66,7 +66,7 @@ I ran final usability testing with a high fidelity prototype amongst 7 participa
       include
       figure-custom.html
       classes="bg-white py-16 px-16 mb-2"
-      src="/assets/images/date-picker-micro-animation.gif"
+      src="/assets/images/date-picker/micro-animation.gif"
       alt="An animation showing the save notification without hiding the calendar"
       title="Providing system feedback"
       caption="This animation of the event sliding in from below indicates that an event has successfully been added without the need for a confirmation modal."
@@ -77,7 +77,7 @@ I ran final usability testing with a high fidelity prototype amongst 7 participa
       include
       figure-custom.html
       classes="bg-white pt-16 px-16 mb-2"
-      src="/assets/images/date-picker-tutorial.gif"
+      src="/assets/images/date-picker/tutorial.gif"
       alt="An animation showing the tutorial prompt without hiding the calendar"
       title="Date selection tutorial"
       caption="The process for selecting dates in DatePicker may be unfamiliar to some users who exclusively use Google Calendar. This tutorial provides a quick demonstration on how to select dates."
@@ -88,7 +88,7 @@ I ran final usability testing with a high fidelity prototype amongst 7 participa
       include
       figure-custom.html
       classes="bg-white pt-16 px-16 mb-2"
-      src="/assets/images/date-picker-drag.gif"
+      src="/assets/images/date-picker/drag.gif"
       alt="An animation showing tap-and-drag selection on the calendar"
       title="Drag selection"
       caption="The click and pick date selector works just fine, but adding a drag selector alongside it can allow for even faster and smoother date selection."
@@ -103,7 +103,7 @@ For the next team that worked on this project I wanted to leave a logo in the pr
 {%
   include
   img-lg.html
-  src="/assets/images/date-picker-icon-remix.png"
+  src="/assets/images/date-picker/icon-remix.png"
   alt="The new DatePicker logo"
 %}
 
@@ -114,7 +114,7 @@ Previously the site was only optimizaed for desktop. Making the site easy to use
 {%
   include
   img-lg.html
-  src="/assets/images/date-picker-final-mockup.png"
+  src="/assets/images/date-picker/final-mockup.png"
   alt="TODO"
 %}
 

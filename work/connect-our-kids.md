@@ -2,8 +2,8 @@
 layout: case-study
 title: ConnectOurKids
 description: Building mobile tools for social workers.
-preview: /assets/images/connect-our-kids.png
-hero: /assets/images/connect-our-kids.png
+preview: /assets/images/connect-our-kids/hero.png
+hero: /assets/images/connect-our-kids/hero.png
 brief: |
     ConnectOurKids is an organization that aims to connect foster children with a permanent home. Their organization provides free tools to social workers to help expedite their work.
 
@@ -52,7 +52,7 @@ The desktop tools were reviewed in depth to make sure we transferred all necessa
 {%
   include
   img-lg.html
-  src="/assets/images/connect-our-kids-people-search.png"
+  src="/assets/images/connect-our-kids/people-search.png"
   alt="TODO"
   title="People search"
   caption="People Search is the way social workers find extended family of foster children. Potential candidates for a permanent home can be located through here"
@@ -61,7 +61,7 @@ The desktop tools were reviewed in depth to make sure we transferred all necessa
 {%
   include
   img-lg.html
-  src="/assets/images/connect-our-kids-family-connections.png"
+  src="/assets/images/connect-our-kids/family-connections.png"
   alt="TODO"
   title="Family Connections"
   caption="A family connection is anybody who is related to a foster child that has the potential to be a permanent guardian. The Family Connections tab contains the files and any other associated information for a foster child . Social workers can log past engagements, upload documents, and edit contact details here."
@@ -79,7 +79,7 @@ Our interface choices were based on the design elements already present on the w
 {%
   include
   img-lg.html
-  src="/assets/images/connect-our-kids-design-system.png"
+  src="/assets/images/connect-our-kids/design-system.png"
   alt="TODO"
 %}
 
@@ -93,7 +93,7 @@ Taking into account all notes made from the website review and the updated desig
       include
       figure-custom.html
       classes="bg-white py-16 px-16 mb-2"
-      src="/assets/images/connect-our-kids-people-search.gif"
+      src="/assets/images/connect-our-kids/people-search.gif"
       alt="TODO"
       title="People Search"
       caption="Search results are displayed in a pop up allowing for a quick return back to the search home. The tutorial button was redesigned to have better visibility."
@@ -104,7 +104,7 @@ Taking into account all notes made from the website review and the updated desig
       include
       figure-custom.html
       classes="bg-white py-16 px-16 mb-2"
-      src="/assets/images/connect-our-kids-edit-family-connections.gif"
+      src="/assets/images/connect-our-kids/edit-family-connections.gif"
       alt="TODO"
       title="Editing Family Connections"
       caption="The Family Connections section contains all information related to contacts for a foster child. The information in the editing screen was divided into sections to make finding particular information faster."
@@ -115,7 +115,7 @@ Taking into account all notes made from the website review and the updated desig
       include
       figure-custom.html
       classes="bg-white py-16 px-16 mb-2"
-      src="/assets/images/connect-our-kids-organizing-family-connections.gif"
+      src="/assets/images/connect-our-kids/organizing-family-connections.gif"
       alt="TODO"
       title="Organizing Family Connections"
       caption="This is a new feature we designed exclusively for the mobile app. A color filtering system was put in place to make identifying different types of family candidates easier."
@@ -166,13 +166,13 @@ Updating the desktop tools will create a more consistent experience between desk
 {%
   include
   img-full.html
-  src="/assets/images/connect-our-kids-final-screens.png"
+  src="/assets/images/connect-our-kids/final-screens.png"
   alt="TODO"
 %}
 
 {%
   include
   img-full.html
-  src="/assets/images/connect-our-kids-app-store.png"
+  src="/assets/images/connect-our-kids/app-store.png"
   alt="TODO"
 %}

@@ -2,8 +2,8 @@
 layout: case-study
 title: Visual Cognition Lab
 description: Improving usability of my lab's website.
-preview: /assets/images/viscog-mockups.png
-hero: /assets/images/viscog-hero.png
+preview: /assets/images/viscog/mockups.png
+hero: /assets/images/viscog/hero.png
 brief: |
     While a student at UC Riverside I worked as a Research Assistant in the Visual Cognition Lab. While working there I noticed that our website could use some updating to provide a better experience for the lab's participants.
 
@@ -31,7 +31,7 @@ All pages of the old site were reviewed to see what content needed to be kept, r
 {%
   include
   img-lg.html
-  src="/assets/images/viscog-old-designs.gif"
+  src="/assets/images/viscog/old-designs.gif"
   alt="An animation showing each page of the old design"
 %}
 
@@ -45,7 +45,7 @@ Based on information gathered from interviewing, the hero section was designed t
 {%
   include
   img-lg.html
-  src="/assets/images/viscog-home.png"
+  src="/assets/images/viscog/home.png"
   alt="TODO"
   title="Relevant home page"
   caption=caption
@@ -57,7 +57,7 @@ Previously the home page was cluttered with information. These cards display wha
 {%
   include
   img-lg.html
-  src="/assets/images/viscog-cards.png"
+  src="/assets/images/viscog/cards.png"
   alt="TODO"
   title="Easier navigation"
   caption=caption
@@ -69,7 +69,7 @@ Updating the People section to include all of the new graduate students and rese
 {%
   include
   img-lg.html
-  src="/assets/images/viscog-team.png"
+  src="/assets/images/viscog/team.png"
   alt="TODO"
   title="New team members"
   caption=caption
@@ -81,7 +81,7 @@ To make the research section easier to read and more visually aligned the overal
 {%
   include
   img-lg.html
-  src="/assets/images/viscog-research.png"
+  src="/assets/images/viscog/research.png"
   alt="TODO"
   title="Scannable content"
   caption=caption
@@ -93,7 +93,7 @@ Going to the Direction section used to rereoute you to a different URL with a to
 {%
   include
   img-lg.html
-  src="/assets/images/viscog-directions.png"
+  src="/assets/images/viscog/directions.png"
   alt="TODO"
   title="Consistent interfaces"
   caption=caption
@@ -106,7 +106,7 @@ Establishing a visual identity for the lab with consistency throughout all pages
 {%
   include
   img-lg.html
-  src="/assets/images/viscog-color-palette.png"
+  src="/assets/images/viscog/color-palette.png"
   alt="TODO"
 %}
 
@@ -117,14 +117,14 @@ Previously the site was only optimizaed for desktop. Making the site easy to use
 {%
   include
   img-lg.html
-  src="/assets/images/viscog-mobile-mocks.png"
+  src="/assets/images/viscog/mobile-mocks.png"
   alt="TODO"
 %}
 
 {%
   include
   img-lg.html
-  src="/assets/images/viscog-homepage.png"
+  src="/assets/images/viscog/homepage.png"
   alt="TODO"
 %}
 
