@@ -68,3 +68,7 @@ p {
 .case-study-content ul {
   @apply list-disc list-inside ml-2;
 }
+
+#navbar {
+  transition: top 0.3s;
+}
