@@ -9,6 +9,7 @@ brief: |
 
     My goals were to make information more accessible, provide an accurate representation of the current state of the lab, and give the lab a new brand identity.
 timeline: "Dec 2019 &ndash; Feb 2020"
+next_project: work/date-picker.md
 ---
 
 ## More than aesthetics

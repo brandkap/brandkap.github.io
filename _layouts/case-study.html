@@ -30,6 +30,15 @@ layout: base
       </div>
     {% endif %}
     </div>
+
     {{ content }}
+
+    <div class="col-span-12 text-center font-bold my-32">
+      {%- assign next_project = site.pages | where: "path", page.next_project | first -%}
+      <a href="{{ next_project.url }}" class="hover:no-underline">
+        <p class="text-gray text-2xl">Next Project</p>
+        <p class="text-white text-5xl">{{ next_project.title | escape }}</p>
+      </a>
+    </div>
   </div>
 </main>

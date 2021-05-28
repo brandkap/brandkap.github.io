@@ -12,6 +12,7 @@ timeline: "Dec 2019 &ndash; Feb 2020"
 website:
   text: connectourkids.org
   href: https://connectourkids.org
+next_project: work/visual-cognition-lab.md
 ---
 
 ## How do social workers use ConnectOurKids?

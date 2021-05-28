@@ -7,6 +7,7 @@ hero: /assets/images/date-picker/hero.png
 brief: |
     DatePicker is an event planner that serves as an extension to Google Calendar. Tools for customizable date selection and group collaboration aim to simplify the event planning process.
 timeline: Dec 2019 &ndash; Feb 2020
+next_project: work/connect-our-kids.md
 ---
 
 ## Where does Google Calendar go wrong?
