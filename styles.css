@@ -32,7 +32,7 @@ p {
 }
 
 .modal {
-  @apply hidden;
+  @apply hidden fixed h-screen w-screen;
 }
 
 .modal.is-open {
