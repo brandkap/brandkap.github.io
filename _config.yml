@@ -31,10 +31,10 @@ nav_pages:
   - contact.html
 
 project_pages:
-  - work/connect-our-kids.md
   - work/visual-cognition-lab.md
-  - work/firehose.md
   - work/date-picker.md
+  - work/connect-our-kids.md
+  - work/firehose.md
 
 socials:
   - name: LinkedIn
