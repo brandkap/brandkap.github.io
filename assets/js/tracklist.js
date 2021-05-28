@@ -14,7 +14,6 @@ function showPreview(event) {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  console.log("content loaded");
   var $items = document.getElementsByClassName("tracklist-item");
   for (var i = 0; i < $items.length; i++) {
     var $elt = $items[i];
