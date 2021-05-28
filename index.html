@@ -30,7 +30,7 @@ nav_title: Work
         {%- assign project_page = site.pages | where: "path", path | first -%}
         <img
           src="{{ project_page.preview | escape }}"
-          alt="{{ project_page.title }}"
+          alt="{{ project_page.title | escape }}"
           id="preview-{{ project_page.title | slugify }}"
           class="tracklist-preview hidden sticky top-4 max-h-full w-full"
         >
