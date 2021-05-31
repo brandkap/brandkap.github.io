@@ -25,17 +25,17 @@ In the image below, we can see that when creating a custom reccuring event in Go
 
 I began this project with surveys, interviews, and market research to clearly define pain points and what role DatePicker will play in the event planning market. Surveys were given to 32 teachers and coaches which provided data as to what products teachers currently use as their main calendar and how they use these calendars.
 
-From the research I concluded that
-* Majority of teachers from our sample exclusively use Google Calendars
-* DatePicker will not be built to replace Google Calendar, but to complement it
-* There is no available solution on the market for this specific problem space
-
 {% capture quote %}
 I need a way to schedule my basketball practices with custom reoccurences. On my current calendar I can't customize it the way I need to.
 
 **-Craig, basketball coach and teacher**
 {% endcapture %}
 {% include pull-quote.html quote=quote %}
+
+From the research I concluded that
+* Majority of teachers from our sample exclusively use Google Calendars
+* DatePicker will not be built to replace Google Calendar, but to complement it
+* There is no available solution on the market for this specific problem space
 
 ## Allowing custom event planning
 
@@ -61,8 +61,8 @@ I began this project with surveys, interviews, and market research to clearly de
 
 I ran final usability testing with a high fidelity prototype amongst 7 participants that included teachers and coaches. Based on feedback and observations made from this testing I created a few interactions to incorporate into the final designs that have the potential to make DatePicker easier and faster to use.
 
-<div class="col-start-2 col-span-10 grid grid-cols-2 grid-rows-6 gap-x-18 gap-y-20 my-32">
-  <div class="row-start-2 row-span-4">
+<div class="md:col-start-2 md:col-span-10 grid grid-cols-1 md:grid-cols-2 grid-auto-rows-auto md:grid-rows-6 gap-x-18 md:gap-y-20 mt-32 md:mb-32">
+  <div class="md:row-start-2 md:row-span-4">
     {%
       include
       figure-custom.html
@@ -73,7 +73,7 @@ I ran final usability testing with a high fidelity prototype amongst 7 participa
       caption="This animation of the event sliding in from below indicates that an event has successfully been added without the need for a confirmation modal."
     %}
   </div>
-  <div class="row-start-1 row-span-3">
+  <div class="md:row-start-1 md:row-span-3">
     {%
       include
       figure-custom.html
@@ -84,7 +84,7 @@ I ran final usability testing with a high fidelity prototype amongst 7 participa
       caption="The process for selecting dates in DatePicker may be unfamiliar to some users who exclusively use Google Calendar. This tutorial provides a quick demonstration on how to select dates."
     %}
   </div>
-  <div class="row-start-4 row-span-3">
+  <div class="md:row-start-4 md:row-span-3">
     {%
       include
       figure-custom.html

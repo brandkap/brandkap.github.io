@@ -1,8 +1,8 @@
-<footer class="grid grid-cols-2 grid-rows-2 gap-x-4 mx-18 mt-30 mb-12 text-white">
-  <p class="text-2xl font-bold row-start-1 col-start-1">Interested in working together?</p>
-  <p class="text-blue text-2xl font-bold row-start-2 col-start-1">{{ site.email }}</p>
+<footer class="grid grid-cols-1 md:grid-cols-2 grid-auto-rows-auto md:grid-rows-2 gap-x-4 mx-6 md:mx-18 md:mt-30 md:mb-12 text-white">
+  <p class="text-xl md:text-2xl font-bold md:row-start-1 md:col-start-1">Interested in working together?</p>
+  <p class="text-blue text-2xl font-bold md:row-start-2 md:col-start-1">{{ site.email }}</p>
 
-  <div class="row-start-1 col-start-2 flex justify-end space-x-16">
+  <div class="md:row-start-1 md:col-start-2 flex flex-row justify-around md:justify-end md:space-x-16 my-6 md:my-0">
     <a href="https://dribbble.com/brandonkap" title="Dribbble">
       <img class="h-6 w-auto" src="/assets/images/icons/dribbble.svg">
     </a>
@@ -13,7 +13,7 @@
       <img class="h-6 w-auto" src="/assets/images/icons/linkedin.svg">
     </a>
   </div>
-  <div class="row-start-2 col-start-2 flex justify-end space-x-12 font-bold">
+  <div class="md:row-start-2 md:col-start-2 flex flex-row justify-between md:justify-end md:space-x-12 font-bold mb-2 md:mb-0">
     <p class="m-0">© {{ "now" | date: "%Y" }} Brandon Kaplan</p>
     <p class="m-0"><a href="#modal-credits" data-micromodal-trigger="modal-credits">Credits</a></p>
   </div>

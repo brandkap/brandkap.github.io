@@ -3,13 +3,13 @@
     <a href="{{ "/" | relative_url }}" class="self-center">
       <img src="{{ '/assets/images/logo-light.png' | relative_url }}" class="h-8 w-8">
     </a>
-    <div class="flex flex-col ml-4">
+    <div class="hidden md:flex flex-col ml-4">
       <span class="font-bold">{{ site.title }}</span>
       <span>{{ site.description }}</span>
     </div>
   </div>
 
-  <nav class="space-x-18 flex items-center">
+  <nav class="space-x-18 flex items-center hidden md:block">
     {%- for path in site.nav_pages -%}
       {%- assign nav_page = site.pages | where: "path", path | first -%}
       {%- if nav_page.nav_title -%}
@@ -19,4 +19,8 @@
       {%- endif -%}
     {%- endfor -%}
   </nav>
+  <div class="md:hidden">
+    {% comment %}TODO: Real hamburger menu{% endcomment %}
+    <button type="button">Ξ</button>
+  </div>
 </header>

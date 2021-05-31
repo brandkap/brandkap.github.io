@@ -19,7 +19,7 @@ next_project: work/visual-cognition-lab.md
 
 Before jumping into designing mobile layouts it was necessary to define the product that ConnectOurKids provides. By exploring features on the website and using information given to our team by the CTO we were able to identify the 4 main ways social workers utilize the ConnectOurKids tools:
 
-<div class="col-start-3 col-span-8 grid grid-cols-4 grid-auto-rows-fr my-32 text-center">
+<div class="md:col-start-3 md:col-span-8 grid grid-cols-2 md:grid-cols-4 grid-auto-rows-fr my-32 text-center">
   {%
     include
     icon-center.html
@@ -88,8 +88,8 @@ Our interface choices were based on the design elements already present on the w
 
 Taking into account all notes made from the website review and the updated design system we were able to craft the mobile experience. Inconsistent navigation UI across pages, font colors, and several shades of blue were updated with reusable components and fewer styles.
 
-<div class="col-start-2 col-span-10 grid grid-cols-2 grid-rows-4 gap-x-18 gap-y-20 my-32">
-  <div class="row-start-1 row-span-2">
+<div class="md:col-start-2 md:col-span-10 grid grid-cols-1 md:grid-cols-2 grid-auto-rows-auto md:grid-rows-4 gap-x-18 gap-y-20 my-32">
+  <div class="md:row-start-1 md:row-span-2">
     {%
       include
       figure-custom.html
@@ -100,7 +100,7 @@ Taking into account all notes made from the website review and the updated desig
       caption="Search results are displayed in a pop up allowing for a quick return back to the search home. The tutorial button was redesigned to have better visibility."
     %}
   </div>
-  <div class="row-start-2 row-span-2">
+  <div class="md:row-start-2 md:row-span-2">
     {%
       include
       figure-custom.html
@@ -111,7 +111,7 @@ Taking into account all notes made from the website review and the updated desig
       caption="The Family Connections section contains all information related to contacts for a foster child. The information in the editing screen was divided into sections to make finding particular information faster."
     %}
   </div>
-  <div class="row-start-3 row-span-2">
+  <div class="md:row-start-3 md:row-span-2">
     {%
       include
       figure-custom.html
@@ -128,8 +128,8 @@ Taking into account all notes made from the website review and the updated desig
 
 How do we know if the app is providing value? These are some metrics that I would want to look into after the app has been released to determine how much value social workers are getting out of the app:
 
-<div class="col-start-3 col-span-8 grid grid-cols-2 grid-rows-2 gap-x-20 gap-y-20 my-32">
-  <div class="col-start-1 col-span-1">
+<div class="md:col-start-3 md:col-span-8 grid grid-cols-1 md:grid-cols-2 grid-auto-rows-auto md:grid-rows-2 gap-x-20 gap-y-20 my-32">
+  <div class="md:col-start-1 md:col-span-1">
     {%
       include
       icon-left.html
@@ -138,7 +138,7 @@ How do we know if the app is providing value? These are some metrics that I woul
       caption="A child being placed into a permanant home is the ultimate goal. Broader reach and mobile tools will hopefully result in a more efficient work flow. Comparing the numbers for the percentage of foster children placed into permanent homes before and after the release of the app can give us a clear idea of how effective the app is."
     %}
   </div>
-  <div class="col-start-2 col-span-1">
+  <div class="md:col-start-2 md:col-span-1">
     {%
       include
       icon-left.html
@@ -147,7 +147,7 @@ How do we know if the app is providing value? These are some metrics that I woul
       caption="A child being placed into a permanant home is the ultimate goal. Broader reach and mobile tools will hopefully result in a more efficient work flow. Comparing the numbers for the percentage of foster children placed into permanent homes before and after the release of the app can give us a clear idea of how effective the app is."
     %}
   </div>
-  <div class="col-start-1 col-span-2">
+  <div class="md:col-start-1 md:col-span-2">
     {%
       include
       icon-left.html

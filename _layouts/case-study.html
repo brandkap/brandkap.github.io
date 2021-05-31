@@ -3,21 +3,21 @@ layout: base
 ---
 
 <main aria-label="Content">
-  <div class="grid grid-cols-12 auto-rows-auto gap-x-4 mx-18 mt-24 mb-30">
-    <h1 class="col-start-3 col-span-8 text-5.5xl font-medium">{{ page.title }}</h1>
-    <p class="col-start-3 col-span-8 text-2xl font-medium">{{ page.description }}</p>
+  <div class="grid grid-cols-1 md:grid-cols-12 auto-rows-auto gap-x-4 mx-6 md:mx-18 my-16 md:mt-24 md:mb-30">
+    <h1 class="md:col-start-3 md:col-span-8 text-4xl md:text-5.5xl font-medium">{{ page.title }}</h1>
+    <p class="md:col-start-3 md:col-span-8 text-xl md:text-2xl font-medium">{{ page.description }}</p>
   </div>
   <img
     src="{{ page.hero | escape }}"
     alt="{{ page.title }}"
     class="w-full mb-30"
   >
-  <div class="grid grid-cols-12 auto-rows-auto gap-x-4 mx-18 case-study-content">
-    <div class="text-3xl font-medium leading-relaxed col-start-3 col-span-8">
+  <div class="grid grid-cols-1 md:grid-cols-12 auto-rows-auto gap-x-4 mx-6 md:mx-18 case-study-content">
+    <div class="text-xl md:text-3xl font-medium leading-relaxed md:col-start-3 md:col-span-8">
       {{ page.brief | markdownify }}
     </div>
 
-    <div class="col-start-3 col-span-8 flex flex-col md:flex-row gap-x-18">
+    <div class="md:col-start-3 md:col-span-8 flex flex-col md:flex-row gap-x-18">
       <div>
         <p class="text-white font-medium mt-8">Timeline</p>
         <p class="font-medium">{{ page.timeline | markdownify }}</p>
@@ -34,11 +34,11 @@ layout: base
     {{ content }}
 
     {% if page.next_project %}
-    <div class="col-span-12 text-center font-bold my-32">
+    <div class="md:col-span-12 text-center font-bold my-24 md:my-32">
       {%- assign next_project = site.pages | where: "path", page.next_project | first -%}
       <a href="{{ next_project.url }}" class="hover:no-underline">
-        <p class="text-gray text-2xl">Next Project</p>
-        <p class="text-white text-5xl">{{ next_project.title | escape }}</p>
+        <p class="text-gray text-lg md:text-2xl">Next Project</p>
+        <p class="text-white text-2xl md:text-5xl">{{ next_project.title | escape }}</p>
       </a>
     </div>
     {% endif %}

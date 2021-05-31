@@ -1,12 +1,12 @@
 <figure class="contents">
-  <a href="{{ include.src | escape | relative_url }}" class="col-start-2 col-span-10 mt-8">
+  <a href="{{ include.src | escape | relative_url }}" class="md:col-start-2 md:col-span-10 mt-8">
     <img src="{{ include.src | escape }}" alt="{{ include.alt | escape }}" class="w-full h-auto" />
   </a>
   {% if include.caption %}
-    <figcaption class="col-start-3 col-span-8 mt-4">
+    <figcaption class="md:col-start-3 md:col-span-8 mt-4">
       <p class="text-white font-bold mb-0">{{ include.title }}</p>
       {{ include.caption | markdownify }}
     </figcaption>
   {% endif %}
 </figure>
-<div class="col-span-12 mb-18"></div>
+<div class="md:col-span-12 mb-6 md:mb-18"></div>
