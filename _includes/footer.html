@@ -1,19 +1,25 @@
-<footer class="grid grid-cols-1 md:grid-cols-2 grid-auto-rows-auto md:grid-rows-2 gap-x-4 mx-6 md:mx-18 md:mt-30 md:mb-12 text-white">
-  <p class="text-xl md:text-2xl font-bold md:row-start-1 md:col-start-1">Interested in working together?</p>
-  <p class="text-blue text-2xl font-bold md:row-start-2 md:col-start-1">{{ site.email }}</p>
-
-  <div class="md:row-start-1 md:col-start-2 flex flex-row justify-around md:justify-end md:space-x-16 my-6 md:my-0">
-    <a href="https://dribbble.com/brandonkap" title="Dribbble">
-      <img class="h-6 w-auto" src="/assets/images/icons/dribbble.svg">
-    </a>
-    <a href="https://twitter.com/krandonbaplan" title="Twitter">
-      <img class="h-6 w-auto" src="/assets/images/icons/twitter.svg">
-    </a>
-    <a href="https://www.linkedin.com/in/brandonjkaplan/" title="LinkedIn">
-      <img class="h-6 w-auto" src="/assets/images/icons/linkedin.svg">
-    </a>
+<footer class="mx-6 md:mx-18 text-white mt-30">
+  <div class="flex flex-col lg:flex-row md:justify-between space-y-6">
+    <div class="flex flex-col space-y-6">
+      <p class="font-bold uppercase m-0">Got a project?</p>
+      <p class="text-4xl font-bold pl-4 border-l-2 border-orange m-0">{{ site.email }}</p>
+    </div>
+    <div class="flex flex-col space-y-8">
+      <p class="font-bold uppercase m-0">Let's connect</p>
+      <div class="flex space-x-12">
+        <a href="https://www.linkedin.com/in/brandonjkaplan/" title="LinkedIn">
+          <img class="h-6 w-auto" src="/assets/images/icons/linkedin.svg">
+        </a>
+        <a href="https://dribbble.com/brandonkap" title="Dribbble">
+          <img class="h-6 w-auto" src="/assets/images/icons/dribbble.svg">
+        </a>
+        <a href="https://twitter.com/krandonbaplan" title="Twitter">
+          <img class="h-6 w-auto" src="/assets/images/icons/twitter.svg">
+        </a>
+      </div>
+    </div>
   </div>
-  <div class="md:row-start-2 md:col-start-2 flex flex-row justify-between md:justify-end md:space-x-12 font-bold mb-2 md:mb-0">
+  <div class="flex justify-start gap-x-12 my-8">
     <p class="m-0">© {{ "now" | date: "%Y" }} Brandon Kaplan</p>
     <p class="m-0"><a href="#modal-credits" data-micromodal-trigger="modal-credits">Credits</a></p>
   </div>

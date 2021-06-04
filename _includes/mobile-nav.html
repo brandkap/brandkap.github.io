@@ -1,0 +1,20 @@
+<nav id="navbar-items" class="hidden fixed top-0 bottom-0 left-0 right-0 bg-black">
+  <div class="flex flex-col uppercase space-y-18 items-center text-4xl">
+    <div class="self-end mt-6 mr-18">
+      <label for="navbar-hide" class="sr-only">Hide Menu</label>
+      <button type="button" id="navbar-hide">
+        <img src="{{ '/assets/images/icons/cross.svg' | relative_url }}">
+      </button>
+    </div>
+
+    <a href="{{ "/" | relative_url }}">Home</a>
+    {%- for path in site.nav_pages -%}
+      {%- assign nav_page = site.pages | where: "path", path | first -%}
+      {%- if nav_page.nav_title -%}
+        <a href="{{ nav_page.url | relative_url }}">{{ nav_page.nav_title | escape }}</a>
+      {%- else -%}
+        <a href="{{ nav_page.url | relative_url }}">{{ nav_page.title | escape }}</a>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</nav>
