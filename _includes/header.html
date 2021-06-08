@@ -1,7 +1,7 @@
-<header id="navbar" class="sticky flex justify-between px-18 py-6 font-inter text-white bg-black" role="banner">
+<header id="navbar" class="sticky flex justify-between px-6 md:px-18 py-6 font-inter text-white bg-black" role="banner">
   <div class="flex">
     <a href="{{ "/" | relative_url }}" class="self-center">
-      <img src="{{ '/assets/images/logo-light.png' | relative_url }}" class="h-8 w-8">
+      <img src="{{ '/assets/images/logo-light.png' | relative_url }}" class="h-6 w-6">
     </a>
     <div class="hidden md:flex flex-col ml-4">
       <span class="font-bold">{{ site.title }}</span>
@@ -11,7 +11,7 @@
 
   <div class="md:hidden">
     <label for="navbar-show" class="sr-only">Show Menu</label>
-    <button type="button" id="navbar-show">
+    <button class="w-auto h-full" type="button" id="navbar-show">
       <img src="{{ '/assets/images/icons/menu.svg' | relative_url }}">
     </button>
   </div>

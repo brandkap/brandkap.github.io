@@ -40,11 +40,11 @@ p {
 }
 
 .big-text h2 {
-  @apply text-3xl;
+  @apply text-2xl md:text-3xl;
 }
 
 .big-text p {
-  @apply text-xl;
+  @apply md:text-xl;
 }
 
 .fullpage {
@@ -71,4 +71,12 @@ p {
 
 #navbar {
   transition: top 0.3s;
+}
+
+.rotate-uls ul {
+  @apply flex justify-between md:block;
+}
+
+.blur {
+  backdrop-filter: blur(2px) brightness(45%);
 }

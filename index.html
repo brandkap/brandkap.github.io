@@ -6,26 +6,26 @@ nav_title: Work
 ---
 
 <main aria-label="Content" class="mt-12 no-link-hover">
-  <div class="grid grid-cols-5/7 grid-rows-1 gap-x-4 mx-18 font-inter">
+  <div class="grid grid-cols-1 md:grid-cols-5/7 grid-rows-1 gap-x-4 mx-6 md:mx-18 font-inter">
     <ul class="flex flex-col space-y-18">
       {%- for path in site.project_pages -%}
       {%- assign project_page = site.pages | where: "path", path | first -%}
         <li>
           <a
             href="{{ project_page.url | relative_url }}"
-            class="font-normal tracklist-item flex space-x-12"
+            class="font-normal tracklist-item flex space-x-6 md:space-x-12"
             data-preview-id="preview-{{ project_page.title | slugify }}"
           >
-            <span>{{ forloop.index | prepend: "00" | slice: -2, 2 }}</span>
+            <span class="font-bold">{{ forloop.index | prepend: "00" | slice: -2, 2 }}</span>
             <div>
-              <p class="text-5xl mt-0 mb-2 font-bold">{{ project_page.title | escape }}</p>
-              <p class="text-2xl mt-0">{{ project_page.description | escape }}</p>
+              <p class="text-3xl md:text-5xl mt-0 mb-2 font-bold">{{ project_page.title | escape }}</p>
+              <p class="text-xl md:text-2xl mt-0 text-gray">{{ project_page.description | escape }}</p>
             </div>
           </a>
         </li>
       {%- endfor -%}
     </ul>
-    <div>
+    <div class="hidden md:block">
       {%- for path in site.project_pages -%}
         {%- assign project_page = site.pages | where: "path", path | first -%}
         <img
