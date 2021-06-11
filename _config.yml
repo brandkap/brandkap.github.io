@@ -28,7 +28,6 @@ permalink: pretty
 nav_pages:
   - index.html
   - about.md
-  - contact.html
 
 project_pages:
   - work/visual-cognition-lab.md
