@@ -1,0 +1,24 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/wavy_text.css" | relative_url }}">
+  <link rel="icon" href="{{ "/favicon.ico" | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ "/icon.png" | relative_url }}">
+  <script defer src="/assets/js/navbar.js"></script>
+  <script defer src="/assets/js/wavy_text.js"></script>
+  {%- for src in layout.scripts -%}
+  <script defer src="{{ src | escape }}"></script>
+  {%- endfor -%}
+  {%- for src in page.scripts -%}
+  <script defer src="{{ src | escape }}"></script>
+  {%- endfor -%}
+  <script defer src="https://unpkg.com/micromodal@0.4/dist/micromodal.js"></script>
+  <script defer type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() { MicroModal.init(); });
+  </script>
+</head>

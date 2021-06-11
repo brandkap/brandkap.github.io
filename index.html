@@ -1,323 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    /> -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/homepage.css" />
-    <link rel="stylesheet" href="/scss/arrowbutton.css" />
-    <link rel="stylesheet" href="/scss/wavetext.css" />
-    <link rel="stylesheet" href="/scss/contactbutton.css" />
+---
+layout: base
+scripts:
+  - /assets/js/tracklist.js
+nav_title: Work
+---
 
-    <link rel="stylesheet" href="/scss/blobs.css" />
-    <link rel="stylesheet" href="/scss/scrollarrow.css" />
-    <title>Brandon Kaplan - Product Designer</title>
-  </head>
-  <body>
-    <nav>
-      <span>
-        <a href="/">
-          <img class="logo" src="/images/B&Wfavicon.png" />
-        </a>
-      </span>
-      <span class="pages">
-        <a class="underline" href="/#projects">Projects</a>
-        <a class="underline" href="/about">About</a>
-        <a class="underline" href="/the-lab">The Lab</a>
-      </span>
-      <div class="hamburger-menu mobile-only">
-        <input id="menu__toggle" type="checkbox" />
-        <label class="menu__btn" for="menu__toggle">
-          <span></span>
-        </label>
-
-        <ul class="menu__box">
-          <li><a class="menu__item" href="/">Home</a></li>
-          <li><a class="menu__item" href="/#projects">Projects</a></li>
-          <li><a class="menu__item" href="/about">About</a></li>
-          <li><a class="menu__item" href="/the-lab">The Lab</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="hero">
-      <canvas id="bubble"></canvas>
-      <div class="hero-inner">
-        <div class="hero-info">
-          <h1 class="wavetext">Brandon Kaplan</h1>
-          <h2 class="title">- Product Designer</h2>
-          <div>
-            <!-- <a
-              class="c-button c-button--gooey"
-              href="mailto:brandkaplan@gmail.com"
-            >
-              Get in touch
-              <div class="c-button__blobs">
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-            </a> -->
-
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              version="1.1"
-              style="display: block; height: 0; width: 0;"
-            >
-              <defs>
-                <filter id="goo">
-                  <feGaussianBlur
-                    in="SourceGraphic"
-                    stdDeviation="10"
-                    result="blur"
-                  ></feGaussianBlur>
-                  <feColorMatrix
-                    in="blur"
-                    mode="matrix"
-                    values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
-                    result="goo"
-                  ></feColorMatrix>
-                  <feBlend in="SourceGraphic" in2="goo"></feBlend>
-                </filter>
-              </defs>
-            </svg>
-          </div>
-        </div>
-
-        <div class="iconcolumn">
-          <a class="icon" target="_blank" href="mailto:brandkaplan@gmail.com">
-            <img class="iconimg" src="/icons/md-mail-grey.svg" />
-          </a>
+<main aria-label="Content" class="mt-12 no-link-hover">
+  <div class="grid grid-cols-1 md:grid-cols-5/7 grid-rows-1 gap-x-4 mx-6 md:mx-18 font-inter">
+    <ul class="flex flex-col space-y-18">
+      {%- for path in site.project_pages -%}
+      {%- assign project_page = site.pages | where: "path", path | first -%}
+        <li>
           <a
-            class="icon"
-            target="_blank"
-            href="https://www.linkedin.com/in/brandonjkaplan/"
+            href="{{ project_page.url | relative_url }}"
+            class="font-normal tracklist-item flex space-x-6 md:space-x-12"
+            data-preview-id="preview-{{ project_page.title | slugify }}"
           >
-            <img class="iconimg" src="/icons/md-linkedin-grey.svg" />
+            <span class="font-bold">{{ forloop.index | prepend: "00" | slice: -2, 2 }}</span>
+            <div>
+              <p class="text-3xl md:text-5xl mt-0 mb-2 font-bold">{{ project_page.title | escape }}</p>
+              <p class="text-xl md:text-2xl mt-0 text-gray">{{ project_page.description | escape }}</p>
+            </div>
           </a>
-
-          <a
-            class="icon"
-            target="_blank"
-            href="https://dribbble.com/brandonkap"
-          >
-            <img class="iconimg" src="/icons/md-drib-grey.svg" />
-          </a>
-
-          <a
-            class="icon"
-            target="_blank"
-            href="https://twitter.com/krandonbaplan"
-          >
-            <img class="iconimg" src="/icons/md-twitter-grey.svg" />
-          </a>
-        </div>
-      </div>
+        </li>
+      {%- endfor -%}
+    </ul>
+    <div class="hidden md:block">
+      {%- for path in site.project_pages -%}
+        {%- assign project_page = site.pages | where: "path", path | first -%}
+        <img
+          src="{{ project_page.preview | escape }}"
+          alt="{{ project_page.title | escape }}"
+          id="preview-{{ project_page.title | slugify }}"
+          class="tracklist-preview hidden sticky top-4 max-h-full w-full"
+        >
+      {%- endfor -%}
     </div>
-
-    <div class="arrows">
-      <a href="/#projects">
-        <div class="scroll-arrow"></div>
-        <div class="scroll-arrow"></div>
-        <div class="scroll-arrow"></div>
-      </a>
-    </div>
-
-    <div class="projects" id="projects">
-      <!-- <h2>Projects</h2> -->
-      <div data-aos="fade-up" class="project">
-        <div class="project-description">
-          <div class="project-info">
-            <h3>DatePicker</h3>
-            <p>
-              Taking the time out of calendar management.
-            </p>
-            <a class="casebutton" href="/date-picker">
-              <span class="circle" aria-hidden="true">
-                <span class="slide arrow"></span>
-              </span>
-              <span class="button-text">View case study</span>
-            </a>
-          </div>
-        </div>
-        <div class="project-img">
-          <a href="/date-picker">
-            <img class="full-img" src="/images/casestudyimgdate.png" />
-          </a>
-        </div>
-      </div>
-      <div data-aos="fade-up" class="project">
-        <div class="project-description">
-          <div class="project-info">
-            <h3>ConnectOurKids</h3>
-            <p>
-              Tools that help social workers connect foster children with
-              permanent homes.
-            </p>
-
-            <a class="casebutton" href="/connect-our-kids">
-              <span class="circle" aria-hidden="true">
-                <span class="slide arrow"></span>
-              </span>
-              <span class="button-text">View case study</span>
-            </a>
-          </div>
-        </div>
-        <div class="project-img">
-          <a href="/connect-our-kids">
-            <img class="full-img" src="/images/4_3conkids.png" />
-          </a>
-        </div>
-      </div>
-
-      <div data-aos="fade-up" class="project">
-        <div class="project-description">
-          <div class="project-info">
-            <h3>Firehose</h3>
-            <p>Creating a home for your favorite content.</p>
-            <a class="casebutton" href="/firehose">
-              <span class="circle" aria-hidden="true">
-                <span class="slide arrow"></span>
-              </span>
-              <span class="button-text">View case study</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="project-img">
-          <a href="/firehose">
-            <img class="full-img" src="/images/4_3firehose.png" />
-          </a>
-        </div>
-      </div>
-
-      <div data-aos="fade-up" class="project">
-        <div class="project-description">
-          <div class="project-info">
-            <h3>Visual Cognition Lab</h3>
-            <p>
-              Improving usability of my labs website.
-            </p>
-            <a class="casebutton">
-              <span class="circle" aria-hidden="true">
-                <span class="slide arrow"></span>
-              </span>
-              <span class="button-text">Coming soon!</span>
-            </a>
-          </div>
-        </div>
-        <div class="project-img">
-          <img class="full-img" src="/images/viscogimg.png" />
-        </div>
-      </div>
-    </div>
-
-    <footer>
-      <div class="grid">
-        <div class="footer-column-0">
-          <p class="footer-head">
-            Get in touch
-          </p>
-          <p>
-            <a class="email-footer" href="mailto:brandkaplan@gmail.com">
-              brandkaplan@gmail.com</a
-            >
-          </p>
-        </div>
-        <!-- <div>
-          <p class="copyright">© 2020 Brandon Kaplan</p>
-        </div> -->
-
-        <div class="footer-column">
-          <p class="footer-head">
-            Social
-          </p>
-          <ul class="footer-list">
-            <li>
-              <a
-                class="icon-text"
-                target="_blank"
-                href="https://www.linkedin.com/in/brandonjkaplan/"
-              >
-                <img
-                  class="iconimg-footer"
-                  src="/icons/md-linkedin-black.svg"
-                />
-                Linkedin
-              </a>
-            </li>
-            <li>
-              <a
-                class="icon-text"
-                target="_blank"
-                href="https://dribbble.com/brandonkap"
-              >
-                <img class="iconimg-footer" src="/icons/md-dribble-black.svg" />
-                Dribbble
-              </a>
-            </li>
-            <li>
-              <a
-                class="icon-text"
-                target="_blank"
-                href="https://twitter.com/krandonbaplan"
-              >
-                <img class="iconimg-footer" src="/icons/md-twitter-black.svg" />
-                Twitter
-              </a>
-            </li>
-            <li>
-              <a class="icon-text" target="_blank" href="/assets/resume.pdf">
-                <img class="iconimg-footer" src="/icons/md-file-black.svg" />
-                Resume
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-column-2">
-          <p class="footer-head">
-            Navigate
-          </p>
-          <ul class="footer-list">
-            <!-- <li class="icon-text">
-              Home
-            </li> -->
-            <a href="/#projects">
-              <li class="icon-text">
-                Projects
-              </li>
-            </a>
-            <a href="/about">
-              <li class="icon-text">
-                About
-              </li>
-            </a>
-            <a href="/the-lab">
-              <li class="icon-text">
-                The Lab
-              </li>
-            </a>
-          </ul>
-        </div>
-      </div>
-    </footer>
-
-    <script src="https://unpkg.com/jquery@3.5.1/dist/jquery.js"></script>
-    <script src="/javascript/wavetext.js"></script>
-    <script src="/javascript/blobs.js"></script>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
-</html>
+  </div>
+</main>

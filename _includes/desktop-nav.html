@@ -1,0 +1,13 @@
+<nav class="hidden md:block">
+  <div class="flex flex-row space-x-18 items-center fancy-underline font-bold">
+    {%- for path in site.nav_pages -%}
+      {%- assign nav_page = site.pages | where: "path", path | first -%}
+      {%- if nav_page.nav_title -%}
+        <a href="{{ nav_page.url | relative_url }}">{{ nav_page.nav_title | escape }}</a>
+      {%- else -%}
+        <a href="{{ nav_page.url | relative_url }}">{{ nav_page.title | escape }}</a>
+      {%- endif -%}
+    {%- endfor -%}
+    <a href="mailto:{{ site.email | escape }}" class="wavy-text">Contact</a>
+  </div>
+</nav>
