@@ -80,3 +80,16 @@ p {
 .blur {
   backdrop-filter: blur(2px) brightness(45%);
 }
+
+.fancy-underline a {
+  @apply no-underline py-2 relative;
+}
+
+.fancy-underline a::after {
+  @apply absolute top-full left-0 w-full h-1 bg-white opacity-0 transform translate-y-5 transition duration-300;
+  content: "";
+}
+.fancy-underline a:hover::after,
+.fancy-underline a:focus::after {
+  @apply opacity-100 transform translate-y-0;
+}

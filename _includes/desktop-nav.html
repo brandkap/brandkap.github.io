@@ -1,5 +1,5 @@
 <nav class="hidden md:block">
-  <div class="flex flex-row space-x-18 items-center">
+  <div class="flex flex-row space-x-18 items-center fancy-underline font-bold">
     {%- for path in site.nav_pages -%}
       {%- assign nav_page = site.pages | where: "path", path | first -%}
       {%- if nav_page.nav_title -%}
