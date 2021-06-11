@@ -131,8 +131,8 @@ Previously the site was only optimizaed for desktop. Making the site easy to use
 
 ## Learnings
 
-* **Talk to real people.** Conversations I had with lab participants  provided invaluable information as to how the lab's website was being used. Those insights gained while talking with real users of the website would have be more difficult to discover through other methods.
-* **Take intiative.** The previous site had existed for quite some time in the lab and things had run in the lab smoothly. But I saw there was room for improvement. Could the lab have run just fine without a new website? Probably. But I figured it was worthwhile to explore improvements upon a key aspect in where people interact with the lab; the lab's website.
+* <span class="text-white">**Talk to real people.**</span> Conversations I had with lab participants  provided invaluable information as to how the lab's website was being used. Those insights gained while talking with real users of the website would have be more difficult to discover through other methods.
+* <span class="text-white">**Take intiative.**</span> The previous site had existed for quite some time in the lab and things had run in the lab smoothly. But I saw there was room for improvement. Could the lab have run just fine without a new website? Probably. But I figured it was worthwhile to explore improvements upon a key aspect in where people interact with the lab; the lab's website.
 
 ## Next steps
 

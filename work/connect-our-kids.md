@@ -19,7 +19,7 @@ next_project: work/visual-cognition-lab.md
 
 Before jumping into designing mobile layouts it was necessary to define the product that ConnectOurKids provides. By exploring features on the website and using information given to our team by the CTO we were able to identify the 4 main ways social workers utilize the ConnectOurKids tools:
 
-<div class="md:col-start-3 md:col-span-8 grid grid-cols-2 md:grid-cols-4 grid-auto-rows-fr my-32 text-center">
+<div class="md:col-start-3 md:col-span-8 grid grid-cols-2 md:grid-cols-4 grid-auto-rows-fr gap-y-4 my-8 md:my-32 text-center">
   {%
     include
     icon-center.html
