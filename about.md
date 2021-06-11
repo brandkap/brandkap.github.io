@@ -1,6 +1,6 @@
 ---
 title: About
-layout: photo
+layout: about
 photo:
   src: /assets/images/profile.jpg
   alt: "A photo of me"
