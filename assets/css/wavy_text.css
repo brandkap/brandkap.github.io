@@ -1,0 +1,142 @@
+/*
+Copyright (c) 2021 by Brandon (https://codepen.io/centerpiece/pen/XWMPwvb)
+Fork of an original work Playful button hover effects (https://codepen.io/aaroniker/pen/OJPqPMR)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+.wavy-text {
+  --color: #fff;
+  --color-hover: var(--color);
+  --background: #2b3044;
+  --background-hover: var(--background);
+  --hover-front: #5c86ff;
+  padding: 8px 30px;
+  border-radius: 20px;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  color: var(--c, var(--color));
+  background: var(--b, var(--background));
+  transition: color 0.2s linear var(--c-d, 0.2s),
+    background 0.3s linear var(--b-d, 0.2s);
+}
+.wavy-text:not(.simple):before,
+.wavy-text:not(.simple):after {
+  content: "";
+  position: absolute;
+  background: var(--pb, var(--hover-back));
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200%;
+  border-radius: var(--br, 40%);
+  transform: translateY(var(--y, 50%));
+  transition: transform var(--d, 0.4s) ease-in var(--d-d, 0s),
+    border-radius 0.4s ease var(--br-d, 0.08s);
+}
+.wavy-text:not(.simple):after {
+  --pb: var(--hover-front);
+  --d: 0.4s;
+}
+.wavy-text div {
+  z-index: 1;
+  position: relative;
+  display: flex;
+}
+.wavy-text div span {
+  display: block;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  -webkit-animation: var(--name, none) 0.5s linear forwards 0.18s;
+  animation: var(--name, none) 0.5s linear forwards 0.18s;
+}
+.wavy-text.in {
+  --name: move;
+}
+.wavy-text.in:not(.out) {
+  --c: var(--color-hover);
+  --b: var(--background-hover);
+}
+.wavy-text.in:not(.out):before,
+.wavy-text.in:not(.out):after {
+  --y: 0;
+  --br: 5%;
+}
+.wavy-text.in:not(.out):after {
+  --br: 10%;
+  --d-d: 0.02s;
+}
+.wavy-text.in.out {
+  --name: move-out;
+}
+.wavy-text.in.out:before {
+  --d-d: 0.06s;
+}
+
+@-webkit-keyframes move {
+  30%,
+  36% {
+    transform: translateY(calc(-6px * var(--move))) translateZ(0)
+      rotate(calc(-13deg * var(--rotate) * var(--part)));
+  }
+  50% {
+    transform: translateY(calc(3px * var(--move))) translateZ(0)
+      rotate(calc(6deg * var(--rotate) * var(--part)));
+  }
+  70% {
+    transform: translateY(calc(-2px * var(--move))) translateZ(0)
+      rotate(calc(-3deg * var(--rotate) * var(--part)));
+  }
+}
+
+@keyframes move {
+  30%,
+  36% {
+    transform: translateY(calc(-6px * var(--move))) translateZ(0)
+      rotate(calc(-13deg * var(--rotate) * var(--part)));
+  }
+  50% {
+    transform: translateY(calc(3px * var(--move))) translateZ(0)
+      rotate(calc(6deg * var(--rotate) * var(--part)));
+  }
+  70% {
+    transform: translateY(calc(-2px * var(--move))) translateZ(0)
+      rotate(calc(-3deg * var(--rotate) * var(--part)));
+  }
+}
+@-webkit-keyframes move-out {
+  30%,
+  36% {
+    transform: translateY(calc(6px * var(--move))) translateZ(0)
+      rotate(calc(13deg * var(--rotate) * var(--part)));
+  }
+  50% {
+    transform: translateY(calc(-3px * var(--move))) translateZ(0)
+      rotate(calc(-6deg * var(--rotate) * var(--part)));
+  }
+  70% {
+    transform: translateY(calc(2px * var(--move))) translateZ(0)
+      rotate(calc(3deg * var(--rotate) * var(--part)));
+  }
+}
+@keyframes move-out {
+  30%,
+  36% {
+    transform: translateY(calc(6px * var(--move))) translateZ(0)
+      rotate(calc(13deg * var(--rotate) * var(--part)));
+  }
+  50% {
+    transform: translateY(calc(-3px * var(--move))) translateZ(0)
+      rotate(calc(-6deg * var(--rotate) * var(--part)));
+  }
+  70% {
+    transform: translateY(calc(2px * var(--move))) translateZ(0)
+      rotate(calc(3deg * var(--rotate) * var(--part)));
+  }
+}
