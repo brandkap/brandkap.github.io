@@ -5,9 +5,9 @@ description: Improving usability of my lab's website.
 preview: /assets/images/viscog/mockups.png
 hero: /assets/images/viscog/hero.png
 brief: |
-    While a student at UC Riverside I worked as a Research Assistant in the Visual Cognition Lab. While working there I noticed that our website could use some updating to provide a better experience for the lab's participants.
+  While a student at UC Riverside I worked as a Research Assistant in the Visual Cognition Lab. While working there I noticed that our website could use some updating to provide a better experience for the lab's participants.
 
-    My goals were to make information more accessible, provide an accurate representation of the current state of the lab, and give the lab a new brand identity.
+  My goals were to make information more accessible, provide an accurate representation of the current state of the lab, and give the lab a new brand identity.
 timeline: "Dec 2019 &ndash; Feb 2020"
 next_project: work/date-picker.md
 ---
@@ -15,9 +15,10 @@ next_project: work/date-picker.md
 ## More than aesthetics
 
 I knew that the website needed to undergo some UI changes, but I also wanted to find areas where the experience could be improved. To do this I asked myself questions such as:
-* What is the primary action of a visitor?
-* How can information be better organized?
-* What information is most important on initial landing?
+
+- What is the primary action of a visitor?
+- How can information be better organized?
+- What information is most important on initial landing?
 
 ## Interviewing lab participants
 
@@ -38,7 +39,7 @@ All pages of the old site were reviewed to see what content needed to be kept, r
 
 ## Refreshed interface
 
-short explanation fo overall plan and goal for new webstie designs
+There was a complete overhaul on the websites designs and layouts. Design decisions were based on feedback received from previous phone call interviews.
 
 {% capture caption %}
 Based on information gathered from interviewing, the hero section was designed to have content that lab participants needed; the lab's phone number, a way to email the lab, and direction information.
@@ -131,8 +132,8 @@ Previously the site was only optimizaed for desktop. Making the site easy to use
 
 ## Learnings
 
-* <span class="text-white">**Talk to real people.**</span> Conversations I had with lab participants  provided invaluable information as to how the lab's website was being used. Those insights gained while talking with real users of the website would have be more difficult to discover through other methods.
-* <span class="text-white">**Take intiative.**</span> The previous site had existed for quite some time in the lab and things had run in the lab smoothly. But I saw there was room for improvement. Could the lab have run just fine without a new website? Probably. But I figured it was worthwhile to explore improvements upon a key aspect in where people interact with the lab; the lab's website.
+- <span class="text-white">**Talk to real people.**</span> Conversations I had with lab participants provided invaluable information as to how the lab's website was being used. Those insights gained while talking with real users of the website would have be more difficult to discover through other methods.
+- <span class="text-white">**Take intiative.**</span> The previous site had existed for quite some time in the lab and things had run in the lab smoothly. But I saw there was room for improvement. Could the lab have run just fine without a new website? Probably. But I figured it was worthwhile to explore improvements upon a key aspect in where people interact with the lab; the lab's website.
 
 ## Next steps
 
