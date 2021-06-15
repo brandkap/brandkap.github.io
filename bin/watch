@@ -1,0 +1,36 @@
+#!/usr/bin/env ruby
+
+require 'listen'
+
+REPO = Pathname.new(__dir__).dirname
+TAILWIND_SOURCE = 'styles.css'
+JEKYLL_CONFIG = '_config.yml'
+
+def run_tailwind
+  system('npm', 'run', 'build') or abort('Failed to build CSS')
+end
+
+@jekyll = nil
+
+def restart_jekyll
+  if @jekyll
+    Process.kill('INT', @jekyll)
+    Process.wait(@jekyll)
+  end
+  @jekyll = spawn('bundle', 'exec', 'jekyll', 'serve')
+end
+
+run_tailwind
+restart_jekyll
+
+listener = Listen.to(
+  REPO,
+  only: /\A#{TAILWIND_SOURCE}|#{JEKYLL_CONFIG}\Z/,
+  relative: true,
+) do |modified, added, removed|
+  files = modified + added + removed
+  run_tailwind if files.include?(TAILWIND_SOURCE)
+  restart_jekyll if files.include?(JEKYLL_CONFIG)
+end
+listener.start
+sleep
