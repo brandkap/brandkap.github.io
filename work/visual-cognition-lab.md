@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title: Visual Cognition Lab
-description: Improving usability of my lab's website.
+description: Improving the usability of my lab's website.
 preview: /assets/images/viscog/mockups.png
 hero: /assets/images/viscog/hero.png
 brief: |
@@ -22,7 +22,7 @@ I knew that the website needed to undergo some UI changes, but I also wanted to 
 
 ## Interviewing lab participants
 
-I was lucky enough to be able to talk directly with the main users of the lab's website: lab participants. While doing my daily calls for recruiting participants I would ask questions about the website. I was able to identity what parts of the website needed to be reformatted.
+I was lucky enough to be able to talk directly with the main users of the lab's website: lab participants. While doing my daily calls for recruiting participants I would ask questions about the website. I was able to identify what parts of the website needed to be reformatted.
 
 Through my time working in this lab and calling and interviewing dozens of participants I felt that I had a good outline of the direction I wanted to update the website.
 
@@ -39,7 +39,7 @@ All pages of the old site were reviewed to see what content needed to be kept, r
 
 ## Refreshed interface
 
-There was a complete overhaul on the websites designs and layouts. Design decisions were based on feedback received from previous phone call interviews.
+There was a complete overhaul on the website's designs and layouts. Design decisions were based on feedback received from previous phone call interviews.
 
 {% capture caption %}
 Based on information gathered from interviewing, the hero section was designed to have content that lab participants needed; the lab's phone number, a way to email the lab, and direction information.
@@ -90,7 +90,7 @@ To make the research section easier to read and more visually aligned the overal
 %}
 
 {% capture caption %}
-Going to the Direction section used to rereoute you to a different URL with a totally different interface. This as fixed by keeping this section within the same URL and applying the same styling as the rest of the website.
+Going to the Direction section used to reroute you to a different URL with a totally different interface. This was fixed by keeping this section within the same URL and applying the same styling as the rest of the website.
 {% endcapture %}
 {%
   include
@@ -114,7 +114,7 @@ Establishing a visual identity for the lab with consistency throughout all pages
 
 ## Accessible anywhere
 
-Previously the site was only optimizaed for desktop. Making the site easy to use on mobile was crucial especially for the directions section. Accessing directions to the lab while in the car is a key situation that the previous designs did not cater too.
+Previously the site was only optimized for desktop. Making the site easy to use on mobile was crucial especially for the directions section. Accessing directions to the lab while in the car is a key situation that the previous designs did not cater too.
 
 {%
   include
@@ -132,8 +132,8 @@ Previously the site was only optimizaed for desktop. Making the site easy to use
 
 ## Learnings
 
-- <span class="text-white">**Talk to real people.**</span> Conversations I had with lab participants provided invaluable information as to how the lab's website was being used. Those insights gained while talking with real users of the website would have be more difficult to discover through other methods.
-- <span class="text-white">**Take intiative.**</span> The previous site had existed for quite some time in the lab and things had run in the lab smoothly. But I saw there was room for improvement. Could the lab have run just fine without a new website? Probably. But I figured it was worthwhile to explore improvements upon a key aspect in where people interact with the lab; the lab's website.
+- <span class="text-white">**Talk to real people.**</span> Conversations I had with lab participants provided invaluable information as to how the lab's website was being used. Those insights gained while talking with real users of the website would have been more difficult to discover through other methods.
+- <span class="text-white">**Take initiative.**</span> The previous site had existed for quite some time in the lab and things had run in the lab smoothly. But I saw there was room for improvement. Could the lab have run just fine without a new website? Probably. But I figured it was worthwhile to explore improvements upon a key aspect in where people interact with the lab; the lab's website.
 
 ## Next steps
 
