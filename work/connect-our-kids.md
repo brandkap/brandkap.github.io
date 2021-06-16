@@ -5,9 +5,9 @@ description: Building mobile tools for social workers.
 preview: /assets/images/connect-our-kids/hero.png
 hero: /assets/images/connect-our-kids/hero.png
 brief: |
-    ConnectOurKids is an organization that aims to connect foster children with a permanent home. Their organization provides free tools to social workers to help expedite their work.
+  ConnectOurKids is an organization that aims to connect foster children with a permanent home. Their organization provides free tools to social workers to help expedite their work.
 
-    Our team was tasked with taking the main tools and features of the ConnectOurKids website and convert them into a mobile app. We had weekly meetings with the CTO of ConnectOurKids.
+  Our team was tasked with taking the main tools and features of the ConnectOurKids website and converting them into a mobile app. We had weekly meetings with the CTO of ConnectOurKids.
 timeline: "Dec 2019 &ndash; Feb 2020"
 website:
   text: connectourkids.org
@@ -70,7 +70,7 @@ The desktop tools were reviewed in depth to make sure we transferred all necessa
 
 ## New design system
 
-Our interface choices were based on the design elements already present on the website. We did not want to reinvent the wheel and have the apps UI vary drastically. So, in order to keep the experience similar between the website and mobile app we used the same copy, color schemes, typeface, and navigation layout as much as possible. Although, some of these aspects were changed to improve overall consistency, clarity, and hierarchy.
+Our interface choices were based on the design elements already present on the website. We did not want to reinvent the wheel and have the app's UI vary drastically. So, in order to keep the experience similar between the website and mobile app we used the same copy, color schemes, typeface, and navigation layout as much as possible. Although, some of these aspects were changed to improve overall consistency, clarity, and hierarchy.
 
 <p class="text-white font-bold mt-12">Our goals for creating a new design system were to:</p>
 * Create components that could transfer to desktop easily
@@ -135,7 +135,7 @@ How do we know if the app is providing value? These are some metrics that I woul
       icon-left.html
       src="/assets/images/icons/percent.png"
       title="Permanency percentage"
-      caption="A child being placed into a permanant home is the ultimate goal. Broader reach and mobile tools will hopefully result in a more efficient work flow. Comparing the numbers for the percentage of foster children placed into permanent homes before and after the release of the app can give us a clear idea of how effective the app is."
+      caption="A child being placed into a permanent home is the ultimate goal. Broader reach and mobile tools will hopefully result in a more efficient work flow. Comparing the numbers for the percentage of foster children placed into permanent homes before and after the release of the app can give us a clear idea of how effective the app is."
     %}
   </div>
   <div class="md:col-start-2 md:col-span-1">
@@ -144,7 +144,7 @@ How do we know if the app is providing value? These are some metrics that I woul
       icon-left.html
       src="/assets/images/icons/number.png"
       title="Family connections discovered"
-      caption="A child being placed into a permanant home is the ultimate goal. Broader reach and mobile tools will hopefully result in a more efficient work flow. Comparing the numbers for the percentage of foster children placed into permanent homes before and after the release of the app can give us a clear idea of how effective the app is."
+      caption="With social workers having access to family connections in a mobile setting we would expect an increase in the number of family connections."
     %}
   </div>
   <div class="md:col-start-1 md:col-span-2">
@@ -153,7 +153,7 @@ How do we know if the app is providing value? These are some metrics that I woul
       icon-left.html
       src="/assets/images/icons/thumb.png"
       title="Social worker feedback"
-      caption="A child being placed into a permanant home is the ultimate goal. Broader reach and mobile tools will hopefully result in a more efficient work flow. Comparing the numbers for the percentage of foster children placed into permanent homes before and after the release of the app can give us a clear idea of how effective the app is."
+      caption="App reviews can provide useful insight into how the tools are being used. Are they providing value/making social worker’s jobs easier? Is there room for improvement in terms of functionality? Of course, we would want to see all positive reviews, but the negative reviews will reveal pain points that users are having and allow for improvement of the app."
     %}
   </div>
 </div>
