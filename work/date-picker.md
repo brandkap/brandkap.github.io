@@ -5,14 +5,14 @@ description: Speeding up event planning.
 preview: /assets/images/date-picker/preview.png
 hero: /assets/images/date-picker/hero.png
 brief: |
-    DatePicker is an event planner that serves as an extension to Google Calendar. Tools for customizable date selection and group collaboration aim to simplify the event planning process.
+  DatePicker is an event planner that serves as an extension to Google Calendar. Tools for customizable date selection and group collaboration aim to simplify the event planning process.
 timeline: Dec 2019 &ndash; Feb 2020
 next_project: work/connect-our-kids.md
 ---
 
 ## Where does Google Calendar go wrong?
 
-In the image below, we can see that when creating a custom reccuring event in Google Calendar it must fall under a consistent pattern across multiple weeks. Scheduling an event on Monday, Wednesday , and Friday on one week and then Tuesday, Thursday, and Friday on the next week has to be done by creating two completely separate events. This inability to schedule events in an aperiodic format causes major delays in event planning.
+In the image below, we can see that when creating a custom recurring event in Google Calendar it must fall under a consistent pattern across multiple weeks. Scheduling an event on Monday, Wednesday , and Friday in one week and then Tuesday, Thursday, and Friday in the next week has to be done by creating two completely separate events. This inability to schedule events in an aperiodic format causes major delays in event planning.
 
 {%
   include
@@ -26,16 +26,17 @@ In the image below, we can see that when creating a custom reccuring event in Go
 I began this project with surveys, interviews, and market research to clearly define pain points and what role DatePicker will play in the event planning market. Surveys were given to 32 teachers and coaches which provided data as to what products teachers currently use as their main calendar and how they use these calendars.
 
 {% capture quote %}
-I need a way to schedule my basketball practices with custom reoccurences. On my current calendar I can't customize it the way I need to.
+I need a way to schedule my basketball practices with custom recurrence s. On my current calendar I can't customize it the way I need to.
 
 **-Craig, basketball coach and teacher**
 {% endcapture %}
 {% include pull-quote.html quote=quote %}
 
 From the research I concluded that
-* Majority of teachers from our sample exclusively use Google Calendars
-* DatePicker will not be built to replace Google Calendar, but to complement it
-* There is no available solution on the market for this specific problem space
+
+- Majority of teachers from our sample exclusively use Google Calendars
+- DatePicker will not be built to replace Google Calendar, but to complement it
+- There is no available solution on the market for this specific problem space
 
 ## Allowing custom event planning
 
@@ -121,5 +122,5 @@ Previously the site was only optimizaed for desktop. Making the site easy to use
 
 ## Learnings & Insights
 
-* DatePicker was an learning experience to work on because it was a great example on how sometimes a solution to a problem does not have to be fancy or complex. It was great to receive positive feedback from the stakeholder and see how such a frustrating problem in widely used product could be resolved with a straightfoward solution.
-* Our team was able to get DatePicker into a deployable stage, but there has yet to be a planned release date for it onto the app store. Hopefully the next team that works on DatePicker can plan for a release because due to discussion with teachers and coaches DatePicker could provide a lot of value to their event planning experience.
+- DatePicker was an learning experience to work on because it was a great example on how sometimes a solution to a problem does not have to be fancy or complex. It was great to receive positive feedback from the stakeholder and see how such a frustrating problem in widely used product could be resolved with a straightfoward solution.
+- Our team was able to get DatePicker into a deployable stage, but there has yet to be a planned release date for it onto the app store. Hopefully the next team that works on DatePicker can plan for a release because due to discussion with teachers and coaches DatePicker could provide a lot of value to their event planning experience.
