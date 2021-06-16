@@ -26,7 +26,7 @@ In the image below, we can see that when creating a custom recurring event in Go
 I began this project with surveys, interviews, and market research to clearly define pain points and what role DatePicker will play in the event planning market. Surveys were given to 32 teachers and coaches which provided data as to what products teachers currently use as their main calendar and how they use these calendars.
 
 {% capture quote %}
-I need a way to schedule my basketball practices with custom recurrence s. On my current calendar I can't customize it the way I need to.
+I need a way to schedule my basketball practices with custom recurrences. On my current calendar I can't customize it the way I need to.
 
 **-Craig, basketball coach and teacher**
 {% endcapture %}
@@ -55,7 +55,7 @@ I began this project with surveys, interviews, and market research to clearly de
   src="/assets/images/date-picker/selector.gif"
   alt="An animation showing individual date selections in the DatePicker calendar view"
   title="Aperiodic date selection"
-  caption="A click and pick date selector solves the main paint point of not being able to schedule aperiodic events."
+  caption="A click and pick date selector solves the main point of not being able to schedule aperiodic events."
 %}
 
 ## Improving interactions
@@ -111,7 +111,7 @@ For the next team that worked on this project I wanted to leave a logo in the pr
 
 ## Final screens
 
-Previously the site was only optimizaed for desktop. Making the site easy to use on mobile was crucial especially for the directions section. Accessing directions to the lab while in the car is a key situation that the previous designs did not cater too.
+Previously the site was only optimized for desktop. Making the site easy to use on mobile was crucial especially for the directions section. Accessing directions to the lab while in the car is a key situation that the previous designs did not cater too.
 
 {%
   include
@@ -122,5 +122,5 @@ Previously the site was only optimizaed for desktop. Making the site easy to use
 
 ## Learnings & Insights
 
-- DatePicker was an learning experience to work on because it was a great example on how sometimes a solution to a problem does not have to be fancy or complex. It was great to receive positive feedback from the stakeholder and see how such a frustrating problem in widely used product could be resolved with a straightfoward solution.
+- DatePicker was a learning experience to work on because it was a great example on how sometimes a solution to a problem does not have to be fancy or complex. It was great to receive positive feedback from the stakeholder and see how such a frustrating problem in a widely used product could be resolved with a straightforward solution.
 - Our team was able to get DatePicker into a deployable stage, but there has yet to be a planned release date for it onto the app store. Hopefully the next team that works on DatePicker can plan for a release because due to discussion with teachers and coaches DatePicker could provide a lot of value to their event planning experience.
