@@ -24,6 +24,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   transition: width 0.5s, height 0.5s;
   will-change: all;
   pointer-events: none;
+  color: #fafafa;
 }
 
 .cursor--grow {
