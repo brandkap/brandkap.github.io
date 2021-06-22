@@ -3,7 +3,7 @@
 require 'listen'
 
 REPO = Pathname.new(__dir__).dirname
-TAILWIND_SOURCE = 'tailwind.css'
+TAILWIND_CONFIG = 'tailwind.config.js'
 JEKYLL_CONFIG = '_config.yml'
 
 def run_tailwind
@@ -25,11 +25,11 @@ restart_jekyll
 
 listener = Listen.to(
   REPO,
-  only: /\A#{TAILWIND_SOURCE}|#{JEKYLL_CONFIG}\Z/,
+  only: /\A#{TAILWIND_CONFIG}|#{JEKYLL_CONFIG}\Z/,
   relative: true,
 ) do |modified, added, removed|
   files = modified + added + removed
-  run_tailwind if files.include?(TAILWIND_SOURCE)
+  run_tailwind if files.include?(TAILWIND_CONFIG)
   restart_jekyll if files.include?(JEKYLL_CONFIG)
 end
 listener.start

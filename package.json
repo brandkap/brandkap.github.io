@@ -2,7 +2,7 @@
   "name": "designbk",
   "version": "0.1.0",
   "scripts": {
-    "build": "tailwindcss build tailwind.css -o assets/css/styles.css"
+    "build": "tailwindcss build --input tailwind.css --output assets/css/styles.css"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
@@ -10,6 +10,6 @@
     "eslint-config-prettier": "^8.1.0",
     "postcss": "^8.2.10",
     "prettier": "2.2.1",
-    "tailwindcss": "^2.0.4"
+    "tailwindcss": "^2.1.0"
   }
 }
