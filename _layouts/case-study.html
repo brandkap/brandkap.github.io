@@ -26,7 +26,11 @@ layout: base
       {% if page.website %}
       <div>
         <p class="text-white font-medium mt-8">Website</p>
-        <p class="font-medium"><a href="{{ page.website.href }}">{{ page.website.text | escape }}</a></p>
+        <p class="font-medium">
+          <a href="{{ page.website.href }}" target="_blank" rel="noopener noreferrer">
+            {{ page.website.text | escape }}
+          </a>
+        </p>
       </div>
     {% endif %}
     </div>

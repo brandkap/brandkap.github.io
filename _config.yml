@@ -47,6 +47,7 @@ socials:
 
 # Build settings
 plugins:
+  - jekyll-relative-links
   - jekyll-seo-tag
 
 kramdown:
