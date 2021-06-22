@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       fontSize: {
-        "5.5xl": ["3.5rem"],
+        "5.5xl": ["3.5rem", 1],
       },
       fontFamily: {
         rubik: ["Rubik"].concat(defaultTheme.fontFamily.sans),

@@ -1492,6 +1492,7 @@ p {
 
   .md\:text-5\.5xl {
     font-size: 3.5rem;
+    line-height: 1;
   }
 
   .md\:text-3xl {
