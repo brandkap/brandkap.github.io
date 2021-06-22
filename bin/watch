@@ -3,7 +3,7 @@
 require 'listen'
 
 REPO = Pathname.new(__dir__).dirname
-TAILWIND_SOURCE = 'styles.css'
+TAILWIND_SOURCE = 'tailwind.css'
 JEKYLL_CONFIG = '_config.yml'
 
 def run_tailwind
