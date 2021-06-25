@@ -24,7 +24,7 @@ I knew that the website needed to undergo some UI changes, but I also wanted to 
 
 I was lucky enough to be able to talk directly with the main users of the lab's website: lab participants. While doing my daily calls for recruiting participants I would ask questions about the website. I was able to identify what parts of the website needed to be reformatted.
 
-Through my time working in this lab and calling and interviewing dozens of participants I felt that I had a good outline of the direction I wanted to update the website.
+Throughout my time working in this lab I was able to interview dozens of participants. I felt that I had a good outline of the directions that I wanted to update the website.
 
 ## Original website
 
