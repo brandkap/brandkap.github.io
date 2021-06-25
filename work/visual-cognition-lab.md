@@ -28,7 +28,7 @@ Throughout my time working in this lab I was able to interview dozens of partici
 
 ## Original website
 
-All pages of the old site were reviewed to see what content needed to be kept, removed, or reorganized. Along with reviewing design elements the purpose and functionality of the site were evaluated.
+All pages of the old site were reviewed to see what content needed to be kept, removed, or reorganized. Along with reviewing design elements the purpose and functionality of the site was evaluated.
 
 {%
   include
