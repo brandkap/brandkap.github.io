@@ -668,14 +668,6 @@ video {
   right: 0px;
 }
 
-.col-span-10 {
-  grid-column: span 10 / span 10;
-}
-
-.col-start-2 {
-  grid-column-start: 2;
-}
-
 .row-start-1 {
   grid-row-start: 1;
 }
@@ -919,10 +911,6 @@ video {
        column-gap: 5rem;
 }
 
-.gap-y-8 {
-  row-gap: 2rem;
-}
-
 .space-y-18 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(4.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1012,10 +1000,6 @@ video {
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .px-6 {

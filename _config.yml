@@ -33,7 +33,11 @@ project_pages:
   - work/visual-cognition-lab.md
   - work/date-picker.md
   - work/connect-our-kids.md
-  - work/firehose.md
+coming_soon:
+  - title: Firehose
+    description: Too much content, not enough time
+    preview: /assets/images/firehose.png
+    url: https://metagram.net/firehose/about
 
 socials:
   - name: LinkedIn
