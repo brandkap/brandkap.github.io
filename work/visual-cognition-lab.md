@@ -33,7 +33,7 @@ All pages of the old site were reviewed to see what content needed to be kept, r
 {%
   include
   img-lg.html
-  src="/assets/images/viscog/old-designs.mp4"
+  src="/assets/images/viscog/old-designs.gif"
   alt="An animation showing each page of the old design"
 %}
 
