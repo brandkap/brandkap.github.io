@@ -19,5 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var $elt = $items[i];
     $elt.addEventListener("mouseenter", showPreview);
     $elt.addEventListener("focus", showPreview);
+    $elt.addEventListener("mouseleave", hidePreviews);
+    $elt.addEventListener("blur", hidePreviews);
   }
 });
