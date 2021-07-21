@@ -1102,6 +1102,11 @@ video {
   color: rgba(250, 250, 250, var(--tw-text-opacity));
 }
 
+.blur {
+  --tw-blur: blur(8px);
+  filter: var(--tw-filter);
+}
+
 .backdrop-blur-sm {
   --tw-backdrop-blur: blur(4px);
   -webkit-backdrop-filter: var(--tw-backdrop-filter);
