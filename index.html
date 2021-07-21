@@ -31,7 +31,7 @@ nav_title: Work
             class="font-normal tracklist-item flex space-x-6 md:space-x-12"
             data-preview-id="preview-{{ project.title | slugify }}"
           >
-            <span class="font-bold">{{ forloop.index | prepend: "00" | slice: -2, 2 }}</span>
+            <span class="font-bold">{{ site.project_pages.size | plus: forloop.index | prepend: "00" | slice: -2, 2 }}</span>
             <div>
               <p class="text-3xl md:text-5xl mt-0 mb-2 font-bold">{{ project.title | escape }}</p>
               <p class="text-xl md:text-2xl mt-0 text-gray">{{ project.description | escape }}</p>
