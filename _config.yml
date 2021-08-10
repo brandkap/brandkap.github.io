@@ -35,7 +35,7 @@ project_pages:
   - work/connect-our-kids.md
 coming_soon:
   - title: Firehose
-    description: Too much content, not enough time
+    description: Too much content, not enough time.
     preview: /assets/images/firehose.png
     url: https://metagram.net/firehose/about
 
