@@ -28,7 +28,7 @@ Throughout my time working in this lab I was able to interview dozens of partici
 
 ## Original website
 
-All pages of the old site were reviewed to see what content needed to be kept, removed, or reorganized. Along with reviewing design elements the purpose and functionality of the site was evaluated.
+All pages of the old site were reviewed to see what content needed to be kept, removed, or reorganized. Along with reviewing design elements the purpose and functionality of the site were evaluated.
 
 {%
   include
@@ -39,10 +39,10 @@ All pages of the old site were reviewed to see what content needed to be kept, r
 
 ## Refreshed interface
 
-There was a complete overhaul on the website's designs and layouts. Design decisions were based on feedback received from previous phone call interviews.
+There was a complete overhaul of the website's designs and layouts. Design decisions were based on feedback received from previous phone call interviews.
 
 {% capture caption %}
-Based on information gathered from interviewing, the hero section was designed to have content that lab participants needed; the lab's phone number, a way to email the lab, and direction information.
+Based on information gathered from interviews, the hero section was designed to have content that lab participants needed; the lab's phone number, a way to email the lab, and direction information.
 {% endcapture %}
 {%
   include
@@ -66,7 +66,7 @@ Previously the home page was cluttered with information. These cards display wha
 %}
 
 {% capture caption %}
-Updating the People section to include all of the new graduate students and research assistants gives an accurate representation of the current state of the labs personnel.
+Updating the People section to include all of the new graduate students and research assistants gives an accurate representation of the current state of the lab's personnel.
 {% endcapture %}
 {%
   include
@@ -90,7 +90,7 @@ To make the research section easier to read and more visually aligned the overal
 %}
 
 {% capture caption %}
-Going to the Direction section used to reroute you to a different URL with an entirely different interface. This was fixed by keeping this section within the same URL and applying the same styling as the rest of the website.
+Going to the Direction previously rerouted you to a different URL with an entirely different interface. This was fixed by keeping this section within the same URL and applying the same styling as the rest of the website.
 {% endcapture %}
 {%
   include
@@ -114,7 +114,7 @@ Establishing a visual identity for the lab with consistency throughout all pages
 
 ## Accessible anywhere
 
-Previously the site was only optimized for desktop. Making the site easy to use on mobile was crucial especially for the directions section. Accessing directions to the lab while in the car is a key situation that the previous designs did not cater too.
+Previously the site was only optimized for desktop. Making the site easy to use on mobile was crucial especially for the directions section. Accessing directions to the lab while in the car is a key situation that the previous designs did not cater to.
 
 {%
   include
