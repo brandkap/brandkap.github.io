@@ -12,7 +12,7 @@ next_project: work/connect-our-kids.md
 
 ## Where does Google Calendar go wrong?
 
-In the image below, we can see that when creating a custom recurring event in Google Calendar it must fall under a consistent pattern across multiple weeks. Scheduling an event on Monday, Wednesday , and Friday in one week and then Tuesday, Thursday, and Friday in the next week has to be done by creating two completely separate events. This inability to schedule events in an aperiodic format causes major delays in event planning.
+In the image below, we can see that when creating a custom recurring event in Google Calendar it must fall under a consistent pattern across multiple weeks. Scheduling an event on Monday, Wednesday, and Friday in one week and then Tuesday, Thursday, and Friday in the next week has to be done by creating two completely separate events. This inability to schedule events in an aperiodic format causes major delays in event planning.
 
 {%
   include
@@ -26,15 +26,15 @@ In the image below, we can see that when creating a custom recurring event in Go
 I began this project with surveys, interviews, and market research to clearly define pain points and what role DatePicker will play in the event planning market. Surveys were given to 32 teachers and coaches which provided data as to what products teachers currently use as their main calendar and how they use these calendars.
 
 {% capture quote %}
-I need a way to schedule my basketball practices with custom recurrences. On my current calendar I can't customize it the way I need to.
+I need a way to schedule my basketball practices with custom recurrences. On my current calendar, I can't customize it the way I need to.
 
 **-Craig, basketball coach and teacher**
 {% endcapture %}
 {% include pull-quote.html quote=quote %}
 
-From the research I concluded that
+From the research, I concluded that
 
-- Majority of teachers from our sample exclusively use Google Calendars
+- The majority of teachers from our sample exclusively use Google Calendars
 - DatePicker will not be built to replace Google Calendar, but to complement it
 - There is no available solution on the market for this specific problem space
 
@@ -82,7 +82,7 @@ I ran final usability testing with a high fidelity prototype amongst 7 participa
       src="/assets/images/date-picker/tutorial.gif"
       alt="An animation showing the tutorial prompt without hiding the calendar"
       title="Date selection tutorial"
-      caption="The process for selecting dates in DatePicker may be unfamiliar to some users who exclusively use Google Calendar. This tutorial provides a quick demonstration on how to select dates."
+      caption="The process for selecting dates in DatePicker may be unfamiliar to some users who exclusively use Google Calendar. This tutorial provides a quick demonstration of how to select dates."
     %}
   </div>
   <div class="md:row-start-4 md:row-span-3">
@@ -100,7 +100,7 @@ I ran final usability testing with a high fidelity prototype amongst 7 participa
 
 ## Logo update
 
-For the next team that worked on this project I wanted to leave a logo in the project file. I incorporated the two primary colors of the app, along with scattered colored squares to represent the purpose and function of DatePicker.
+For the next team that worked on this project, I wanted to leave a logo in the project file. I incorporated the two primary colors of the app, along with scattered colored squares to represent the purpose and function of DatePicker.
 
 {%
   include
@@ -111,7 +111,7 @@ For the next team that worked on this project I wanted to leave a logo in the pr
 
 ## Final screens
 
-Previously the site was only optimized for desktop. Making the site easy to use on mobile was crucial especially for the directions section. Accessing directions to the lab while in the car is a key situation that the previous designs did not cater too.
+Previously the site was only optimized for desktop. Making the site easy to use on mobile was crucial especially for the directions section. Accessing directions to the lab while in the car is a key situation that the previous designs did not cater to.
 
 {%
   include
@@ -122,5 +122,5 @@ Previously the site was only optimized for desktop. Making the site easy to use 
 
 ## Learnings & Insights
 
-- DatePicker was a learning experience to work on because it was a great example on how sometimes a solution to a problem does not have to be fancy or complex. It was great to receive positive feedback from the stakeholder and see how such a frustrating problem in a widely used product could be resolved with a straightforward solution.
-- Our team was able to get DatePicker into a deployable stage, but there has yet to be a planned release date for it onto the app store. Hopefully the next team that works on DatePicker can plan for a release because due to discussion with teachers and coaches DatePicker could provide a lot of value to their event planning experience.
+- DatePicker was a learning experience to work on because it was a great example of how sometimes a solution to a problem does not have to be fancy or complex. It was great to receive positive feedback from the stakeholder and see how such a frustrating problem in a widely used product could be resolved with a straightforward solution.
+- Our team was able to get DatePicker into a deployable stage, but there has yet to be a planned release date for it onto the app store. Hopefully, the next team that works on DatePicker can plan for a release because due to discussion with teachers and coaches DatePicker could provide a lot of value to their event planning experience.
