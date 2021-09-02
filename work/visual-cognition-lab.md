@@ -90,7 +90,7 @@ To make the research section easier to read and more visually aligned the overal
 %}
 
 {% capture caption %}
-Going to the Direction section used to reroute you to a different URL with a totally different interface. This was fixed by keeping this section within the same URL and applying the same styling as the rest of the website.
+Going to the Direction section used to reroute you to a different URL with an entirely different interface. This was fixed by keeping this section within the same URL and applying the same styling as the rest of the website.
 {% endcapture %}
 {%
   include
