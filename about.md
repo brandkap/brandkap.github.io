@@ -6,7 +6,7 @@ photo:
   alt: "A photo of me"
 links: |
   - [Email](mailto:brandkaplan@gmail.com)
-  - [Resume](/assets/docs/resume.pdf)
+  - [Resume](/assets/docs/BrandonKaplanResume.pdf)
   - [LinkedIn](https://www.linkedin.com/in/brandonjkaplan/)
   - [Dribbble](https://dribbble.com/brandonkap)
 ---
