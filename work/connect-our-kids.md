@@ -48,7 +48,7 @@ Before jumping into designing mobile layouts it was necessary to define the prod
 
 ## Reviewing existing designs
 
-The desktop tools were reviewed in depth to make sure we transferred all necessary components. For each feature of the ConnectOurKids website notes were made of the layout, typography, colors, and flows. This review helped us brainstorm ways to convert the layout to mobile and find areas to incorporate improvements on the designs. Here are the desktop versions of the two main tools:
+The desktop tools were reviewed in-depth to make sure we transferred all necessary components. For each feature of the ConnectOurKids website notes were made of the layout, typography, colors, and flows. This review helped us brainstorm ways to convert the layout to mobile and find areas to incorporate improvements in the designs. Here are the desktop versions of the two main tools:
 
 {%
   include
@@ -56,7 +56,7 @@ The desktop tools were reviewed in depth to make sure we transferred all necessa
   src="/assets/images/connect-our-kids/people-search.png"
   alt="TODO"
   title="People search"
-  caption="People Search is the way social workers find extended family of foster children. Potential candidates for a permanent home can be located through here"
+  caption="People Search is the way social workers find the extended family of foster children. Potential candidates for a permanent home can be located through here"
 %}
 
 {%
@@ -65,12 +65,12 @@ The desktop tools were reviewed in depth to make sure we transferred all necessa
   src="/assets/images/connect-our-kids/family-connections.png"
   alt="TODO"
   title="Family Connections"
-  caption="A family connection is anybody who is related to a foster child that has the potential to be a permanent guardian. The Family Connections tab contains the files and any other associated information for a foster child . Social workers can log past engagements, upload documents, and edit contact details here."
+  caption="A family connection is anybody related to a foster child that has the potential to be a permanent guardian. The Family Connections tab contains the files and any other associated information for a foster child. Social workers can log past engagements, upload documents, and edit contact details here."
 %}
 
 ## New design system
 
-Our interface choices were based on the design elements already present on the website. We did not want to reinvent the wheel and have the app's UI vary drastically. So, in order to keep the experience similar between the website and mobile app we used the same copy, color schemes, typeface, and navigation layout as much as possible. Although, some of these aspects were changed to improve overall consistency, clarity, and hierarchy.
+Our interface choices were based on the design elements already present on the website. We did not want to reinvent the wheel and have the app's UI vary drastically. So, to keep the experience similar between the website and mobile app we used the same copy, color schemes, typeface, and navigation layout as much as possible. Although, some of these aspects were changed to improve overall consistency, clarity, and hierarchy.
 
 <p class="text-white font-bold mt-12">Our goals for creating a new design system were to:</p>
 * Create components that could transfer to desktop easily
@@ -135,7 +135,7 @@ How do we know if the app is providing value? These are some metrics that I woul
       icon-left.html
       src="/assets/images/icons/percent.png"
       title="Permanency percentage"
-      caption="A child being placed into a permanent home is the ultimate goal. Broader reach and mobile tools will hopefully result in a more efficient work flow. Comparing the numbers for the percentage of foster children placed into permanent homes before and after the release of the app can give us a clear idea of how effective the app is."
+      caption="A child being placed into a permanent home is the ultimate goal. Broader reach and mobile tools will hopefully result in a more efficient workflow. Comparing the numbers for the percentage of foster children placed into permanent homes before and after the release of the app can give us a clear idea of how effective the app is."
     %}
   </div>
   <div class="md:col-start-2 md:col-span-1">
@@ -153,14 +153,14 @@ How do we know if the app is providing value? These are some metrics that I woul
       icon-left.html
       src="/assets/images/icons/thumb.png"
       title="Social worker feedback"
-      caption="App reviews can provide useful insight into how the tools are being used. Are they providing value/making social worker’s jobs easier? Is there room for improvement in terms of functionality? Of course, we would want to see all positive reviews, but the negative reviews will reveal pain points that users are having and allow for improvement of the app."
+      caption="App reviews can provide useful insight into how the tools are being used. Are they providing value/making social worker’s jobs easier? Is there room for improvement in terms of functionality? Of course, we would want to see all positive reviews, but the negative reviews will reveal pain points that users are having and allow for the improvement of the app."
     %}
   </div>
 </div>
 
 ## Future directions
 
-Moving forward and thinking about ConnectOurKids as a whole I think a good direction would be to update the website to same level of design consistency as the app. The issues found regarding color schemes, typography, reusable components, and interactions on the website were left untouched on the website.
+Moving forward and thinking about ConnectOurKids as a whole I think a good direction would be to update the website to the same level of design consistency as the app. The issues found regarding color schemes, typography, reusable components, and interactions on the website were left untouched on the website.
 
 Updating the desktop tools will create a more consistent experience between desktop and mobile which would hopefully translate into an easier workflow for social workers.
 
