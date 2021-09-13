@@ -8,7 +8,7 @@ brief: |
   While a student at UC Riverside I worked as a Research Assistant in the Visual Cognition Lab. While working there I noticed that our website could use some updating to provide a better experience for the lab's participants.
 
   My goals were to make information more accessible, provide an accurate representation of the current state of the lab, and give the lab a new brand identity.
-timeline: "Dec 2019 &ndash; Feb 2020"
+timeline: "June 2020 &ndash; September 2020"
 next_project: work/date-picker.md
 ---
 
