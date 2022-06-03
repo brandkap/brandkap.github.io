@@ -29,6 +29,6 @@ For me, design is a way to solve problems that have the opportunity to affect pe
 
 ## Say hello!
 
-I am always looking to take on new challenges and am currently open to opportunities.
+<!-- I am always looking to take on new challenges and am currently open to opportunities. -->
 
 If you’re interested in working together, don't hesitate to [email me](mailto:brandkaplan@gmail.com)!
