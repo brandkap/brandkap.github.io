@@ -36,7 +36,7 @@ From the research, I concluded that
 
 - The majority of teachers from our sample exclusively use Google Calendars
 - DatePicker will not be built to replace Google Calendar, but to complement it
-- There is no available solution on the market for this specific problem space
+<!-- - There is no available solution on the market for this specific problem space -->
 
 ## Allowing custom event planning
 
@@ -110,8 +110,6 @@ For the next team that worked on this project, I wanted to leave a logo in the p
 %}
 
 ## Final screens
-
-Previously the site was only optimized for desktop. Making the site easy to use on mobile was crucial especially for the directions section. Accessing directions to the lab while in the car is a key situation that the previous designs did not cater to.
 
 {%
   include
