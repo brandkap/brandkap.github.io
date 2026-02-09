@@ -49,12 +49,12 @@ Based on information gathered from interviews, the hero section was designed to 
   img-lg.html
   src="/assets/images/viscog/home.png"
   alt="TODO"
-  title="Relevant home page"
+  title="Relevant homepage"
   caption=caption
 %}
 
 {% capture caption %}
-Previously the home page was cluttered with information. These cards display what content is available on the site while allowing an easier way to access it all.
+Previously the homepage was cluttered with information. These cards display what content is available on the site while allowing an easier way to access it all.
 {% endcapture %}
 {%
   include
@@ -90,7 +90,7 @@ To make the research section easier to read and more visually aligned the overal
 %}
 
 {% capture caption %}
-Going to the Direction previously rerouted you to a different URL with an entirely different interface. This was fixed by keeping this section within the same URL and applying the same styling as the rest of the website.
+Going to the Directions previously rerouted you to a different URL with an entirely different interface. This was fixed by keeping this section within the same URL and applying the same styling as the rest of the website.
 {% endcapture %}
 {%
   include
@@ -133,7 +133,7 @@ Previously the site was only optimized for desktop. Making the site easy to use 
 ## Learnings
 
 - <span class="text-white">**Talk to real people.**</span> Conversations I had with lab participants provided invaluable information as to how the lab's website was being used. Those insights gained while talking with real users of the website would have been more difficult to discover through other methods.
-- <span class="text-white">**Take initiative.**</span> The previous site had existed for quite some time in the lab and things had run in the lab smoothly. But I saw there was room for improvement. Could the lab have run just fine without a new website? Probably. But I figured it was worthwhile to explore improvements upon a key aspect in where people interact with the lab; the lab's website.
+- <span class="text-white">**Take initiative.**</span> The previous site had existed for quite some time in the lab and things had run in the lab smoothly. But I saw there was room for improvement. Could the lab have run just fine without a new website? Probably. But I figured it was worthwhile to explore improvements upon a key aspect of how people interact with the lab; the lab's website.
 
 ## Next steps
 
